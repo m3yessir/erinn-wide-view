@@ -1,0 +1,1421 @@
+{
+  "title": "m3yessir's Erinn Wide View",
+  "author": "m3yessir",
+  "version": "0.1.0-beta",
+  "filename": "m3yessirErinnWideView110_00001.it",
+  "requestedFov": 110,
+  "regionFileCount": 175,
+  "baseGameBuild": "Steam build 25329795",
+  "buildDate": "2026-09-26",
+  "scope": "Outdoor regions only; no bundled Uiscias mods; stock zoom settings",
+  "validation": {
+    "archiveHeadersAndEntriesValidated": true,
+    "allExtractedBytesMatch": true,
+    "archiveBytes": 420793,
+    "archiveSha256": "48ad03d7643559d6f6520c34e3c6a14bb964e2441a873d463ad01b1be726be46",
+    "xmlSemanticAudit": "175 XML documents parsed; only FOV and camera-enable attributes changed",
+    "runtimeStatus": "Based on personally tested outdoor release. Standalone package requires confirmation, especially the two regions rebuilt from unmodified game data."
+  },
+  "files": [
+    {
+      "path": "data/world/Farm_Grassland_90/Farm_Grassland_90.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "fd244d6a5c7e4766562753cf3d8704c08bca1af9514bdf074f0b4690219bf6d6",
+      "size": 1421,
+      "sha256": "14396ef128aa21597879aaeef13801ac79fb00879703d30542a10287da999afc",
+      "matchesPersonalPayload": false
+    },
+    {
+      "path": "data/world/Taillteann_NewFarm/Taillteann_NewFarm.rgn",
+      "sourceArchive": "data_02031.it",
+      "sourceSha256": "8e14284657031175bec8c1b97525317afe0ec051ec8f36516041a1f2863a08c2",
+      "size": 1439,
+      "sha256": "f4ce94bc4b72deaa8a1c5ba8c282b3ea335569a989c9269c515c207482cd2a9e",
+      "matchesPersonalPayload": false
+    },
+    {
+      "path": "data/world/AK_test/AK_test.rgn",
+      "sourceArchive": "data_00602.it",
+      "sourceSha256": "1d515bef8b8c659a9d25888f892af2bb81b348d0029f9656575e5b546aed2b24",
+      "size": 1139,
+      "sha256": "532e020aa684bbefdae32d5d6495cf9d229cf6d80b54c4adddda09d4a4aa4be3",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Astrologist_Star_Citadel/Astrologist_Star_Citadel.rgn",
+      "sourceArchive": "data_01394.it",
+      "sourceSha256": "9720448b409d604c15ab2a7f622cf2fe7fc7ad1a8cb6ca3cf94cb1c338de80ea",
+      "size": 1219,
+      "sha256": "09d7f64e5353ca3ec0bc186edeb7c9fd8a08fa2d64386f7fcd816fe43f18c839",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Avon_main_field/Avon_main_field.rgn",
+      "sourceArchive": "data_00602.it",
+      "sourceSha256": "33ba9a01292cb04d4b7406fb69e660e284ce13afdf5525180a47feb5daca9339",
+      "size": 2135,
+      "sha256": "eaf38e68babb5cec97e64c1c0561d5c25119322269fb5aef9075cdac030bb6d5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_human_cutscene/Belfast_human_cutscene.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "683880f10244be0dcf24672873cb8846ee74bfadd5cce2d1f0cd00b6b9892053",
+      "size": 2125,
+      "sha256": "c452ad9e02ad8362f726aa72554611a455170606fb91af6afd6ec8efeae070e8",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_human/Belfast_human.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "7e090f8214a82833352cc95359b82a2d4257ee69697d4656f24000212972d51f",
+      "size": 1725,
+      "sha256": "566963968391b91c577bde17ca62c9705b9ff93fdc0633ed35fc4b574fb41a26",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_sea_01/Belfast_sea_01.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "3c7fdf9ae1fba50be179712e618ff85ad49e1150782f8a0088ffda10a4b0a0e1",
+      "size": 1319,
+      "sha256": "b8ef73abda3ac303c09ece31afb52b6ec38c73253b983d8cde020efd1b6725e2",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_sea_02/Belfast_sea_02.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "82ac353c6a05690262cd8588bc612426ee246125be2b1a15fc45f16f3e7f098a",
+      "size": 1323,
+      "sha256": "431296bb316c3320da4c0b28d0a4ac5d4dcf659235eea9d4c2ece5d04e7311eb",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_sea_03/Belfast_sea_03.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "ffe04a99127d95ba3be9d858b88dc862211dc4457b4cd05f92d7c446fe31fda3",
+      "size": 1319,
+      "sha256": "ddd482e5860fa414375c9d95772423e7b7d1d6e5e69e467dc45be2c58c63d830",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_Skatha_main_field/Belfast_Skatha_main_field.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "176535b6fb256d84e24e284b68f956b5b9f634e9759bab8cfb4c6c54a7ded8b8",
+      "size": 2069,
+      "sha256": "4606ecb51ede70f7769dade815b489bdb358d99d5f86c4031254a2c14f8cc7e7",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_test_01/Belfast_test_01.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "17a48ebc14befcde41dc29d3ff7e2c8dd1b2c4d668657c062e1d9de77eae848d",
+      "size": 1373,
+      "sha256": "2e1f5ba2a152dce1f6d1c38d51a7b7877b83b940155fc94d15bf0d775ae25afc",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Belfast_to_Cobh/Belfast_to_Cobh.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "43f850e6ed9f718fded6733d08b512d4b267896d145ca1b22cc533059e55e818",
+      "size": 1073,
+      "sha256": "9225441fbceccf489c5a44d5dcfab43f4eb697805355c66d7fbae545cd4c0525",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Bella_Vally_cutscene/Bella_Vally_cutscene.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "3b1ebb661a66dbd635bdc23ba0506b55cb03c4dee390e3e55b81e43226ad1940",
+      "size": 1489,
+      "sha256": "37f852d442640f2d6719ef25fa97c5a1b89759bf22446e5065c94649136baffc",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Bella_Vally/Bella_Vally.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "728abd52df3c9d79c539305ba191b7ed37ea399ee443289392a4820cbc3f2542",
+      "size": 1309,
+      "sha256": "610931501d824342c72fcbdfe186c6302fe7036e58c38b288f5b21d624ac9aed",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ceann_to_Connous/Ceann_to_Connous.rgn",
+      "sourceArchive": "data_00937.it",
+      "sourceSha256": "5b0a46f0d0f6045ab81a85dc2d0dacd0c3dca641d34f02f7f04829eb53751be0",
+      "size": 1081,
+      "sha256": "4cf87afdcb8d4b7421fbe635e936df2b41e1544be99434cc6ab5266d150d7b45",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ceann_to_Sella/Ceann_to_Sella.rgn",
+      "sourceArchive": "data_00937.it",
+      "sourceSha256": "a11aefe9c8c9d7e1c16a20efe8456d502285303dcad30c4da16412e57cdd31ce",
+      "size": 1069,
+      "sha256": "57b8644ab9017ab50f406626e020aad972c3345e51200b9e9f66cd99169690a2",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Cobh_to_Belfast_Qwest/Cobh_to_Belfast_Qwest.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "c29c0eae48a2c6bd2af2d904b4a852013e9ebaae997b51e91fb5b1467cdf2d8b",
+      "size": 1139,
+      "sha256": "c62e1871db568f70fb7da0fd87b2ef1c3013cd439894b6f3137516d4dfb681ac",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Cobh_to_Belfast/Cobh_to_Belfast.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "4f6f7653421650265612163d07b8ea19af101d553ab153e3fcc1bd29baa57902",
+      "size": 1103,
+      "sha256": "5b2b97080fe1cd5a2211fbd9bff5aa8248ff73f7b8fe5d819d8891b29718b477",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Connous_to_Ceann/Connous_to_Ceann.rgn",
+      "sourceArchive": "data_00937.it",
+      "sourceSha256": "f667cf36b154049c85b55f4ccf1382fbc843870ad1347b81a8322dc8674bf62e",
+      "size": 1081,
+      "sha256": "cd49f560d61e811bd2e30a952f06419c0e2e3786491d07571e7870f1ba34dd31",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/dg_Albantraing_lobby01/dg_Albantraing_lobby01.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "cf974031ee63f4f5b8d29c72e53b31f8ff6c2a0f737846bcf3b82e13a8305c65",
+      "size": 1467,
+      "sha256": "58d049462800a4ff7cffd4215cf0d3eb2ea9cf9848f84d84879bdb12440b3080",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/dg_Albantraning_lobby/dg_Albantraning_lobby.rgn",
+      "sourceArchive": "data_00603.it",
+      "sourceSha256": "2a64b2c4c008e7cb2696087458492f5d83e896c2bc5bcb831a849a3cbc77dfd7",
+      "size": 1403,
+      "sha256": "7289c8fd988620a0caa554b0d7c4831d43a3008abfa17dfd792bb25845945f55",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/dg_halloween2022_deact/dg_halloween2022_deact.rgn",
+      "sourceArchive": "data_01184.it",
+      "sourceSha256": "9dee99c9afb25f0813cfb932b9eeb6fb219609d6d0187d5d086f89133b701ffb",
+      "size": 1187,
+      "sha256": "cb222182f11d4845aa3c91f539a52b07031fa865d14294a22987a82231f2da74",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/dg_halloween2022/dg_halloween2022.rgn",
+      "sourceArchive": "data_01184.it",
+      "sourceSha256": "e80ea4f194cad176350514ef27729b52bde8d1d6330b42f6f1ea7e074add7621",
+      "size": 1145,
+      "sha256": "206e2fd8add041234b349994ecae6667d8869eea9e9b733fca68b5db9e4b5918",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/DGC_main_field/DGC_main_field.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "6be6e7876b8dbc2d13065eb8fadcadba9f8efbad7466139759ec56c5c0fa895c",
+      "size": 1395,
+      "sha256": "4f88b8444b4a6efdcd0e72d92d98c5559d0039e775d1fd6781c2eac7b0bcaf9b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Dicegame_boardgame01/Dicegame_boardgame01.rgn",
+      "sourceArchive": "data_01715.it",
+      "sourceSha256": "fd9b5ca9ea51defc656d1adf3bf1cfc4e8c316228f77a24fe856247259dd21f6",
+      "size": 1215,
+      "sha256": "54c8d8e5245406d52f74cbadc56d704bf577267299d90d7355803c9b1036c835",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/ErinnLand/ErinnLand.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "1efde414f69065e9a3725512a9c8d6f5abb36a4603377962ae30875df0a13320",
+      "size": 1315,
+      "sha256": "010b3d5a7399e48c6058b263c23f4a1ddec9af3ce23ad9c5ce318102ca9bc92b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_A/Farm_A.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "b0b319d94885b813aa2756379338c2a4465513e8f22783a98e315e5beb579572",
+      "size": 935,
+      "sha256": "7c0aabfe2e431c8db82394c8d86070b6844360a36e98ebb65e8908d8f2c6720e",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Deaert_48_02/Farm_Deaert_48_02.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "8b927169a05124d34c2c59cd8633f2280266afe83197723cf7116ed604d1abe0",
+      "size": 1457,
+      "sha256": "477d435121bb9989f7a791cdb0167ee6fd0d568e6800a50ec612d7108b557d76",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_16/Farm_Desert_16.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "3683e3bf8ae2c384d3c43a5487509e479808de31bbf5fcb91489af012ec1cda2",
+      "size": 1273,
+      "sha256": "a92ad834d0b70f0bcae5b7ef625a3d37e31cc71bd8df237c05416c0688e454a0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_24/Farm_Desert_24.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "f34d747878c141eaee1432f6ac8d5e8dbd625098f25a908cefcc9af97246cf91",
+      "size": 1391,
+      "sha256": "95031758c5b9fd6165fa84f05ad15cfcbbba58d2706d9c7c4d58218ee2251ce0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_32/Farm_Desert_32.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "027c805f491002b3e27f6261e269a9adc1325de622dd4cad8f7abc575babeb30",
+      "size": 1391,
+      "sha256": "aa4f73e69a51e190ca8d229cbd76ebb35d281b7d35eefe7cf355d7c51c400108",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_48_00/Farm_Desert_48_00.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "bbe7f46dcffe6d20a548fadabee36ebf8eb99e62b753be5f9e46780ac3b6106f",
+      "size": 1421,
+      "sha256": "0d98b8b44241a641de53bec520d8e393de077657eb70c9a4ba94d6f0de5ad2e6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_48/Farm_Desert_48.rgn",
+      "sourceArchive": "data_00604.it",
+      "sourceSha256": "7e94fabdc44572eb9f03ecded80de7d5b9e4e139706958460c4aeb555b5bc02c",
+      "size": 1387,
+      "sha256": "b314ae45dc56224ebeb67a49514f72a7665b326864bf312722c1019af28ebd15",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_54/Farm_Desert_54.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "ed88b4cabcdaa5afdc14b7b8bc767b469a5f98546ba83e68dd0403eebca7b3ab",
+      "size": 1355,
+      "sha256": "3b503d2236df17fa6e77d62fff817937e7c3d1ee0aa355b75e5102243ddcaed0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_60/Farm_Desert_60.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "1698f590d9c0f0e0140c0e76780708fb018298a000aac0bf0f04b42f1a9bdf79",
+      "size": 1355,
+      "sha256": "a17fdf640b12246b92e517a4beb9281e9e65b32f07a049df67bb4ecfdf4f7cda",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_64/Farm_Desert_64.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "50a921b76404532bb10707cbfd99fc4283401f2937f04206b5273b21911a2936",
+      "size": 1517,
+      "sha256": "a7e82a22c035ef9d00d8cc1e1d6e7fdfeafc08fe35e8488430f19252ff418e82",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_66/Farm_Desert_66.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "835c9a96963defaed4a331877381136f388dfbbe82e25b1f38e072db9c9ef65e",
+      "size": 1355,
+      "sha256": "525c52ac10c1179fb013288684338337b9d5db6d82cf431779042a50078bd879",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_74/Farm_Desert_74.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "0b0fd79c1e4cad8d520ba351a2eaabd22b1a72e31a20091080f2582e0c118c28",
+      "size": 1355,
+      "sha256": "37b1423e313ed44f703eb6c123175a6be1119de87033d5acba6fc791cb225e2d",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_8/Farm_Desert_8.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "3a4bc21f54a294367e2f99bca8c4ae0aeebc3d7df69255d92797a03f7c93da18",
+      "size": 1251,
+      "sha256": "fb73afa9c627db40976bcde5722cff3229ab3a093a15b5df822377ed6f661ede",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_82/Farm_Desert_82.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "0f5754b21c7dc8e335fc06a7719a4c0da5ccd04c93c42084ee553c7f57d95c21",
+      "size": 1355,
+      "sha256": "4c5f97201bd6d1c8e70c382bc5f521a2024c7be6bd0a86ff54b8855a05618c56",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Desert_90/Farm_Desert_90.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "4a3fdbcf09481d13eeb2cab4fb52146f33f7121227750c9b720dca397fddb94e",
+      "size": 1355,
+      "sha256": "6e65f516e958337c538183787cfb866bc90d1d7d97e52ad438375ec89f0dba76",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_16/Farm_Grassland_16.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "789950aedaab2e9e277906c283ac9ac88142b5fd586fc7f19b96da536c1d1c94",
+      "size": 1303,
+      "sha256": "04527b8559565c524c483e172c2aa4193c70095c42839b175ebc61c29ad0edd1",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_24/Farm_Grassland_24.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "801323665a3a572fc811a346e408bfa57bfc3edfd4f8884a60a02fd5f04015d6",
+      "size": 1421,
+      "sha256": "38562aab8ac8a86688462c6cf18a793f55068562b55987619fcf4c032ddc8819",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_32/Farm_Grassland_32.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "8f94a311851da935f557ec6d28c78dade2c389ceadbe3d481d37f6f4303f4de0",
+      "size": 1421,
+      "sha256": "39f65ae42442301d9a42e5b156e01f9e655991b85d7beeea4ccddadb037ee6f2",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_48_00/Farm_Grassland_48_00.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "c164d268fedb04e4de3c05d003d8ef1e78f4b28e50a3abede9481d9f4057a70e",
+      "size": 1487,
+      "sha256": "080259989aec2e27c223d3a80a498633c3677175f7437bb74b004253492a3a23",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_48_criminal/Farm_Grassland_48_criminal.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "6f63ee7179c0576da5861e62122b69955589fc2eb70116dc3298350d029dcbc2",
+      "size": 1615,
+      "sha256": "5bed9596cf2602be49362493cacd823267297b4b1f9eb499088afff2c4bacc6b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_48_vacationland/Farm_Grassland_48_vacationland.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "f2ab367237c3d1714c9d9a4e91dea0949228930681b179ea62df5a025597b130",
+      "size": 1393,
+      "sha256": "abc952a90f07f0b28badcd8f17c95ce67f6cbb803eab181da302ed47874df14a",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_48/Farm_Grassland_48.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "71e5b048de3a9f6eaf39058c41b043f2b8e53d67e531781cf5b94d5a9c8aac1e",
+      "size": 1417,
+      "sha256": "0752097b95310cf4902a957abf8ebce36ec6f47892ab814c9c49c14538b91573",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_54/Farm_Grassland_54.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "72f221e9c60eaafea101af31f2888a6d9285f5df1696e5e834b21d8368763884",
+      "size": 1421,
+      "sha256": "ee5b7ab3a4f50b20086e63d44137ca99d58736dc405fc057aaeed151be4bd25e",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_60/Farm_Grassland_60.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "05983daa6366b509e4e52e63377911416e79f66299530e27072178b2559d0bba",
+      "size": 1421,
+      "sha256": "25c0eee02d3fb6308563cc4232d5d6a04604812ec9358a8b386305a5e7f36e0e",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_64/Farm_Grassland_64.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "80e2871f335130e70cdfdc071b076ecdcc1be010d06acdd8f68a5318daa8cd60",
+      "size": 1547,
+      "sha256": "7a7c423c73bd34b408a549b6d131f5bc1ab6e76473fb63447ae3294968aa01e1",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_66/Farm_Grassland_66.rgn",
+      "sourceArchive": "data_00605.it",
+      "sourceSha256": "e05469368f968dddbaf1ba0ccc40a793f5cfeba4f777ffee3d07d777efa1b743",
+      "size": 1421,
+      "sha256": "7919b4e2d9b3052fc9672a9e8562debc9af3f6a0c8a6804346e01778eb9b08e5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_74/Farm_Grassland_74.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "5407731d38b79e48df065bb7ad7df54cedc39b5c18ce6f5a264a9c260d75f513",
+      "size": 1421,
+      "sha256": "fbd6650d32e8030bd1b7074bac1aecf95d6bc1568be9ab59e2bddcc970d88c88",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_8/Farm_Grassland_8.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "41a41ce1990cea8a89723104bf3e591fe4d2fce05f12eb90c553fb29d169e9f3",
+      "size": 1281,
+      "sha256": "04fa772d413b23506fe42caefef31a6d1924e2f7bbc0d8af3c6937444308477b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_Grassland_82/Farm_Grassland_82.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "e0967dbd3c37794228f0b5159c94cd2b3478427092e505daff062c0b8fcdda83",
+      "size": 1421,
+      "sha256": "e51db0eed49fb8ff24438efc5077a6c6e6793f8445eeb7debb0ab21db8e33ad6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_16/Farm_snowyfields_16.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "8e6273c0c175a863d923a96a4209f12e4c3e6a5886ddad5f0a1e9ea0d8660219",
+      "size": 1347,
+      "sha256": "c4dc71475a641dd6b91c2d2c53f2fcf87dd1f6dda6fd8fc6e909576747027233",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_24/Farm_snowyfields_24.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "b45629c75346592647cfda1a4ea32b4ce9f4bb19397ff4262a1d8e2bc0f4f37c",
+      "size": 1465,
+      "sha256": "de8a61a6238c49e628f831029867c887b060e738afb8cf135ecdd91fd70656af",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_32/Farm_snowyfields_32.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "51e3f83491e2c0b538b792f0bf276452e4b3cee5ee829b2223ec892ddec960a2",
+      "size": 1465,
+      "sha256": "67317a2ac2fbd27be47082baaec52fa27acfd0466b45057160c8cc40bf91101f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_48_00/Farm_snowyfields_48_00.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "f718c740574ea3b50c2d6c2319e95476f86fc05d814178717ac6a09b9aaaa987",
+      "size": 1531,
+      "sha256": "bf86ccfea26bbaf748e8989e512a866f71cc84a1b62ae6070d9f2e3b08d6031b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_48_02/Farm_snowyfields_48_02.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "388f08b87db399417b24b0ff03874f76bfdfbb78de14fc941deec9803c1dfa68",
+      "size": 1563,
+      "sha256": "1c04b160fa3efec800cbe1fcb3ff0a0b78243b39a49e46cfc990c22854161ef6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_48/Farm_snowyfields_48.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "a2565021121c2ead0c983f93648151803cfbaacb1b669f7322fb19a9b633c628",
+      "size": 1461,
+      "sha256": "a3555e83110a4c7fb6de100b14e8b75ffe3f2e5635c08eb899db50f9b3176ea0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_54/Farm_snowyfields_54.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "ea460cff96ca965ef917df1477b8586a80e52a38e4c2df119e910421e1f17f7b",
+      "size": 1465,
+      "sha256": "14a9f543d49bdb5565216b85b8a547447aeb5160452eff741d5cd5454ed1282c",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_60/Farm_snowyfields_60.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "90eb32496cac0ea882b4bc954e2ee2ddfdb9b0e2537a76c79cdb591d2cc7a5a7",
+      "size": 1557,
+      "sha256": "49b386ff3ef10e52e51723cb880235d79be8df0bdac3e1dd381dc4465ed9d66a",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_64/Farm_snowyfields_64.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "ecd9a913f12a173a6f107664d420cd205f1dedd64889ba0e093d73eb357c7c1e",
+      "size": 1381,
+      "sha256": "a46d37b398d49daf4d9e2ba742adb32684c0edda73c8476fb0124f29312bebaf",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_66/Farm_snowyfields_66.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "6a25ce1d637343a0a2c1369cb21939ab6ddfb195d92ddd0c54256343af153b46",
+      "size": 1557,
+      "sha256": "97cab0ae7c92108f320aefdcf931fc6d308e52b0604a2cf7f2ec8c5cb490df50",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_74/Farm_snowyfields_74.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "361a9d7f542cc16e750c7e464e93d30198f28f3f128e2a07addbe709347ce64e",
+      "size": 1465,
+      "sha256": "25038a7202af069e7b5a47fab58d0f0241ea38fe5d8e505aed540ec3cfdbbe68",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_8/Farm_snowyfields_8.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "269ef68f96a34833ee92b89f28c4e8c2a3472f2c3cc2a7b27a72566bf9ad3353",
+      "size": 1325,
+      "sha256": "ceb8128bb1c409670a713cd4ee4d3cec8b4e5103e925f6aaf2398fdb490cbef7",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_82/Farm_snowyfields_82.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "2760c6989b2836e7eb5601efe21f9bd33f7e486d187903ab02e042403411af7a",
+      "size": 1465,
+      "sha256": "04cee13316b9608c7cce1750aebb42e529b88168559caf90048d6aeeeb264327",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_snowyfields_90/Farm_snowyfields_90.rgn",
+      "sourceArchive": "data_00898.it",
+      "sourceSha256": "8167c0f4f476dc3cbc9166448a4a3aae96ca5d79ade85110a04911cb48ac3516",
+      "size": 1465,
+      "sha256": "42366086d7967c56737b56b66b0f6ee1a828bd3dcc1cdec94c5b13bb00e0541f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_TestA/Farm_TestA.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "7f3ea9e009ae8edd058ea1f47b1f9f8ccc515d8ea2cb7c1ade2d7d398b331819",
+      "size": 921,
+      "sha256": "a6949813461595bae243f56995222f6265cff4cf43421ba70a4f6f10b5a30450",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_TestB/Farm_TestB.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "d65fe68c6eb9addd98e6332cfa2622940d6268c75a008f537dc90a22385b6af8",
+      "size": 921,
+      "sha256": "9a22c9d453ad491d9fe3909fc94f91ee08bb311158a918e7e777357ce984e2c3",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_TestC/Farm_TestC.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "75be45edac9d26fac351a3ab54ae4922a35d2404dc395ca59214ce56e1e5e3e0",
+      "size": 919,
+      "sha256": "a469d967eee8eff29fd35e3654a26a34039beedf6f475fd30abf88c11b202f4f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_TestD/Farm_TestD.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "2fef882d001ea6eaba508cd9772cee853f8fad0d66af92865774ee3a30d65efa",
+      "size": 921,
+      "sha256": "31a0029d8baca112452b9cbb2da8569ebf3f459ac3f5383738091394a3225643",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Farm_TestE/Farm_TestE.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "3d593eb37dd6baddcedf7fb45213548c67db0acf3134f435f9ebba3b47d0310a",
+      "size": 921,
+      "sha256": "7798bcdd2b128ffc8c5ff57495fa21ccf62ff24389dcb74f75c5bd553036f5e6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/fta_boardgame01/fta_boardgame01.rgn",
+      "sourceArchive": "data_00606.it",
+      "sourceSha256": "4f3537362784ef9ef799d6662a77e89d9ecd19055c7ddff21dc7df9db0276b07",
+      "size": 1159,
+      "sha256": "c2fd03349e21df88a550c3ce077f7dddfe874154a2a9584da3c8b7ac8b957cae",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/GD1_senmag01/GD1_senmag01.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "3e63341b35ac00ec363d8ddd9007da9b05ada79f64bb933b476c153d0ad28439",
+      "size": 1329,
+      "sha256": "e40ade1bd04414ae8f6e9c7ae8948772a46e3c89cdc44d5fad78c3aee9af01f0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Glenn_Bearna_boss_dungeon01_day/Glenn_Bearna_boss_dungeon01_day.rgn",
+      "sourceArchive": "data_01143.it",
+      "sourceSha256": "0598588f1569442e028b42da38dc594ca48063bb519cc8ba367222576a51e26b",
+      "size": 1801,
+      "sha256": "036ae71601d0b942549c5b12613a80e1d72dabc5bd475d7375d9f1b0ffb50d05",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Glenn_Bearna_boss_dungeon01_night/Glenn_Bearna_boss_dungeon01_night.rgn",
+      "sourceArchive": "data_01143.it",
+      "sourceSha256": "6ecd5bdb875ee4bafd6ba8a99a5f4be20953612e444176fb07425532d97fe235",
+      "size": 1923,
+      "sha256": "1d1541e4235c6a29b0513bdee054a37846e1415a6f0f278183e5f3c518a0d290",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Glenn_Bearna_dungeon_day/Glenn_Bearna_dungeon_day.rgn",
+      "sourceArchive": "data_01144.it",
+      "sourceSha256": "4c38e8bc5ea258cc4d298149bebfa971b8c3f654fe4e007b1dd6de387e4b8134",
+      "size": 1939,
+      "sha256": "ee8d846a84287ef29082f34dbef8d08a66d4ebc2869b409ffdad2176de72be6c",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Glenn_Bearna_dungeon01_night/Glenn_Bearna_dungeon01_night.rgn",
+      "sourceArchive": "data_01144.it",
+      "sourceSha256": "4399d1445c555c90db3c5267b42f39cb18e0e305b4089d10610f0f84f3630401",
+      "size": 2157,
+      "sha256": "48fdf9778e7f5f63664d6aed25db850ef43ebb21eeb097388241b89eb1d367dd",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Glenn_Bearna_dungeon02/Glenn_Bearna_dungeon02.rgn",
+      "sourceArchive": "data_01144.it",
+      "sourceSha256": "bc80d690cf28b20d1becfc892d0c06ac65fb56f249890ff42ed126124b7eec22",
+      "size": 1545,
+      "sha256": "3c410db1265ebab35e71c4b806520288a53a5131d291ed833d37b2c102ccee7c",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/GRD_LS/GRD_LS.rgn",
+      "sourceArchive": "data_01983.it",
+      "sourceSha256": "7685e8dfa6c1481beb471fa4789f1f46a485305922e4248db746dba284ae9855",
+      "size": 1247,
+      "sha256": "bf01833b04df4c400956805160de75206d95950084587423f509ca854c6eee7b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/GRD/GRD.rgn",
+      "sourceArchive": "data_01983.it",
+      "sourceSha256": "2710562179ee18f2dd1bb496124271683a85002fc6f563efa31595a4981eee5b",
+      "size": 1175,
+      "sha256": "05d5a4b7aa692cbc4e6df5f8a5e7c5b5890ac87ded9cc8980fb58191daf89234",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Guild_Mission_Life_1/Guild_Mission_Life_1.rgn",
+      "sourceArchive": "data_01458.it",
+      "sourceSha256": "4f23cfe47864fb7a249338a1c6e1589b3e4bbe56612016304d525affa7e3ac38",
+      "size": 1521,
+      "sha256": "9aff793d3a5a43948286f5d9de7add4410ce2e0cc8e07f6b2f64891041399966",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_C_main_field/Iria_C_main_field.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "5b5e9a8d09b8835cc4417cfbba7639e5e6df2eed6eb130f2b40c9d687ebfb427",
+      "size": 8675,
+      "sha256": "b30e2fc7fe33f8e823a7fa8eeb86db63ea1fd776b987303a3d04c2915bf9fdf6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_Connous_to_Ceann/Iria_Connous_to_Ceann.rgn",
+      "sourceArchive": "data_00937.it",
+      "sourceSha256": "13bc224cd1896d34ffbb171a3f34c8919bfe6b3b953c60faf8f469c61f424c3c",
+      "size": 2209,
+      "sha256": "0b7e378276d802e9fdb570e380b5eeb04d9f27def1b3f1cdccdf06c4e1c67a29",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_Harbor_01_onboard/Iria_Harbor_01_onboard.rgn",
+      "sourceArchive": "data_00610.it",
+      "sourceSha256": "6eb7c7992640ae0c6605865d907e4efa73463ef5b9d4e89ec86e88bb7394fe8d",
+      "size": 1597,
+      "sha256": "94fa8d28ec7744738b7c5ea65f0ed5f1e42656508e5a79a0fc9be7416242f026",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_Harbor_01/Iria_Harbor_01.rgn",
+      "sourceArchive": "data_00609.it",
+      "sourceSha256": "a0d88176971dccf895ea59dd5c30e11038d4f3643c35c16afb571fe727cdd430",
+      "size": 1421,
+      "sha256": "988aea9189cf9ef60531b9bbd947812829e2ba6e5fdff76ddf3edaf6c8e00d51",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_NN_main_field/Iria_NN_main_field.rgn",
+      "sourceArchive": "data_00610.it",
+      "sourceSha256": "1bbb090f5a98a43b00b488d27f3ed1a577ef506a004aec8333ae4098919a8a66",
+      "size": 5447,
+      "sha256": "d747c13c8a32c6ee34b926ab3ead622ab37fd06b11191bd154376c59c7095e75",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_NW_main_field/Iria_NW_main_field.rgn",
+      "sourceArchive": "data_00613.it",
+      "sourceSha256": "7c9a5d220ee600f86e86e40bb8790a19f5726675db4c3c2f4ac08283d59fb472",
+      "size": 5989,
+      "sha256": "4343b2e61b25595c329dd5eec797c702281c0b1c196f8a245b3896b4c4c043eb",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_Outside/Iria_NW_tunnel_Outside.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "e554ccd0c447355feed153f3a1693c3cfc7667852e8f263ae97e0f611ddadc7e",
+      "size": 1387,
+      "sha256": "359e49bc9fdd9b8e626ad2b1c955861ea9d02e8b454566f48d6a32264b688550",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_SE_main_field/Iria_SE_main_field.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "bb70c8d9e4bb4f11bf6cc327f125ea91cb59ed0964ecd16da39e30b136feb01e",
+      "size": 7797,
+      "sha256": "8b7f90c0e1499b10bcf0fcc69d424ee7e474b9661832ef3b66a46176f9bad503",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_SE_MineField/Iria_SE_MineField.rgn",
+      "sourceArchive": "data_00617.it",
+      "sourceSha256": "25e60cb10f492aadf367acc9b24236bee744abbe9cba05a54de5e5c17ac7792d",
+      "size": 1271,
+      "sha256": "90f22f36b319a9efaadea76f1ecd21f8d4c77e6067491c87db3cc67e42533293",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_SE_MineField01/Iria_SE_MineField01.rgn",
+      "sourceArchive": "data_00617.it",
+      "sourceSha256": "a78c2ad6382db7e5fc5cb8e7f8107eeb9aa88eaf7fe991136c8333d4d407606a",
+      "size": 1293,
+      "sha256": "d917f5779216f2ca1c9c041db8a7a1505128df4a51fbf4851d1215746b69fa6f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_SE_MineField02/Iria_SE_MineField02.rgn",
+      "sourceArchive": "data_00617.it",
+      "sourceSha256": "caf78e661fb16ca790016f8553f808f135ff67eb52bd4468fa5af8cfee85d6a7",
+      "size": 1293,
+      "sha256": "4e735864c13082f07aeaf0ae3fa4bcdff7892958a1a27c7fb0c07e845c051a30",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_Sella_to_Ceann/Iria_Sella_to_Ceann.rgn",
+      "sourceArchive": "data_00938.it",
+      "sourceSha256": "46b0d325ab404388fd494f7c3fd6e2ad021cabfe3cc282a5ee301901c6e26ff7",
+      "size": 1847,
+      "sha256": "17227f938292d150bc20c755518f0fbad50e60f3bd7364a5ec46d2a94ee3fe54",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_SW_main_field/Iria_SW_main_field.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "c151a6658ed74fc3551ec41cb077e4469a40950d88f7976f5cdebdad0a9b84c6",
+      "size": 8527,
+      "sha256": "e377046f966e76488f132e4001f5867d19e61b8d92b58536d45be48b00d57781",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Iria_to_Uladh_Ocean/Iria_to_Uladh_Ocean.rgn",
+      "sourceArchive": "data_00620.it",
+      "sourceSha256": "0bebacddcceab2abb20e28c73d9046c72c7a14331398a1c09c2baa771037e1f6",
+      "size": 1129,
+      "sha256": "bcf3ccb03c71274ff10b1204babe7c90b55d142deba17ca014d018b9af5cb5af",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/MNN_main_field/MNN_main_field.rgn",
+      "sourceArchive": "data_00621.it",
+      "sourceSha256": "53e1f31a70d420afe2793886ee65f14b0acffdc4689de3a45fd805c8c815b75f",
+      "size": 1155,
+      "sha256": "f4836e5fba8aec49a7f12cdd0123cd66dd740cb5d4ae8483b96ef9aa1ab027f6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/MNN_temple/MNN_temple.rgn",
+      "sourceArchive": "data_00621.it",
+      "sourceSha256": "5ef94961f370c8e2db859caf8f5fd51c4394dbddc6e30b636f916a37294cdf19",
+      "size": 1103,
+      "sha256": "c1f351b7e5b397cb8ead4739344e77177467588bf04f7fa69e26c1b195c1a99f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/MRD_1S/MRD_1S.rgn",
+      "sourceArchive": "data_01700.it",
+      "sourceSha256": "c1acbf615101371dfe0d6104403920d4172feb433c691a6f824a2dcbdf7b73d8",
+      "size": 1011,
+      "sha256": "51efd931aa58cfedc25a7c3c7be74494c7ac662fedc7ff988432be918de57f1a",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/MRD_2S/MRD_2S.rgn",
+      "sourceArchive": "data_01700.it",
+      "sourceSha256": "81e0de2c0574f9a75ef586f440fc392436fe66fe4e46b195a5e1881a10d1272e",
+      "size": 1011,
+      "sha256": "ad60e0ee75d869f3a17566f8ce7d41d7c6195a4b36f2f911039c291537be3e83",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/MRD_3S/MRD_3S.rgn",
+      "sourceArchive": "data_01700.it",
+      "sourceSha256": "1e9b788ea513a988d7735c5440426e62e951cd34463c350d98b7c788acaf9222",
+      "size": 1065,
+      "sha256": "7c841a5194d6239ecd0331788c9acba47a8c019b7ebeb0d2c75ffc0cce6e9bb5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/MRD/MRD.rgn",
+      "sourceArchive": "data_01700.it",
+      "sourceSha256": "c61b60d9fc31e5340328559bdb2c318f257c5eb61cbf716f0d835c6fe258688a",
+      "size": 999,
+      "sha256": "f82f99dd5c75faeb26938bb7336f69f6c749a55c14f70ad135bb36782decb905",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Mysterious_Cat_Town/Mysterious_Cat_Town.rgn",
+      "sourceArchive": "data_01379.it",
+      "sourceSha256": "fbcd3e179ac3385db0488d5039aaa7fede4999761b8e10b834bff5a3ea2dd17e",
+      "size": 1171,
+      "sha256": "18f09e2ac8b5fb19ebe025c32243aad582ede37c345230a70323f2cdcdc787ea",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/NDW_entrance/NDW_entrance.rgn",
+      "sourceArchive": "data_00621.it",
+      "sourceSha256": "0aa87f4261838835d45af46398a1feff1769f6d381b55800519fe6cf2164e12f",
+      "size": 1377,
+      "sha256": "c906c05cfb6517002057053f0f22331f6d402da0028c947efffbee7b0a989dff",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/NDW_main_field/NDW_main_field.rgn",
+      "sourceArchive": "data_00622.it",
+      "sourceSha256": "02c4eeb969311ad87cfa3ba4b0e868e7880364471cd7192e5fd18a94053d5bee",
+      "size": 1659,
+      "sha256": "7f16c2d341a94c9592574ff4421994ac58f5c443472740addfdb974fa3aa9bae",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/NDW_sky_island/NDW_sky_island.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "40f9d14afaf2e36b304604b1411c5d821d88da57b95c09b8f325145d1e3151e9",
+      "size": 1131,
+      "sha256": "8ec0df97ec661b45230e8377714efd43fe1fdb1456cdbc9b2ab123896eeeef51",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Orient_main_field/Orient_main_field.rgn",
+      "sourceArchive": "data_00622.it",
+      "sourceSha256": "1e7aac170948dda6b87ae9b1d2354d4e5cc9ab883119afe1956016ffba79f62a",
+      "size": 1003,
+      "sha256": "4db4632aa19c7ed3ebaae5fb84fb73002c950fba21da04cc3b3ef19fcd51e39f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/PDG_dungeon_A/PDG_dungeon_A.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "fc48ed6570aaf9cd497133633aae4473357d5c18043b870a61d07180940c3d76",
+      "size": 1255,
+      "sha256": "f20a233fb40f2ed9995cbba8739db38521b982cbcbdf85613699e8092ce0d6f0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/PDG_dungeon_B/PDG_dungeon_B.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "364c17bcef5dff1126a9db8808b22a727075141ebca607d050d643b8cdb09ba9",
+      "size": 1275,
+      "sha256": "8a16ffecc9473e1f885ecf2175907860a90a1a56fabf45ffd372ea094e322f7b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/PDG_lobby01/PDG_lobby01.rgn",
+      "sourceArchive": "data_00899.it",
+      "sourceSha256": "45d06ddbdedea2d7198a249b225dd8cafa5eda0f0bb1d6b1400ef5448df1ca0e",
+      "size": 1345,
+      "sha256": "583a4256014849320750f57b1298e3690c7193930f3194aed908c1b35a062ba2",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Pitapat_Island/Pitapat_Island.rgn",
+      "sourceArchive": "data_01233.it",
+      "sourceSha256": "d10ef019ea128b5473cd596868ffa3a5794364af6d703842f0b883a627c0259e",
+      "size": 1277,
+      "sha256": "bc0c64ada78a99435bdf536bba929ef392712444b06e94f55b05c96462206ade",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Private_Island_152/Private_Island_152.rgn",
+      "sourceArchive": "data_01350.it",
+      "sourceSha256": "7b69c6850901fb67ece5bbac355794c6cf24e1f1d8d9863ff58619c551f0ceca",
+      "size": 2399,
+      "sha256": "a45a63a0c8adf467b2256998631eb130de82436013c18f1f9745d397403b08f8",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/RE_Nekojima_islet/RE_Nekojima_islet.rgn",
+      "sourceArchive": "data_00622.it",
+      "sourceSha256": "f2a4008ad2cff552f2a266dd9913d39dc21db06b99a592c78212163b7c451d12",
+      "size": 1319,
+      "sha256": "157553c288acfdc8933ca9a406d16602f944f9f6f228386d6b5651b0794ddc15",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Region_test02/Region_test02.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "0ef3c1129155d1fed91d621979f463a2e52b87df8625d74a010036e66265865d",
+      "size": 1099,
+      "sha256": "8fc5ab11b03a4e2025f333c85ce9d261743c23c920191c09a45ffdb406b9d5eb",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Samhain_Ceann_Hobor01/Samhain_Ceann_Hobor01.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "738d78f63b0bbdfe02720ae3fd2dee9dcb4b2cc2d6d676572acb52305dcad1f4",
+      "size": 1505,
+      "sha256": "9d40c436bc033e8106dd18bf4ed482b2ebe7c8716bbfd8999a14cfd4b62188a9",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Samhain_onboard01/Samhain_onboard01.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "e444a8c265108b881367e5468927cabae02f48b97aaf2239489fa3e924ce41b1",
+      "size": 1153,
+      "sha256": "518bd37fe850060b7f110dbe4d26a509d1fc6d5bcc47d01e7562dc82f47cca70",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/ScenarioDG_Orgel/ScenarioDG_Orgel.rgn",
+      "sourceArchive": "data_01763.it",
+      "sourceSha256": "b016b39e37a471b8eac159458cb319b762977710b4b55e3e41d0c366ead0e988",
+      "size": 1471,
+      "sha256": "e6566b3feea30128e967506c3b4cfd076328d2aba098fce6f40ac7c482929102",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/ScenarioDG01/ScenarioDG01.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "f9a4220831a9102b7a9698f38a7d97d123e85def1ecdccf8842121e04c12946a",
+      "size": 1411,
+      "sha256": "2e4b67ea7b96a938aa4483f90eb29170362f3c14fda606773b818c97242e6343",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/ScenarioDG02/ScenarioDG02.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "66941bf99960e48e15398724404d2f3b61cd3b953b83e742ca467bc324d9b309",
+      "size": 1399,
+      "sha256": "e3ed4ff8e87a95d5d38174096f225ee97fddcb31eb4e9dac96ccda0f9e38905f",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/ScenarioDG03/ScenarioDG03.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "6539d7314eb940c7d237ec6b92cade7bcd45213fb442b209a723c40fb486bc15",
+      "size": 1399,
+      "sha256": "fb6f8207fb0053106c71c6cf525b720f42cb557a03c9f270e9f15a68214b9a4a",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_altar02/scene_DramaIriaS2_Nemeton_altar02.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "a12fc193c6913d9776d1fafb36f268642f343f2e215d3aa570b49f5a7660978b",
+      "size": 1175,
+      "sha256": "aafb568f6ceeb7a20f019e6d283a3c2a87299746444b094b0f4ea5141b4125bd",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Sella_to_Ceann/Sella_to_Ceann.rgn",
+      "sourceArchive": "data_00938.it",
+      "sourceSha256": "661a536d5f7ea4600f742151de26df32b13f66fb096757b19d0b06c289871a2e",
+      "size": 1069,
+      "sha256": "bf43997993174cc1c00adce0c445bdc351f62bedb292347c5ab57c95578cd002",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Sen_Mag_GuildWar_npc_stage/Sen_Mag_GuildWar_npc_stage.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "3c3b16f9b55856197742be50486ce0d6a80c786540218ab32a460b0de449db18",
+      "size": 1177,
+      "sha256": "4fe3e85df8d30b2927451929ff62a8dbf44453efa2edd01e11ab1b64c541e449",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Sen_Mag_GuildWar/Sen_Mag_GuildWar.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "830aeee084ea2f2fe22222f9694c25517f074c147652377227ca42a329e2fa74",
+      "size": 1397,
+      "sha256": "5b2cbda260f19bf89e36cb7aa6f9fc0a6773c7b55c513c685e22257cb5828c86",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Sliab_Mish_field/Sliab_Mish_field.rgn",
+      "sourceArchive": "data_01144.it",
+      "sourceSha256": "91d41cf820de24fc75a200a554ec22c13dfa513387dc9a6c664918722f284cdf",
+      "size": 1413,
+      "sha256": "c4ff955f05147630ba6f10edc50c9003dcd1cbb6db6b3f91a66331a9d95581f5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Soulstream_future_region/Soulstream_future_region.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "81c6bb207591b2788d04e1c576c91b1814d1167466b81c3db5d760f891d71010",
+      "size": 1249,
+      "sha256": "3dd552d690fddfc42060a018822904fde509857b164cb9a0b55beb776dc677e5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Soulstream_past_region/Soulstream_past_region.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "612e2b84975a6b31723de6ca2387ead092b1b0c4b43ef4f496b869585c79fa5b",
+      "size": 1237,
+      "sha256": "df5f1948655c882450c20583f074016eb2f77bf2f1fee7ab8cb18ca8c546409e",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Coil_RE_01/Studio_Coil_RE_01.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "2cd55fcbee5c158d933593acb779631f23489c35847c4d5723539a1d8632698b",
+      "size": 1141,
+      "sha256": "03e725fcd725702e62a4943cfcad4e8dada506ac6c0fdc96a5293508ef148752",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Coill_RE/Studio_Coill_RE.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "31efde3b47972e880e6dbf9ad06555289ff03fc0483496ce333c3465e6b50bba",
+      "size": 1127,
+      "sha256": "27330285c88a6c335becca2bc17305f14c43bbb31b862cf99aeefbd5927ab925",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Farm_Desert_16/Studio_Farm_Desert_16.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "8802fba9bda5b768bc1baa19ee5d2946670920cac21a04bccc1320f54708ad14",
+      "size": 1391,
+      "sha256": "1648876ebe7a568d597b7080dc3740e5dee9cff1f59954cbf53de22495d0a364",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Farm_Desert_8/Studio_Farm_Desert_8.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "1844682837762ebdebc2556dbdb462282cd8128db18ff0511ba2168f90b41587",
+      "size": 1369,
+      "sha256": "e04b080bc66cd1cfdf38c1d21457e2a21d2785ba150568ef0bb90b92e92f00f0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Farm_Grassland_16/Studio_Farm_Grassland_16.rgn",
+      "sourceArchive": "data_00623.it",
+      "sourceSha256": "c2ef2765d9f737577d5109d2a45a7b89420028f93d7284002e81d21861bff2bb",
+      "size": 1457,
+      "sha256": "9d2d3ad43370b103b379d4ef134ac356a7d25bfc96904f627f17eac7c88cc9c6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Farm_Grassland_8/Studio_Farm_Grassland_8.rgn",
+      "sourceArchive": "data_00624.it",
+      "sourceSha256": "049946986979b5fbba29733f197c209fec22337fc8303c903dcd1766181e9a4d",
+      "size": 1435,
+      "sha256": "df27db7d08f9ef2342f9a2e83439bf6581cb5697c575f3caa4e5cf6ebd24a22e",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Farm_snowfield_16/Studio_Farm_snowfield_16.rgn",
+      "sourceArchive": "data_00624.it",
+      "sourceSha256": "e69dde63ff42c8ae354d0117129a957df9af7a380aff36c1b5a81a857d16e9f9",
+      "size": 1457,
+      "sha256": "d72278c2ac07b066e44a2a15902ffeb9ca0532bfcf619e1e391020129aa4a214",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Studio_Farm_snowfield_8/Studio_Farm_snowfield_8.rgn",
+      "sourceArchive": "data_00624.it",
+      "sourceSha256": "c61c042955d246344917fb3f38fbdee51a21a2087cef3f94e9f1204c519651fc",
+      "size": 1435,
+      "sha256": "4ed3cb5ca15890a832e755831116560c8bb164fc683282e1db3755dbbaa0a8c6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Taillteann_E_field/Taillteann_E_field.rgn",
+      "sourceArchive": "data_00625.it",
+      "sourceSha256": "d216f6974300e7cd2bee04431f7b96631feefb95236afd59b7fc91e2354f04d7",
+      "size": 1429,
+      "sha256": "67df2db1498bcff3d6161494dc2c68bc4374310a5b6166dbfe4725e8d3f043ee",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/taillteann_main_field/taillteann_main_field.rgn",
+      "sourceArchive": "data_00626.it",
+      "sourceSha256": "46b738629688f2caed08b6b3d908c37049d9c9f8ba9bfb0fe858e21ab9b25317",
+      "size": 4195,
+      "sha256": "361507d8ff3c5b801e5cf0939fb976d7f4c047b8f2ebd8f0080accdfd6823f72",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tara_keep_RG/Tara_keep_RG.rgn",
+      "sourceArchive": "data_00626.it",
+      "sourceSha256": "0e52f60c7cdad44a7bdd2234d92ce125cc935157ad98f71c2fe5c310792eb4d7",
+      "size": 963,
+      "sha256": "642821c9ea49d4b95e8ce0afc8308b4a45eb1f30e23b7b45e9593090de061172",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tara_main_field_shadowversion/Tara_main_field_shadowversion.rgn",
+      "sourceArchive": "data_00627.it",
+      "sourceSha256": "700761c45e8465107a577609c3420d69debf1c69c58d4065954ecbc7bd354b15",
+      "size": 2771,
+      "sha256": "ca334d11a550e6d3c1e7075d668383175b7c6f6864c092c2443a889d05c6fbdc",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tara_main_field/Tara_main_field.rgn",
+      "sourceArchive": "data_00627.it",
+      "sourceSha256": "8653d1093ba28bf5745368cf172be34f36ab0cdf9f25b33c0a19a5acad870761",
+      "size": 2135,
+      "sha256": "b2b10f62a87c2519d0be7ca42827fdf138902a81ae9d526412023716524a00b6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tara_main_kingdom_field/Tara_main_kingdom_field.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "30eff9db58be1440d2a7ffb675581fb7d221162dac01eadbc153c9921b8ee013",
+      "size": 2447,
+      "sha256": "5f8017c5a12e5da66e1c41938905eb1308afb94f06c67a283904ed967d2e58fc",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tara_tournament_field/Tara_tournament_field.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "bbfd0e814b0c1f3869207d55aa19947be5f99bd30e79c62c090ddd843f6d0154",
+      "size": 1263,
+      "sha256": "7bfb383ef6ff282df3728cb75ac0b0fee88e62a7bd320ff328ff2e1a5737a640",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tara_town_RG/Tara_town_RG.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "55f66fc87e016511977166da2ca9470644b73d5b9f523caa734a26b938827afc",
+      "size": 1201,
+      "sha256": "94f9544b58862ecf451173bfd1b5d50a0d5186f5310d4c6046efa551b2bfc9bd",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Test01/Test01.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "dd6e7b08f4b0130e1ce4ddec7dfa0ffbc8a008414f37155e5427149498872e5a",
+      "size": 1091,
+      "sha256": "451a5751abe28f70b9936ea32a7eaf69f62a9657fe0cb3c639b00b5e98c8c9f8",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Test02/Test02.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "c0bc04320a6a8ac395076cb9d12ad1396de4b626f5dd19ae4819773da396332d",
+      "size": 1063,
+      "sha256": "a584ed432a4b4687b64779a40859cdf0c33f672f171f6a65ea8662b8395d779d",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/The first Battle of Moytura/The first Battle of Moytura.rgn",
+      "sourceArchive": "data_01220.it",
+      "sourceSha256": "d9ee2fa9d4c4dd5ce79bc944e29b74e175e1baa6c853ca6eed262f46f6414823",
+      "size": 1489,
+      "sha256": "26a26cfd93f7f2bdbf3cf9105fa35c2e11fe9a90c051ec7d71c6ec189c6c2c73",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lv2/Tower_Of_Challenges_Lv2.rgn",
+      "sourceArchive": "data_00921.it",
+      "sourceSha256": "6fffb32882565e3998ba8fd63b5892020e5ffea5d455c5897d24a8e8aaa495dc",
+      "size": 1739,
+      "sha256": "eabb0352e59cb6b493b80746f4273ade7a4be21ecb6acb0206c1a5024991bd95",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/TR_main_field_01/TR_main_field_01.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "b4a9e1ab668397d712a17fd6e3f1404082bc4d48f1fac9de6961da7a45fe8d7c",
+      "size": 1447,
+      "sha256": "69d834d7f604bb046513e225f6a6036657c77bfddc545ebb10229a12d9e44ff9",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/TRMR_main_field/TRMR_main_field.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "afdc06fc748731d9e0b6964a2f9518302606751bcfea502da283a5430e7fc31e",
+      "size": 1195,
+      "sha256": "896207108c9c3bb821bc478bbb6841060c836166fbf4397960f1ac592225b477",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Tutorial_Zone/Tutorial_Zone.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "3446ae6c0a5689b36b4ec1b05b8fb78084957aae24ad731065f4554048b4d729",
+      "size": 1097,
+      "sha256": "234fcfc0f94d7852e75597a5e34a8953a9091636b74eb32edeb0e03b63555cf7",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Bangor/Ula_Bangor.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "c7183977a07fdcd2cfb45cf588073adc7b1ebaa3abceb1eb97885ec5539f5344",
+      "size": 1147,
+      "sha256": "d12b3bae51d198408c5740300a3fcfd018fc6a59a595b5cb047f0af2b06f6e7a",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Ceann_Harbor/Ula_Ceann_Harbor.rgn",
+      "sourceArchive": "data_00628.it",
+      "sourceSha256": "52404230874d0b69230cacf1d869368bd5be849313e65cc7d35ef50e86cc1d7a",
+      "size": 1417,
+      "sha256": "3eef792ec5ac1bde10658411476c354fb71b079891a7af14d3ee7982ef63721c",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Ceann_to_Connous/Ula_Ceann_to_Connous.rgn",
+      "sourceArchive": "data_00938.it",
+      "sourceSha256": "1b97d54e9e9987145fcab0e6a58b30d15122c1afd0ce74444511a67ba93d14bb",
+      "size": 1489,
+      "sha256": "9ec2ab1d720351777b38192ca39115d562a74fbb7b50ca00534f219f10ed8e5b",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Ceann_to_Sella/Ula_Ceann_to_Sella.rgn",
+      "sourceArchive": "data_00938.it",
+      "sourceSha256": "c5b76dcde4012faee91daa18a5dc024f9f1ba64446a3209921138c44a33e8f4d",
+      "size": 1453,
+      "sha256": "f190e93fc13e6f9f2f6a76ccfe899a4cb8d941800fc54ce0e47169132120f890",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Coill_after/Ula_DgnHall_Coill_after.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "ed0530778ccf92ae79f42da734e6c5176baa31672f85b4f1390773d7e3c2e5ce",
+      "size": 1155,
+      "sha256": "6462f5be0055e956d142017779517e46ed95bef67f78ccaeb1f62775dd47d248",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Coill_before/Ula_DgnHall_Coill_before.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "e54f62ed382e78343d29250a31004bb2169c06fc170070c20a6b3f9934be9834",
+      "size": 1161,
+      "sha256": "2e3b1c5d42bb530184475f89cd9e775e57c4ccc6246241881fe184552640e3ab",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Danu_after/Ula_DgnHall_Danu_after.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "d02fa5e73bd49180b795910ce30925883f16f12865469df59362dd7ce113f42a",
+      "size": 1229,
+      "sha256": "b018b30a83f2828f91acbcfeae957d8b86f74c4a53fc69e089147d3d510a101c",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Danu_before/Ula_DgnHall_Danu_before.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "f9ac057468d1da857ad9d3482ff80f0412d17175a008b7ae8e7314b1d6ce0550",
+      "size": 1235,
+      "sha256": "8a77ed17787f535934d9e3af9d3fc162f38dda60429b56e82f3b5e7390f9ede0",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Dun_to_Bangor/Ula_Dun_to_Bangor.rgn",
+      "sourceArchive": "data_00629.it",
+      "sourceSha256": "ec06b69be72d6fc818598bbfe2db11fe4f61e281135d360acb9fcedb6cea0245",
+      "size": 2383,
+      "sha256": "878e98563f26a4c95908f5ba882832f02569b8eff7a513a18e70676669e038b1",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Emainmacha/Ula_Emainmacha.rgn",
+      "sourceArchive": "data_00650.it",
+      "sourceSha256": "a897956ebfab2605358789b70bbc20f5a0e586655a9bd56567a38299b1792368",
+      "size": 2195,
+      "sha256": "898f6b96e34319cd1f8fee400300c57a8ff02f851f5062a43b4648398cece6e5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Ula_Sen_Mag/Ula_Sen_Mag.rgn",
+      "sourceArchive": "data_00900.it",
+      "sourceSha256": "f0482831927c0ad53188f2afee647e440222648b515c75d924366547a914bcd6",
+      "size": 1327,
+      "sha256": "bf160e1788b5d990ef9aa4b0ea914b4471a10df1089ff31999a9b70abd9d2772",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Belfast_to_Cobh/Uladh_Belfast_to_Cobh.rgn",
+      "sourceArchive": "data_00630.it",
+      "sourceSha256": "bc86111882f352abd636148cd33dc0e2d4a0490f57bb3a2376a0ec17b63430da",
+      "size": 2077,
+      "sha256": "64eb8ed38b0e55970d90024a2514755fd05f838fdac4897c208c32504fa47eac",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Cobh_harbor/Uladh_Cobh_harbor.rgn",
+      "sourceArchive": "data_00630.it",
+      "sourceSha256": "deb6d1d4e249106f9c800899dd05023c124bc28aa109c84b6a2e656d9f00cd79",
+      "size": 1335,
+      "sha256": "fd100b48f71532f523cd6c4420f21f1d735c379cd53fa6147cad6bc049f269cf",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Cobh_to_Belfast/Uladh_Cobh_to_Belfast.rgn",
+      "sourceArchive": "data_00630.it",
+      "sourceSha256": "4bf8674e8d656a3376562818708fe590b3335881b5e37cf4f740c2fc62ed26aa",
+      "size": 1399,
+      "sha256": "0e5cd496b1aaad3270be409a935a64ceb267079a25b4a8742d4926671b2c15d4",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Cobh_to_Kela/Uladh_Cobh_to_Kela.rgn",
+      "sourceArchive": "data_00630.it",
+      "sourceSha256": "eea36752485f35d68359919b4fa43547d751798a1eb4a4697b8e3f851784e12f",
+      "size": 1351,
+      "sha256": "41813a478c1b8e46de6190e075bf7ce385fd0c50ca03c9237d03fde1c0967a81",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Dun_to_Tircho/Uladh_Dun_to_Tircho.rgn",
+      "sourceArchive": "data_00630.it",
+      "sourceSha256": "8b10f59da0f0bb7c11fe3cc2b0ab6aa7bcfa162bbf8e468f13e87db8d40d2e5e",
+      "size": 2553,
+      "sha256": "b0a898a794fc28f16828e0a26359d1c4c59079e8ed27ddbf7500a0c1572bf119",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_DT/Uladh_Dunbarton_DT.rgn",
+      "sourceArchive": "data_01984.it",
+      "sourceSha256": "199558d3c1874ed2ae83d0b26ba1da83ee4a13011b85cb3fecc3e2444ab4133d",
+      "size": 3257,
+      "sha256": "a1481aafe3448f3e3de1e307e3210164e32a188f8c059eb4d0d59878eae77ba6",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton/Uladh_Dunbarton.rgn",
+      "sourceArchive": "data_00631.it",
+      "sourceSha256": "4d7a1f37123f466147437208409595364cc78ce118d720ca3b331c46383a34e0",
+      "size": 2817,
+      "sha256": "218176287304f526e92d1ed1eed08f4d61e22824d4ed7a4ae817794fe2b99f9d",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_main_15th_event/Uladh_main_15th_event.rgn",
+      "sourceArchive": "data_00901.it",
+      "sourceSha256": "509663e54881061eb908e4fdeeaf883fcfe56a1396c469272cd71bd9dfe4ac16",
+      "size": 2253,
+      "sha256": "e0b93821ce1b635be7c4afc0dc846796db1771033bd4bdcbc1b5d078f602c23d",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_main/Uladh_main.rgn",
+      "sourceArchive": "data_00901.it",
+      "sourceSha256": "d05e1b28ad635410a28d9e19344d4322f4bebc324d3aa282b107e3c3a05dd444",
+      "size": 1769,
+      "sha256": "71d810dff49f9703c51799a626d7cd9533a05ab852f7d747c6f8c23b0ee192f5",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/Uladh_to_Iria_Ocean/Uladh_to_Iria_Ocean.rgn",
+      "sourceArchive": "data_00631.it",
+      "sourceSha256": "e455f6ce3d3321ef8c3a52a04853518dfb60e6a57e8f92db38cd0134d4faba32",
+      "size": 1129,
+      "sha256": "fd46c1e63a9fc5cfb6841043117c892850e0454d46688e9d270bdc5d319c7854",
+      "matchesPersonalPayload": true
+    },
+    {
+      "path": "data/world/village_a/village_a.rgn",
+      "sourceArchive": "data_00631.it",
+      "sourceSha256": "27ad8c0c1c1804a3ba8f5066c09dae350e0316a53aa8707f618ea441ea7fd6af",
+      "size": 953,
+      "sha256": "8e9c60bd04c0cf7b77a5de2a1e97b52e7034d53c78e44efab5981d423b919af6",
+      "matchesPersonalPayload": true
+    }
+  ]
+}

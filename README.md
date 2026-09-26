@@ -1,4 +1,4 @@
-# m3yessir's Erinn Wide View
+# m3yessir's Erinn Wide View — Mabinogi FOV Mod
 
 **By m3yessir · v0.1.0-beta · Mabinogi North America**
 

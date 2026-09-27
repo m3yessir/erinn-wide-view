@@ -1,27 +1,40 @@
 # m3yessir's Erinn Wide View — Mabinogi FOV Mod
 
-**By m3yessir · v0.1.0-beta · Mabinogi North America**
+**By m3yessir · v0.2.0-beta · Mabinogi North America**
 
-A standalone, file-based mod that requests a wider 110-degree camera field of view in supported outdoor regions. No DLL injection is used.
+A file-based mod that sets the camera FOV to **110 in supported towns, fields, and dungeon instances**. It widens the viewing angle while keeping the game's stock zoom limits. No DLL injection is used.
 
-The package edits 175 outdoor region files and templates. It preserves their stock zoom limits and stored distance values. It does not bundle other gameplay, interface, or zoom mods.
+**[Download from Releases](https://github.com/m3yessir/erinn-wide-view/releases)** — choose the attached `m3yessir-Erinn-Wide-View-v0.2.0-beta.zip` under Assets.
 
-## Scope
+## Where it works
 
-- Covers outdoor regions including Tir Chonaill, Dunbarton, Emain Macha, Tara and the main Iria fields. See `modified-files.txt` for the exact paths.
-- Leaves building interiors unchanged. Experimental interior overrides were removed after they caused black rendering in Tir Chonaill shops.
-- Does not solve FOV in generated dungeon rooms, such as the rooms beyond Ciar's lobby.
-- Does not modify cutscene scripts, mission-variation camera XML, or login/character-selection screens. Special cameras and mission variants can still override the view.
-- Skips outdoor regions without the existing camera attributes needed for this version.
+- **Towns and fields:** supported regions include Tir Chonaill, Dunbarton, Emain Macha, Tara, and the main Iria fields.
+- **Bri Leith:** included since v0.1.0.
+- **Glenn Bearna:** included since v0.1.0.
+- **Crom Bás:** added in v0.2.0.
+- **Homestead and Moonlight Island:** includes the region files listed in [modified-files.txt](modified-files.txt).
 
-The earlier personal build was tested in many towns, and the interior rollback was confirmed working by its tester. This standalone beta is derived from that build, but it is not a claim that every included region has been tested or that the engine's numerical FOV has been measured.
+Coverage depends on the map, not simply whether it is indoors or outdoors. The package contains **176 region files**, but that does not mean every location, difficulty, or boss camera is supported.
+
+## What's new in v0.2.0?
+
+**Crom Bás now has 110 FOV in the same package.** All 175 previously included region files, including Bri Leith and Glenn Bearna, are unchanged. You no longer need the separate Crom Bás FOV add-on.
+
+## Known limits
+
+- **Generated dungeon rooms**, such as the rooms beyond Ciar's lobby, are not covered.
+- **Shops and other building interiors** keep their original camera settings. Earlier experimental changes caused black rendering in Tir shops and were removed.
+- **Cutscenes and special cameras** may override the FOV.
+- Not every included map, difficulty, or boss room has been tested. This is a beta; report the exact location if something looks wrong.
+
+The **Sidhe visibility/fog mod is separate**. Its haze changes are not included here, and it can stay installed alongside Wide View.
 
 ## Install
 
 1. Close Mabinogi completely.
-2. Remove older versions of this mod and any `CustomErinnFov110_*.it` or `CustomDunbartonFov*.it` test packages from the active package directory.
+2. Remove the old `m3yessirErinnWideView110_00001.it` and the separate `m3yessirCromBasFov110_00001.it`, if installed. Also remove any older Wide View or `CustomErinnFov110_*.it` / `CustomDunbartonFov*.it` test packages. Keep backups outside the active package folder.
 3. Check for conflicting mods listed below.
-4. Copy **`m3yessirErinnWideView110_00001.it`** into the game's active package directory: the folder containing the official `data_00000.it`, `data_00001.it`, etc. archives.
+4. Copy **`m3yessirErinnWideView110_00002.it`** into the game's active package directory: the folder containing the official `data_00000.it`, `data_00001.it`, etc. archives.
 5. Restart the game.
 
 Install layouts vary. The active directory may be `Mabinogi\package` or `Mabinogi\appdata\package`. Use the existing directory containing the game's `.it` archives.
@@ -55,18 +68,18 @@ Close the game, remove this `.it` from the active package directory, and restart
 
 Built from a North American Steam installation, build **25329795**, on **2026-09-26**. A later game update may change region data and require a new mod build.
 
-- 175 region entries; all entry paths and archive metadata validated.
+- 176 region entries; all entry paths and archive metadata validated.
 - Every extracted file matched the intended size and SHA-256 hash.
-- All edited region XML parsed successfully; semantic changes were restricted to FOV and the camera-override enable flag.
+- The 175 previously included region files and one Crom Bás file exactly match their previously verified packages. All 176 region structures parsed successfully; the underlying XML edits are limited to FOV and, where needed in the original build, the camera-override enable flag.
 - Stock zoom limits, existing near/far-distance numbers, lighting and other XML settings were preserved.
 
 Where the existing camera override was disabled, it is enabled to apply the FOV. That can also activate the region's stored distance settings, so rendering behavior still needs in-game testing.
 
-Package size: **420,793 bytes**.
+Package size: **422,841 bytes**.
 
 SHA-256:
 
-`48ad03d7643559d6f6520c34e3c6a14bb964e2441a873d463ad01b1be726be46`
+`64981428730894fb4b2ad367b4c4f6e608ca069aab33bcf1468dd4eb9043e7f8`
 
 See `release-manifest.json`, `SHA256SUMS.txt` and `CREDITS.md` for details.
 

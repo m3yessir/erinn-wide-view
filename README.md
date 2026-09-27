@@ -27,7 +27,6 @@ Coverage depends on the map, not simply whether it is indoors or outdoors. The p
 - **Cutscenes and special cameras** may override the FOV.
 - Not every included map, difficulty, or boss room has been tested. This is a beta; report the exact location if something looks wrong.
 
-The **Sidhe visibility/fog mod is separate**. Its haze changes are not included here, and it can stay installed alongside Wide View.
 
 ## Install
 

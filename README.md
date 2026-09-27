@@ -31,10 +31,9 @@ Coverage depends on the map, not simply whether it is indoors or outdoors. The p
 ## Install
 
 1. Close Mabinogi completely.
-2. Remove the old `m3yessirErinnWideView110_00001.it` and the separate `m3yessirCromBasFov110_00001.it`, if installed. Also remove any older Wide View or `CustomErinnFov110_*.it` / `CustomDunbartonFov*.it` test packages. Keep backups outside the active package folder.
-3. Check for conflicting mods listed below.
-4. Copy **`m3yessirErinnWideView110_00002.it`** into the game's active package directory: the folder containing the official `data_00000.it`, `data_00001.it`, etc. archives.
-5. Restart the game.
+2. Check for conflicting mods listed below.
+3. Copy the latest**`m3yessirErinnWideView110_xxxxxx.it`** into the game's active package directory: the folder containing the official `data_00000.it`, `data_00001.it`, etc. archives.
+4. Restart the game.
 
 Install layouts vary. The active directory may be `Mabinogi\package` or `Mabinogi\appdata\package`. Use the existing directory containing the game's `.it` archives.
 

@@ -1,1421 +1,2488 @@
 {
   "title": "m3yessir's Erinn Wide View",
   "author": "m3yessir",
-  "version": "0.1.0-beta",
-  "filename": "m3yessirErinnWideView110_00001.it",
+  "version": "0.3.0-beta",
+  "filename": "m3yessirErinnWideView110_00003.it",
   "requestedFov": 110,
-  "regionFileCount": 175,
-  "baseGameBuild": "Steam build 25329795",
-  "buildDate": "2026-09-26",
-  "scope": "Outdoor regions only; no bundled Uiscias mods; stock zoom settings",
+  "regionFileCount": 430,
+  "roomVariationFileCount": 63,
+  "entryCount": 493,
+  "releaseDate": "2026-09-30",
+  "scope": "Existing 176 regions plus 254 additional fixed indoor regions and 63 room variants; no generated dungeon floors",
   "validation": {
-    "archiveHeadersAndEntriesValidated": true,
+    "archiveBytes": 1013875,
+    "archiveSha256": "15e83847b7e4f5aef425b93da55d5cd364476aaba4bda77c347a45ac0c97e755",
     "allExtractedBytesMatch": true,
-    "archiveBytes": 420793,
-    "archiveSha256": "48ad03d7643559d6f6520c34e3c6a14bb964e2441a873d463ad01b1be726be46",
-    "xmlSemanticAudit": "175 XML documents parsed; only FOV and camera-enable attributes changed",
-    "runtimeStatus": "Based on personally tested outdoor release. Standalone package requires confirmation, especially the two regions rebuilt from unmodified game data."
+    "allPreviousPayloadsUnchanged": true,
+    "indoorPayloadsMatchMooncrest": true,
+    "allFovValues110": true,
+    "personalDataIncluded": false
   },
   "files": [
     {
-      "path": "data/world/Farm_Grassland_90/Farm_Grassland_90.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "fd244d6a5c7e4766562753cf3d8704c08bca1af9514bdf074f0b4690219bf6d6",
-      "size": 1421,
-      "sha256": "14396ef128aa21597879aaeef13801ac79fb00879703d30542a10287da999afc",
-      "matchesPersonalPayload": false
+      "path": "data/world/Abb_Neagh_keep_DgnHall_after/Abb_Neagh_keep_DgnHall_after.rgn",
+      "bytes": 993,
+      "sha256": "1df8447a23d7cf6f5ac06417e8bb31323b0f8937da62043cdd32af4e2ec9d0a8"
     },
     {
-      "path": "data/world/Taillteann_NewFarm/Taillteann_NewFarm.rgn",
-      "sourceArchive": "data_02031.it",
-      "sourceSha256": "8e14284657031175bec8c1b97525317afe0ec051ec8f36516041a1f2863a08c2",
-      "size": 1439,
-      "sha256": "f4ce94bc4b72deaa8a1c5ba8c282b3ea335569a989c9269c515c207482cd2a9e",
-      "matchesPersonalPayload": false
+      "path": "data/world/Abb_Neagh_keep_DgnHall_before/Abb_Neagh_keep_DgnHall_before.rgn",
+      "bytes": 999,
+      "sha256": "38f0e1c8a9fdeee2bc03160130724bf5277b96293d020d48e3ece7c278593be9"
     },
     {
       "path": "data/world/AK_test/AK_test.rgn",
-      "sourceArchive": "data_00602.it",
-      "sourceSha256": "1d515bef8b8c659a9d25888f892af2bb81b348d0029f9656575e5b546aed2b24",
-      "size": 1139,
-      "sha256": "532e020aa684bbefdae32d5d6495cf9d229cf6d80b54c4adddda09d4a4aa4be3",
-      "matchesPersonalPayload": true
+      "bytes": 1139,
+      "sha256": "532e020aa684bbefdae32d5d6495cf9d229cf6d80b54c4adddda09d4a4aa4be3"
     },
     {
       "path": "data/world/Astrologist_Star_Citadel/Astrologist_Star_Citadel.rgn",
-      "sourceArchive": "data_01394.it",
-      "sourceSha256": "9720448b409d604c15ab2a7f622cf2fe7fc7ad1a8cb6ca3cf94cb1c338de80ea",
-      "size": 1219,
-      "sha256": "09d7f64e5353ca3ec0bc186edeb7c9fd8a08fa2d64386f7fcd816fe43f18c839",
-      "matchesPersonalPayload": true
+      "bytes": 1219,
+      "sha256": "09d7f64e5353ca3ec0bc186edeb7c9fd8a08fa2d64386f7fcd816fe43f18c839"
+    },
+    {
+      "path": "data/world/Astrology/Astrology.rgn",
+      "bytes": 1087,
+      "sha256": "9760b67f38a49172e97e58836d183b34634ee3e4df7c620f62c51cafc0187266"
     },
     {
       "path": "data/world/Avon_main_field/Avon_main_field.rgn",
-      "sourceArchive": "data_00602.it",
-      "sourceSha256": "33ba9a01292cb04d4b7406fb69e660e284ce13afdf5525180a47feb5daca9339",
-      "size": 2135,
-      "sha256": "eaf38e68babb5cec97e64c1c0561d5c25119322269fb5aef9075cdac030bb6d5",
-      "matchesPersonalPayload": true
+      "bytes": 2135,
+      "sha256": "eaf38e68babb5cec97e64c1c0561d5c25119322269fb5aef9075cdac030bb6d5"
+    },
+    {
+      "path": "data/world/Avon_stage_hamlet/Avon_stage_hamlet.rgn",
+      "bytes": 2129,
+      "sha256": "65e8c968710c43a14ecc0ee35467bbc0be21f6866159b8a7588b75eac6a468d6"
+    },
+    {
+      "path": "data/world/Avon_stage_hamlet/region_variation_2.xml",
+      "bytes": 4170,
+      "sha256": "9e203e0aac194d40734c99d4d43f667cafd5e1e9ccddc0bba7fd03ebee42967f"
+    },
+    {
+      "path": "data/world/Avon_stage_hamlet/region_variation_730108.xml",
+      "bytes": 4170,
+      "sha256": "9e203e0aac194d40734c99d4d43f667cafd5e1e9ccddc0bba7fd03ebee42967f"
+    },
+    {
+      "path": "data/world/Avon_stage_hamlet/region_variation_drama.xml",
+      "bytes": 4168,
+      "sha256": "12a240f557734747e857ac9430f9abf92d11ad84550449f5b05cc426baf72a14"
+    },
+    {
+      "path": "data/world/Avon_stage_Juliette/Avon_stage_Juliette.rgn",
+      "bytes": 2103,
+      "sha256": "7ce37b7f23e8dec53fb1382969558f12dde0cc48ffc2d54bd4796dd0b4506738"
+    },
+    {
+      "path": "data/world/Avon_stage_Juliette/region_variation_2.xml",
+      "bytes": 4168,
+      "sha256": "1f4e1030e41508c1e19571276268fc7de64af5d6e61e35dee3df816aac3f12d6"
+    },
+    {
+      "path": "data/world/Avon_stage_Juliette/region_variation_3.xml",
+      "bytes": 4168,
+      "sha256": "2f4c0663f71ef6488c7951733fd2c2f637dbb0eaf69d2d653de3e11105eb2446"
+    },
+    {
+      "path": "data/world/Avon_stage_Juliette/region_variation_drama.xml",
+      "bytes": 4168,
+      "sha256": "12a240f557734747e857ac9430f9abf92d11ad84550449f5b05cc426baf72a14"
+    },
+    {
+      "path": "data/world/Beautyshop/Beautyshop.rgn",
+      "bytes": 1097,
+      "sha256": "044e0150944158c72837c3dc422b46e4a22dd2171b9f53a1c55bcedf90af5206"
+    },
+    {
+      "path": "data/world/Befast_courthouse/Befast_courthouse.rgn",
+      "bytes": 1205,
+      "sha256": "6fc17b6cd85464da91a7ad0d0792715c946753fe959c8dc19937e0504bdf1a39"
     },
     {
       "path": "data/world/Belfast_human_cutscene/Belfast_human_cutscene.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "683880f10244be0dcf24672873cb8846ee74bfadd5cce2d1f0cd00b6b9892053",
-      "size": 2125,
-      "sha256": "c452ad9e02ad8362f726aa72554611a455170606fb91af6afd6ec8efeae070e8",
-      "matchesPersonalPayload": true
+      "bytes": 2125,
+      "sha256": "c452ad9e02ad8362f726aa72554611a455170606fb91af6afd6ec8efeae070e8"
     },
     {
       "path": "data/world/Belfast_human/Belfast_human.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "7e090f8214a82833352cc95359b82a2d4257ee69697d4656f24000212972d51f",
-      "size": 1725,
-      "sha256": "566963968391b91c577bde17ca62c9705b9ff93fdc0633ed35fc4b574fb41a26",
-      "matchesPersonalPayload": true
+      "bytes": 1725,
+      "sha256": "566963968391b91c577bde17ca62c9705b9ff93fdc0633ed35fc4b574fb41a26"
     },
     {
       "path": "data/world/Belfast_sea_01/Belfast_sea_01.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "3c7fdf9ae1fba50be179712e618ff85ad49e1150782f8a0088ffda10a4b0a0e1",
-      "size": 1319,
-      "sha256": "b8ef73abda3ac303c09ece31afb52b6ec38c73253b983d8cde020efd1b6725e2",
-      "matchesPersonalPayload": true
+      "bytes": 1319,
+      "sha256": "b8ef73abda3ac303c09ece31afb52b6ec38c73253b983d8cde020efd1b6725e2"
     },
     {
       "path": "data/world/Belfast_sea_02/Belfast_sea_02.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "82ac353c6a05690262cd8588bc612426ee246125be2b1a15fc45f16f3e7f098a",
-      "size": 1323,
-      "sha256": "431296bb316c3320da4c0b28d0a4ac5d4dcf659235eea9d4c2ece5d04e7311eb",
-      "matchesPersonalPayload": true
+      "bytes": 1323,
+      "sha256": "431296bb316c3320da4c0b28d0a4ac5d4dcf659235eea9d4c2ece5d04e7311eb"
     },
     {
       "path": "data/world/Belfast_sea_03/Belfast_sea_03.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "ffe04a99127d95ba3be9d858b88dc862211dc4457b4cd05f92d7c446fe31fda3",
-      "size": 1319,
-      "sha256": "ddd482e5860fa414375c9d95772423e7b7d1d6e5e69e467dc45be2c58c63d830",
-      "matchesPersonalPayload": true
+      "bytes": 1319,
+      "sha256": "ddd482e5860fa414375c9d95772423e7b7d1d6e5e69e467dc45be2c58c63d830"
+    },
+    {
+      "path": "data/world/Belfast_sea_04/Belfast_sea_04.rgn",
+      "bytes": 1319,
+      "sha256": "103ddab8f6f04320da7009ee0806691089a9daa4e25f357305fb98d5971149cb"
+    },
+    {
+      "path": "data/world/Belfast_sea_05/Belfast_sea_05.rgn",
+      "bytes": 1323,
+      "sha256": "8523ec99e918480c58f622eda2748f81c63b657e48c8a55b15a7240503c26596"
+    },
+    {
+      "path": "data/world/Belfast_Skatha_cave_01/Belfast_Skatha_cave_01.rgn",
+      "bytes": 1527,
+      "sha256": "6db3459d3c4e007e6639a7968f2654c0bb59a5ff67f11582e39576bc7c234c4a"
+    },
+    {
+      "path": "data/world/Belfast_Skatha_cave_01/region_variation_721002.xml",
+      "bytes": 2082,
+      "sha256": "2d131b26097c01a16c941d6dc5a9c709d364a805e69a60a601547b5f08c4c1f1"
+    },
+    {
+      "path": "data/world/Belfast_Skatha_cave_01/region_variation_797001.xml",
+      "bytes": 1390,
+      "sha256": "4f5327fb7266cc5994ae2ffe545ff59466880b450594b791acd1c52be1eb1251"
+    },
+    {
+      "path": "data/world/Belfast_Skatha_cave_01/region_variation_ucd712000.xml",
+      "bytes": 2060,
+      "sha256": "329f32b1287ce8a4f57015a3e6e2754749b61e4fe83ec7214481f4a3b1791814"
     },
     {
       "path": "data/world/Belfast_Skatha_main_field/Belfast_Skatha_main_field.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "176535b6fb256d84e24e284b68f956b5b9f634e9759bab8cfb4c6c54a7ded8b8",
-      "size": 2069,
-      "sha256": "4606ecb51ede70f7769dade815b489bdb358d99d5f86c4031254a2c14f8cc7e7",
-      "matchesPersonalPayload": true
+      "bytes": 2069,
+      "sha256": "4606ecb51ede70f7769dade815b489bdb358d99d5f86c4031254a2c14f8cc7e7"
     },
     {
       "path": "data/world/Belfast_test_01/Belfast_test_01.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "17a48ebc14befcde41dc29d3ff7e2c8dd1b2c4d668657c062e1d9de77eae848d",
-      "size": 1373,
-      "sha256": "2e1f5ba2a152dce1f6d1c38d51a7b7877b83b940155fc94d15bf0d775ae25afc",
-      "matchesPersonalPayload": true
+      "bytes": 1373,
+      "sha256": "2e1f5ba2a152dce1f6d1c38d51a7b7877b83b940155fc94d15bf0d775ae25afc"
     },
     {
       "path": "data/world/Belfast_to_Cobh/Belfast_to_Cobh.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "43f850e6ed9f718fded6733d08b512d4b267896d145ca1b22cc533059e55e818",
-      "size": 1073,
-      "sha256": "9225441fbceccf489c5a44d5dcfab43f4eb697805355c66d7fbae545cd4c0525",
-      "matchesPersonalPayload": true
+      "bytes": 1073,
+      "sha256": "9225441fbceccf489c5a44d5dcfab43f4eb697805355c66d7fbae545cd4c0525"
     },
     {
       "path": "data/world/Bella_Vally_cutscene/Bella_Vally_cutscene.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "3b1ebb661a66dbd635bdc23ba0506b55cb03c4dee390e3e55b81e43226ad1940",
-      "size": 1489,
-      "sha256": "37f852d442640f2d6719ef25fa97c5a1b89759bf22446e5065c94649136baffc",
-      "matchesPersonalPayload": true
+      "bytes": 1489,
+      "sha256": "37f852d442640f2d6719ef25fa97c5a1b89759bf22446e5065c94649136baffc"
     },
     {
       "path": "data/world/Bella_Vally/Bella_Vally.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "728abd52df3c9d79c539305ba191b7ed37ea399ee443289392a4820cbc3f2542",
-      "size": 1309,
-      "sha256": "610931501d824342c72fcbdfe186c6302fe7036e58c38b288f5b21d624ac9aed",
-      "matchesPersonalPayload": true
+      "bytes": 1309,
+      "sha256": "610931501d824342c72fcbdfe186c6302fe7036e58c38b288f5b21d624ac9aed"
     },
     {
       "path": "data/world/Ceann_to_Connous/Ceann_to_Connous.rgn",
-      "sourceArchive": "data_00937.it",
-      "sourceSha256": "5b0a46f0d0f6045ab81a85dc2d0dacd0c3dca641d34f02f7f04829eb53751be0",
-      "size": 1081,
-      "sha256": "4cf87afdcb8d4b7421fbe635e936df2b41e1544be99434cc6ab5266d150d7b45",
-      "matchesPersonalPayload": true
+      "bytes": 1081,
+      "sha256": "4cf87afdcb8d4b7421fbe635e936df2b41e1544be99434cc6ab5266d150d7b45"
     },
     {
       "path": "data/world/Ceann_to_Sella/Ceann_to_Sella.rgn",
-      "sourceArchive": "data_00937.it",
-      "sourceSha256": "a11aefe9c8c9d7e1c16a20efe8456d502285303dcad30c4da16412e57cdd31ce",
-      "size": 1069,
-      "sha256": "57b8644ab9017ab50f406626e020aad972c3345e51200b9e9f66cd99169690a2",
-      "matchesPersonalPayload": true
+      "bytes": 1069,
+      "sha256": "57b8644ab9017ab50f406626e020aad972c3345e51200b9e9f66cd99169690a2"
     },
     {
       "path": "data/world/Cobh_to_Belfast_Qwest/Cobh_to_Belfast_Qwest.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "c29c0eae48a2c6bd2af2d904b4a852013e9ebaae997b51e91fb5b1467cdf2d8b",
-      "size": 1139,
-      "sha256": "c62e1871db568f70fb7da0fd87b2ef1c3013cd439894b6f3137516d4dfb681ac",
-      "matchesPersonalPayload": true
+      "bytes": 1139,
+      "sha256": "c62e1871db568f70fb7da0fd87b2ef1c3013cd439894b6f3137516d4dfb681ac"
     },
     {
       "path": "data/world/Cobh_to_Belfast/Cobh_to_Belfast.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "4f6f7653421650265612163d07b8ea19af101d553ab153e3fcc1bd29baa57902",
-      "size": 1103,
-      "sha256": "5b2b97080fe1cd5a2211fbd9bff5aa8248ff73f7b8fe5d819d8891b29718b477",
-      "matchesPersonalPayload": true
+      "bytes": 1103,
+      "sha256": "5b2b97080fe1cd5a2211fbd9bff5aa8248ff73f7b8fe5d819d8891b29718b477"
     },
     {
       "path": "data/world/Connous_to_Ceann/Connous_to_Ceann.rgn",
-      "sourceArchive": "data_00937.it",
-      "sourceSha256": "f667cf36b154049c85b55f4ccf1382fbc843870ad1347b81a8322dc8674bf62e",
-      "size": 1081,
-      "sha256": "cd49f560d61e811bd2e30a952f06419c0e2e3786491d07571e7870f1ba34dd31",
-      "matchesPersonalPayload": true
+      "bytes": 1081,
+      "sha256": "cd49f560d61e811bd2e30a952f06419c0e2e3786491d07571e7870f1ba34dd31"
+    },
+    {
+      "path": "data/world/CookieDungeon/CookieDungeon.rgn",
+      "bytes": 1143,
+      "sha256": "421da5abf2d6e83c5723d9f32f5d664ec73e4dd60297ec8668140400e8f6620d"
     },
     {
       "path": "data/world/dg_Albantraing_lobby01/dg_Albantraing_lobby01.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "cf974031ee63f4f5b8d29c72e53b31f8ff6c2a0f737846bcf3b82e13a8305c65",
-      "size": 1467,
-      "sha256": "58d049462800a4ff7cffd4215cf0d3eb2ea9cf9848f84d84879bdb12440b3080",
-      "matchesPersonalPayload": true
+      "bytes": 1467,
+      "sha256": "58d049462800a4ff7cffd4215cf0d3eb2ea9cf9848f84d84879bdb12440b3080"
     },
     {
       "path": "data/world/dg_Albantraning_lobby/dg_Albantraning_lobby.rgn",
-      "sourceArchive": "data_00603.it",
-      "sourceSha256": "2a64b2c4c008e7cb2696087458492f5d83e896c2bc5bcb831a849a3cbc77dfd7",
-      "size": 1403,
-      "sha256": "7289c8fd988620a0caa554b0d7c4831d43a3008abfa17dfd792bb25845945f55",
-      "matchesPersonalPayload": true
+      "bytes": 1403,
+      "sha256": "7289c8fd988620a0caa554b0d7c4831d43a3008abfa17dfd792bb25845945f55"
+    },
+    {
+      "path": "data/world/dg_Albantraning_stage/dg_Albantraning_stage.rgn",
+      "bytes": 1153,
+      "sha256": "bf635885484bef69a4b9b17888d01c9ae483be14de0cf8935746ef1a1fd11203"
+    },
+    {
+      "path": "data/world/dg_GD1_balor_temple_lobby/dg_GD1_balor_temple_lobby.rgn",
+      "bytes": 1135,
+      "sha256": "6a49a48f367144b4c74a8e361f304c454b293353494214b4730881f08298614d"
+    },
+    {
+      "path": "data/world/dg_halloween_alley_01/dg_halloween_alley_01.rgn",
+      "bytes": 2369,
+      "sha256": "cb67ef6a5e43dd0a2f3591d4605e5c77e1f415d06c368c3a1169aac3267f8bec"
+    },
+    {
+      "path": "data/world/dg_halloween_alley_01/region_variation_730118.xml",
+      "bytes": 632,
+      "sha256": "9534e21540e91b9e10e0d050661c3f4049b5928e58b65f6f6efb74cc046ebf62"
+    },
+    {
+      "path": "data/world/dg_halloween_alley_01/region_variation_770034.xml",
+      "bytes": 812,
+      "sha256": "7079af559ef6f5eeb1e5faf43d51647cf35e494f6b0fd164ee2ffbd1736d3686"
+    },
+    {
+      "path": "data/world/dg_halloween_alley_01/region_variation_g24_780529.xml",
+      "bytes": 1202,
+      "sha256": "7dd8019049f30aeb3fc3fec2495dfc5e4fc5a7364d43dbce07ceb1d54e36eec1"
+    },
+    {
+      "path": "data/world/dg_halloween_alley_01/region_variation_g28_780913.xml",
+      "bytes": 1790,
+      "sha256": "23acaafff8c3d6865857c53b6293afc92633c30a0aefc129eb0ab9563d048c1f"
+    },
+    {
+      "path": "data/world/dg_halloween_lobby_01/dg_halloween_lobby_01.rgn",
+      "bytes": 1143,
+      "sha256": "d99db244de7a90ceca8322831cc7bb5178246a4671d0c038225a6b7512681b93"
+    },
+    {
+      "path": "data/world/dg_halloween_lobby_02/dg_halloween_lobby_02.rgn",
+      "bytes": 1143,
+      "sha256": "4da1ee94cc759492eaf7266d20ee2b72f11fe4a84711175289afad1dbc54c6aa"
+    },
+    {
+      "path": "data/world/dg_halloween2018_room/dg_halloween2018_room.rgn",
+      "bytes": 1211,
+      "sha256": "cf812b5c83ac94534f8844f882973775104cf896678d0f26998337541df60168"
+    },
+    {
+      "path": "data/world/dg_halloween2020/dg_halloween2020.rgn",
+      "bytes": 1081,
+      "sha256": "d8176f8b00bc33d670d2acb26b7a756528342c540aedeeee87b8eb29763a940e"
     },
     {
       "path": "data/world/dg_halloween2022_deact/dg_halloween2022_deact.rgn",
-      "sourceArchive": "data_01184.it",
-      "sourceSha256": "9dee99c9afb25f0813cfb932b9eeb6fb219609d6d0187d5d086f89133b701ffb",
-      "size": 1187,
-      "sha256": "cb222182f11d4845aa3c91f539a52b07031fa865d14294a22987a82231f2da74",
-      "matchesPersonalPayload": true
+      "bytes": 1187,
+      "sha256": "cb222182f11d4845aa3c91f539a52b07031fa865d14294a22987a82231f2da74"
+    },
+    {
+      "path": "data/world/dg_halloween2022_room/dg_halloween2022_room.rgn",
+      "bytes": 1107,
+      "sha256": "0e8e4b53a7a49dd145b0792e2920649274903334f942aa83f5094750b567aba2"
     },
     {
       "path": "data/world/dg_halloween2022/dg_halloween2022.rgn",
-      "sourceArchive": "data_01184.it",
-      "sourceSha256": "e80ea4f194cad176350514ef27729b52bde8d1d6330b42f6f1ea7e074add7621",
-      "size": 1145,
-      "sha256": "206e2fd8add041234b349994ecae6667d8869eea9e9b733fca68b5db9e4b5918",
-      "matchesPersonalPayload": true
+      "bytes": 1145,
+      "sha256": "206e2fd8add041234b349994ecae6667d8869eea9e9b733fca68b5db9e4b5918"
+    },
+    {
+      "path": "data/world/dg_haunted_house01/dg_haunted_house01.rgn",
+      "bytes": 1175,
+      "sha256": "f21fafa41ea81430ec37c6cd48c6ed3588485f43368aa5b307ea890c6501d1d3"
+    },
+    {
+      "path": "data/world/dg_Hideandseek_room/dg_Hideandseek_room.rgn",
+      "bytes": 1191,
+      "sha256": "3b62694b6c5d74617a3d8ea5fc8534b33d9edfe4b53e6f3c8a3f9ad3139e7510"
     },
     {
       "path": "data/world/DGC_main_field/DGC_main_field.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "6be6e7876b8dbc2d13065eb8fadcadba9f8efbad7466139759ec56c5c0fa895c",
-      "size": 1395,
-      "sha256": "4f88b8444b4a6efdcd0e72d92d98c5559d0039e775d1fd6781c2eac7b0bcaf9b",
-      "matchesPersonalPayload": true
+      "bytes": 1395,
+      "sha256": "4f88b8444b4a6efdcd0e72d92d98c5559d0039e775d1fd6781c2eac7b0bcaf9b"
     },
     {
       "path": "data/world/Dicegame_boardgame01/Dicegame_boardgame01.rgn",
-      "sourceArchive": "data_01715.it",
-      "sourceSha256": "fd9b5ca9ea51defc656d1adf3bf1cfc4e8c316228f77a24fe856247259dd21f6",
-      "size": 1215,
-      "sha256": "54c8d8e5245406d52f74cbadc56d704bf577267299d90d7355803c9b1036c835",
-      "matchesPersonalPayload": true
+      "bytes": 1215,
+      "sha256": "54c8d8e5245406d52f74cbadc56d704bf577267299d90d7355803c9b1036c835"
+    },
+    {
+      "path": "data/world/DM_CatchingTail_Lobby/DM_CatchingTail_Lobby.rgn",
+      "bytes": 1211,
+      "sha256": "0b038e0458fe2894fffcd4fea9a7b847c242301c5cd39fdcb527dd80f5bf0588"
+    },
+    {
+      "path": "data/world/DramaIriaS2_cuberoom_01/DramaIriaS2_cuberoom_01.rgn",
+      "bytes": 1277,
+      "sha256": "4a71f9a106e62906e38fb0850da223a90692c517fd7c195e239c549705e8c6ec"
+    },
+    {
+      "path": "data/world/DramaIriaS2_cuberoom_01/region_variation_empty.xml",
+      "bytes": 1006,
+      "sha256": "6d2eed6d3bb33156fd2200dc7c78d105994b763564da5bc1d18eca873a5b7c31"
+    },
+    {
+      "path": "data/world/DramaIriaS2_nightmare_alley01/DramaIriaS2_nightmare_alley01.rgn",
+      "bytes": 1155,
+      "sha256": "534ef0898733c33ef2865553b996ed8a234f710a75e1d6ac35549279b9debbe4"
+    },
+    {
+      "path": "data/world/DramaIriaS2_Uladh_Cobh_bar_1/DramaIriaS2_Uladh_Cobh_bar_1.rgn",
+      "bytes": 1251,
+      "sha256": "4854ab131301d3cf9ce077b545b837f543314b43ae6256a3527551bccea77bec"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_keep_DgnHall_after/Dugald_Aisle_keep_DgnHall_after.rgn",
+      "bytes": 1011,
+      "sha256": "8f049b878920e7c2681e9121ddbb32fdcf831f6b31dea60f9885f381b1a044b8"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_keep_DgnHall_before/Dugald_Aisle_keep_DgnHall_before.rgn",
+      "bytes": 1017,
+      "sha256": "9c1aee3d81b86edfd7dbd19dae3563820a0cc620634dec52fac03d9b606f33fb"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_ModelHouse/Dugald_Aisle_ModelHouse.rgn",
+      "bytes": 1017,
+      "sha256": "2106bffef213f7c58c2e9d73e5bbcfce4b6c6d818a3de7e8f527c5540d6719b6"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserCastle_guildroom/Dugald_Aisle_UserCastle_guildroom.rgn",
+      "bytes": 1087,
+      "sha256": "b8251ec05071e27b222f679bd318d8873f487373981eb015892753cffb5899fe"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserCastle_hall/Dugald_Aisle_UserCastle_hall.rgn",
+      "bytes": 1059,
+      "sha256": "00164b1350c4fce3eb06de9dea2a43a8b6a97fd83e7596643712e8483b3cf919"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserCastle_warehouse/Dugald_Aisle_UserCastle_warehouse.rgn",
+      "bytes": 1093,
+      "sha256": "327c23627022a77ce9b8109d302938cb279b9f8f475232986f060f3c096308aa"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserHouse_int_01/Dugald_Aisle_UserHouse_int_01.rgn",
+      "bytes": 1015,
+      "sha256": "aac97a2f414855b167c51c1d2fce8543d621be98b2629fada90b0389e1cbb5bc"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserHouse_int_02/Dugald_Aisle_UserHouse_int_02.rgn",
+      "bytes": 1015,
+      "sha256": "5b76dee0e7a121c74d107c3ca43893814d929ae0935cb242ff6316b26a1ff673"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserHouse_int_03/Dugald_Aisle_UserHouse_int_03.rgn",
+      "bytes": 1015,
+      "sha256": "b1824c2f906477d3e5f9a2e50e83d5fc69d4ba69f8cee330357d9c682a2a981e"
+    },
+    {
+      "path": "data/world/Dugald_Aisle_UserHouse/Dugald_Aisle_UserHouse.rgn",
+      "bytes": 919,
+      "sha256": "6f52001e65f954461915c19f61d2837b1f03f19c9ad6d7dd1efa96431919da7f"
     },
     {
       "path": "data/world/ErinnLand/ErinnLand.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "1efde414f69065e9a3725512a9c8d6f5abb36a4603377962ae30875df0a13320",
-      "size": 1315,
-      "sha256": "010b3d5a7399e48c6058b263c23f4a1ddec9af3ce23ad9c5ce318102ca9bc92b",
-      "matchesPersonalPayload": true
+      "bytes": 1315,
+      "sha256": "010b3d5a7399e48c6058b263c23f4a1ddec9af3ce23ad9c5ce318102ca9bc92b"
+    },
+    {
+      "path": "data/world/Event_impdream/Event_impdream.rgn",
+      "bytes": 989,
+      "sha256": "57d2480efabc2e637dd390f940cc622295ff8443b1fc3f3250442e66b651b242"
+    },
+    {
+      "path": "data/world/Event_moonsurface/Event_moonsurface.rgn",
+      "bytes": 1003,
+      "sha256": "ed698ed29e23d5d35f94d808e38b7151fff270a3f2d74c9502af7b7edb0ce27f"
     },
     {
       "path": "data/world/Farm_A/Farm_A.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "b0b319d94885b813aa2756379338c2a4465513e8f22783a98e315e5beb579572",
-      "size": 935,
-      "sha256": "7c0aabfe2e431c8db82394c8d86070b6844360a36e98ebb65e8908d8f2c6720e",
-      "matchesPersonalPayload": true
+      "bytes": 935,
+      "sha256": "7c0aabfe2e431c8db82394c8d86070b6844360a36e98ebb65e8908d8f2c6720e"
     },
     {
       "path": "data/world/Farm_Deaert_48_02/Farm_Deaert_48_02.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "8b927169a05124d34c2c59cd8633f2280266afe83197723cf7116ed604d1abe0",
-      "size": 1457,
-      "sha256": "477d435121bb9989f7a791cdb0167ee6fd0d568e6800a50ec612d7108b557d76",
-      "matchesPersonalPayload": true
+      "bytes": 1457,
+      "sha256": "477d435121bb9989f7a791cdb0167ee6fd0d568e6800a50ec612d7108b557d76"
     },
     {
       "path": "data/world/Farm_Desert_16/Farm_Desert_16.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "3683e3bf8ae2c384d3c43a5487509e479808de31bbf5fcb91489af012ec1cda2",
-      "size": 1273,
-      "sha256": "a92ad834d0b70f0bcae5b7ef625a3d37e31cc71bd8df237c05416c0688e454a0",
-      "matchesPersonalPayload": true
+      "bytes": 1273,
+      "sha256": "a92ad834d0b70f0bcae5b7ef625a3d37e31cc71bd8df237c05416c0688e454a0"
     },
     {
       "path": "data/world/Farm_Desert_24/Farm_Desert_24.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "f34d747878c141eaee1432f6ac8d5e8dbd625098f25a908cefcc9af97246cf91",
-      "size": 1391,
-      "sha256": "95031758c5b9fd6165fa84f05ad15cfcbbba58d2706d9c7c4d58218ee2251ce0",
-      "matchesPersonalPayload": true
+      "bytes": 1391,
+      "sha256": "95031758c5b9fd6165fa84f05ad15cfcbbba58d2706d9c7c4d58218ee2251ce0"
     },
     {
       "path": "data/world/Farm_Desert_32/Farm_Desert_32.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "027c805f491002b3e27f6261e269a9adc1325de622dd4cad8f7abc575babeb30",
-      "size": 1391,
-      "sha256": "aa4f73e69a51e190ca8d229cbd76ebb35d281b7d35eefe7cf355d7c51c400108",
-      "matchesPersonalPayload": true
+      "bytes": 1391,
+      "sha256": "aa4f73e69a51e190ca8d229cbd76ebb35d281b7d35eefe7cf355d7c51c400108"
     },
     {
       "path": "data/world/Farm_Desert_48_00/Farm_Desert_48_00.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "bbe7f46dcffe6d20a548fadabee36ebf8eb99e62b753be5f9e46780ac3b6106f",
-      "size": 1421,
-      "sha256": "0d98b8b44241a641de53bec520d8e393de077657eb70c9a4ba94d6f0de5ad2e6",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "0d98b8b44241a641de53bec520d8e393de077657eb70c9a4ba94d6f0de5ad2e6"
     },
     {
       "path": "data/world/Farm_Desert_48/Farm_Desert_48.rgn",
-      "sourceArchive": "data_00604.it",
-      "sourceSha256": "7e94fabdc44572eb9f03ecded80de7d5b9e4e139706958460c4aeb555b5bc02c",
-      "size": 1387,
-      "sha256": "b314ae45dc56224ebeb67a49514f72a7665b326864bf312722c1019af28ebd15",
-      "matchesPersonalPayload": true
+      "bytes": 1387,
+      "sha256": "b314ae45dc56224ebeb67a49514f72a7665b326864bf312722c1019af28ebd15"
     },
     {
       "path": "data/world/Farm_Desert_54/Farm_Desert_54.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "ed88b4cabcdaa5afdc14b7b8bc767b469a5f98546ba83e68dd0403eebca7b3ab",
-      "size": 1355,
-      "sha256": "3b503d2236df17fa6e77d62fff817937e7c3d1ee0aa355b75e5102243ddcaed0",
-      "matchesPersonalPayload": true
+      "bytes": 1355,
+      "sha256": "3b503d2236df17fa6e77d62fff817937e7c3d1ee0aa355b75e5102243ddcaed0"
     },
     {
       "path": "data/world/Farm_Desert_60/Farm_Desert_60.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "1698f590d9c0f0e0140c0e76780708fb018298a000aac0bf0f04b42f1a9bdf79",
-      "size": 1355,
-      "sha256": "a17fdf640b12246b92e517a4beb9281e9e65b32f07a049df67bb4ecfdf4f7cda",
-      "matchesPersonalPayload": true
+      "bytes": 1355,
+      "sha256": "a17fdf640b12246b92e517a4beb9281e9e65b32f07a049df67bb4ecfdf4f7cda"
     },
     {
       "path": "data/world/Farm_Desert_64/Farm_Desert_64.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "50a921b76404532bb10707cbfd99fc4283401f2937f04206b5273b21911a2936",
-      "size": 1517,
-      "sha256": "a7e82a22c035ef9d00d8cc1e1d6e7fdfeafc08fe35e8488430f19252ff418e82",
-      "matchesPersonalPayload": true
+      "bytes": 1517,
+      "sha256": "a7e82a22c035ef9d00d8cc1e1d6e7fdfeafc08fe35e8488430f19252ff418e82"
     },
     {
       "path": "data/world/Farm_Desert_66/Farm_Desert_66.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "835c9a96963defaed4a331877381136f388dfbbe82e25b1f38e072db9c9ef65e",
-      "size": 1355,
-      "sha256": "525c52ac10c1179fb013288684338337b9d5db6d82cf431779042a50078bd879",
-      "matchesPersonalPayload": true
+      "bytes": 1355,
+      "sha256": "525c52ac10c1179fb013288684338337b9d5db6d82cf431779042a50078bd879"
     },
     {
       "path": "data/world/Farm_Desert_74/Farm_Desert_74.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "0b0fd79c1e4cad8d520ba351a2eaabd22b1a72e31a20091080f2582e0c118c28",
-      "size": 1355,
-      "sha256": "37b1423e313ed44f703eb6c123175a6be1119de87033d5acba6fc791cb225e2d",
-      "matchesPersonalPayload": true
+      "bytes": 1355,
+      "sha256": "37b1423e313ed44f703eb6c123175a6be1119de87033d5acba6fc791cb225e2d"
     },
     {
       "path": "data/world/Farm_Desert_8/Farm_Desert_8.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "3a4bc21f54a294367e2f99bca8c4ae0aeebc3d7df69255d92797a03f7c93da18",
-      "size": 1251,
-      "sha256": "fb73afa9c627db40976bcde5722cff3229ab3a093a15b5df822377ed6f661ede",
-      "matchesPersonalPayload": true
+      "bytes": 1251,
+      "sha256": "fb73afa9c627db40976bcde5722cff3229ab3a093a15b5df822377ed6f661ede"
     },
     {
       "path": "data/world/Farm_Desert_82/Farm_Desert_82.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "0f5754b21c7dc8e335fc06a7719a4c0da5ccd04c93c42084ee553c7f57d95c21",
-      "size": 1355,
-      "sha256": "4c5f97201bd6d1c8e70c382bc5f521a2024c7be6bd0a86ff54b8855a05618c56",
-      "matchesPersonalPayload": true
+      "bytes": 1355,
+      "sha256": "4c5f97201bd6d1c8e70c382bc5f521a2024c7be6bd0a86ff54b8855a05618c56"
     },
     {
       "path": "data/world/Farm_Desert_90/Farm_Desert_90.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "4a3fdbcf09481d13eeb2cab4fb52146f33f7121227750c9b720dca397fddb94e",
-      "size": 1355,
-      "sha256": "6e65f516e958337c538183787cfb866bc90d1d7d97e52ad438375ec89f0dba76",
-      "matchesPersonalPayload": true
+      "bytes": 1355,
+      "sha256": "6e65f516e958337c538183787cfb866bc90d1d7d97e52ad438375ec89f0dba76"
     },
     {
       "path": "data/world/Farm_Grassland_16/Farm_Grassland_16.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "789950aedaab2e9e277906c283ac9ac88142b5fd586fc7f19b96da536c1d1c94",
-      "size": 1303,
-      "sha256": "04527b8559565c524c483e172c2aa4193c70095c42839b175ebc61c29ad0edd1",
-      "matchesPersonalPayload": true
+      "bytes": 1303,
+      "sha256": "04527b8559565c524c483e172c2aa4193c70095c42839b175ebc61c29ad0edd1"
     },
     {
       "path": "data/world/Farm_Grassland_24/Farm_Grassland_24.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "801323665a3a572fc811a346e408bfa57bfc3edfd4f8884a60a02fd5f04015d6",
-      "size": 1421,
-      "sha256": "38562aab8ac8a86688462c6cf18a793f55068562b55987619fcf4c032ddc8819",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "38562aab8ac8a86688462c6cf18a793f55068562b55987619fcf4c032ddc8819"
     },
     {
       "path": "data/world/Farm_Grassland_32/Farm_Grassland_32.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "8f94a311851da935f557ec6d28c78dade2c389ceadbe3d481d37f6f4303f4de0",
-      "size": 1421,
-      "sha256": "39f65ae42442301d9a42e5b156e01f9e655991b85d7beeea4ccddadb037ee6f2",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "39f65ae42442301d9a42e5b156e01f9e655991b85d7beeea4ccddadb037ee6f2"
     },
     {
       "path": "data/world/Farm_Grassland_48_00/Farm_Grassland_48_00.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "c164d268fedb04e4de3c05d003d8ef1e78f4b28e50a3abede9481d9f4057a70e",
-      "size": 1487,
-      "sha256": "080259989aec2e27c223d3a80a498633c3677175f7437bb74b004253492a3a23",
-      "matchesPersonalPayload": true
+      "bytes": 1487,
+      "sha256": "080259989aec2e27c223d3a80a498633c3677175f7437bb74b004253492a3a23"
     },
     {
       "path": "data/world/Farm_Grassland_48_criminal/Farm_Grassland_48_criminal.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "6f63ee7179c0576da5861e62122b69955589fc2eb70116dc3298350d029dcbc2",
-      "size": 1615,
-      "sha256": "5bed9596cf2602be49362493cacd823267297b4b1f9eb499088afff2c4bacc6b",
-      "matchesPersonalPayload": true
+      "bytes": 1615,
+      "sha256": "5bed9596cf2602be49362493cacd823267297b4b1f9eb499088afff2c4bacc6b"
     },
     {
       "path": "data/world/Farm_Grassland_48_vacationland/Farm_Grassland_48_vacationland.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "f2ab367237c3d1714c9d9a4e91dea0949228930681b179ea62df5a025597b130",
-      "size": 1393,
-      "sha256": "abc952a90f07f0b28badcd8f17c95ce67f6cbb803eab181da302ed47874df14a",
-      "matchesPersonalPayload": true
+      "bytes": 1393,
+      "sha256": "abc952a90f07f0b28badcd8f17c95ce67f6cbb803eab181da302ed47874df14a"
     },
     {
       "path": "data/world/Farm_Grassland_48/Farm_Grassland_48.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "71e5b048de3a9f6eaf39058c41b043f2b8e53d67e531781cf5b94d5a9c8aac1e",
-      "size": 1417,
-      "sha256": "0752097b95310cf4902a957abf8ebce36ec6f47892ab814c9c49c14538b91573",
-      "matchesPersonalPayload": true
+      "bytes": 1417,
+      "sha256": "0752097b95310cf4902a957abf8ebce36ec6f47892ab814c9c49c14538b91573"
     },
     {
       "path": "data/world/Farm_Grassland_54/Farm_Grassland_54.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "72f221e9c60eaafea101af31f2888a6d9285f5df1696e5e834b21d8368763884",
-      "size": 1421,
-      "sha256": "ee5b7ab3a4f50b20086e63d44137ca99d58736dc405fc057aaeed151be4bd25e",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "ee5b7ab3a4f50b20086e63d44137ca99d58736dc405fc057aaeed151be4bd25e"
     },
     {
       "path": "data/world/Farm_Grassland_60/Farm_Grassland_60.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "05983daa6366b509e4e52e63377911416e79f66299530e27072178b2559d0bba",
-      "size": 1421,
-      "sha256": "25c0eee02d3fb6308563cc4232d5d6a04604812ec9358a8b386305a5e7f36e0e",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "25c0eee02d3fb6308563cc4232d5d6a04604812ec9358a8b386305a5e7f36e0e"
     },
     {
       "path": "data/world/Farm_Grassland_64/Farm_Grassland_64.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "80e2871f335130e70cdfdc071b076ecdcc1be010d06acdd8f68a5318daa8cd60",
-      "size": 1547,
-      "sha256": "7a7c423c73bd34b408a549b6d131f5bc1ab6e76473fb63447ae3294968aa01e1",
-      "matchesPersonalPayload": true
+      "bytes": 1547,
+      "sha256": "7a7c423c73bd34b408a549b6d131f5bc1ab6e76473fb63447ae3294968aa01e1"
     },
     {
       "path": "data/world/Farm_Grassland_66/Farm_Grassland_66.rgn",
-      "sourceArchive": "data_00605.it",
-      "sourceSha256": "e05469368f968dddbaf1ba0ccc40a793f5cfeba4f777ffee3d07d777efa1b743",
-      "size": 1421,
-      "sha256": "7919b4e2d9b3052fc9672a9e8562debc9af3f6a0c8a6804346e01778eb9b08e5",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "7919b4e2d9b3052fc9672a9e8562debc9af3f6a0c8a6804346e01778eb9b08e5"
     },
     {
       "path": "data/world/Farm_Grassland_74/Farm_Grassland_74.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "5407731d38b79e48df065bb7ad7df54cedc39b5c18ce6f5a264a9c260d75f513",
-      "size": 1421,
-      "sha256": "fbd6650d32e8030bd1b7074bac1aecf95d6bc1568be9ab59e2bddcc970d88c88",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "fbd6650d32e8030bd1b7074bac1aecf95d6bc1568be9ab59e2bddcc970d88c88"
     },
     {
       "path": "data/world/Farm_Grassland_8/Farm_Grassland_8.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "41a41ce1990cea8a89723104bf3e591fe4d2fce05f12eb90c553fb29d169e9f3",
-      "size": 1281,
-      "sha256": "04fa772d413b23506fe42caefef31a6d1924e2f7bbc0d8af3c6937444308477b",
-      "matchesPersonalPayload": true
+      "bytes": 1281,
+      "sha256": "04fa772d413b23506fe42caefef31a6d1924e2f7bbc0d8af3c6937444308477b"
     },
     {
       "path": "data/world/Farm_Grassland_82/Farm_Grassland_82.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "e0967dbd3c37794228f0b5159c94cd2b3478427092e505daff062c0b8fcdda83",
-      "size": 1421,
-      "sha256": "e51db0eed49fb8ff24438efc5077a6c6e6793f8445eeb7debb0ab21db8e33ad6",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "e51db0eed49fb8ff24438efc5077a6c6e6793f8445eeb7debb0ab21db8e33ad6"
+    },
+    {
+      "path": "data/world/Farm_Grassland_90/Farm_Grassland_90.rgn",
+      "bytes": 1421,
+      "sha256": "14396ef128aa21597879aaeef13801ac79fb00879703d30542a10287da999afc"
     },
     {
       "path": "data/world/Farm_snowyfields_16/Farm_snowyfields_16.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "8e6273c0c175a863d923a96a4209f12e4c3e6a5886ddad5f0a1e9ea0d8660219",
-      "size": 1347,
-      "sha256": "c4dc71475a641dd6b91c2d2c53f2fcf87dd1f6dda6fd8fc6e909576747027233",
-      "matchesPersonalPayload": true
+      "bytes": 1347,
+      "sha256": "c4dc71475a641dd6b91c2d2c53f2fcf87dd1f6dda6fd8fc6e909576747027233"
     },
     {
       "path": "data/world/Farm_snowyfields_24/Farm_snowyfields_24.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "b45629c75346592647cfda1a4ea32b4ce9f4bb19397ff4262a1d8e2bc0f4f37c",
-      "size": 1465,
-      "sha256": "de8a61a6238c49e628f831029867c887b060e738afb8cf135ecdd91fd70656af",
-      "matchesPersonalPayload": true
+      "bytes": 1465,
+      "sha256": "de8a61a6238c49e628f831029867c887b060e738afb8cf135ecdd91fd70656af"
     },
     {
       "path": "data/world/Farm_snowyfields_32/Farm_snowyfields_32.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "51e3f83491e2c0b538b792f0bf276452e4b3cee5ee829b2223ec892ddec960a2",
-      "size": 1465,
-      "sha256": "67317a2ac2fbd27be47082baaec52fa27acfd0466b45057160c8cc40bf91101f",
-      "matchesPersonalPayload": true
+      "bytes": 1465,
+      "sha256": "67317a2ac2fbd27be47082baaec52fa27acfd0466b45057160c8cc40bf91101f"
     },
     {
       "path": "data/world/Farm_snowyfields_48_00/Farm_snowyfields_48_00.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "f718c740574ea3b50c2d6c2319e95476f86fc05d814178717ac6a09b9aaaa987",
-      "size": 1531,
-      "sha256": "bf86ccfea26bbaf748e8989e512a866f71cc84a1b62ae6070d9f2e3b08d6031b",
-      "matchesPersonalPayload": true
+      "bytes": 1531,
+      "sha256": "bf86ccfea26bbaf748e8989e512a866f71cc84a1b62ae6070d9f2e3b08d6031b"
     },
     {
       "path": "data/world/Farm_snowyfields_48_02/Farm_snowyfields_48_02.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "388f08b87db399417b24b0ff03874f76bfdfbb78de14fc941deec9803c1dfa68",
-      "size": 1563,
-      "sha256": "1c04b160fa3efec800cbe1fcb3ff0a0b78243b39a49e46cfc990c22854161ef6",
-      "matchesPersonalPayload": true
+      "bytes": 1563,
+      "sha256": "1c04b160fa3efec800cbe1fcb3ff0a0b78243b39a49e46cfc990c22854161ef6"
     },
     {
       "path": "data/world/Farm_snowyfields_48/Farm_snowyfields_48.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "a2565021121c2ead0c983f93648151803cfbaacb1b669f7322fb19a9b633c628",
-      "size": 1461,
-      "sha256": "a3555e83110a4c7fb6de100b14e8b75ffe3f2e5635c08eb899db50f9b3176ea0",
-      "matchesPersonalPayload": true
+      "bytes": 1461,
+      "sha256": "a3555e83110a4c7fb6de100b14e8b75ffe3f2e5635c08eb899db50f9b3176ea0"
     },
     {
       "path": "data/world/Farm_snowyfields_54/Farm_snowyfields_54.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "ea460cff96ca965ef917df1477b8586a80e52a38e4c2df119e910421e1f17f7b",
-      "size": 1465,
-      "sha256": "14a9f543d49bdb5565216b85b8a547447aeb5160452eff741d5cd5454ed1282c",
-      "matchesPersonalPayload": true
+      "bytes": 1465,
+      "sha256": "14a9f543d49bdb5565216b85b8a547447aeb5160452eff741d5cd5454ed1282c"
     },
     {
       "path": "data/world/Farm_snowyfields_60/Farm_snowyfields_60.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "90eb32496cac0ea882b4bc954e2ee2ddfdb9b0e2537a76c79cdb591d2cc7a5a7",
-      "size": 1557,
-      "sha256": "49b386ff3ef10e52e51723cb880235d79be8df0bdac3e1dd381dc4465ed9d66a",
-      "matchesPersonalPayload": true
+      "bytes": 1557,
+      "sha256": "49b386ff3ef10e52e51723cb880235d79be8df0bdac3e1dd381dc4465ed9d66a"
     },
     {
       "path": "data/world/Farm_snowyfields_64/Farm_snowyfields_64.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "ecd9a913f12a173a6f107664d420cd205f1dedd64889ba0e093d73eb357c7c1e",
-      "size": 1381,
-      "sha256": "a46d37b398d49daf4d9e2ba742adb32684c0edda73c8476fb0124f29312bebaf",
-      "matchesPersonalPayload": true
+      "bytes": 1381,
+      "sha256": "a46d37b398d49daf4d9e2ba742adb32684c0edda73c8476fb0124f29312bebaf"
     },
     {
       "path": "data/world/Farm_snowyfields_66/Farm_snowyfields_66.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "6a25ce1d637343a0a2c1369cb21939ab6ddfb195d92ddd0c54256343af153b46",
-      "size": 1557,
-      "sha256": "97cab0ae7c92108f320aefdcf931fc6d308e52b0604a2cf7f2ec8c5cb490df50",
-      "matchesPersonalPayload": true
+      "bytes": 1557,
+      "sha256": "97cab0ae7c92108f320aefdcf931fc6d308e52b0604a2cf7f2ec8c5cb490df50"
     },
     {
       "path": "data/world/Farm_snowyfields_74/Farm_snowyfields_74.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "361a9d7f542cc16e750c7e464e93d30198f28f3f128e2a07addbe709347ce64e",
-      "size": 1465,
-      "sha256": "25038a7202af069e7b5a47fab58d0f0241ea38fe5d8e505aed540ec3cfdbbe68",
-      "matchesPersonalPayload": true
+      "bytes": 1465,
+      "sha256": "25038a7202af069e7b5a47fab58d0f0241ea38fe5d8e505aed540ec3cfdbbe68"
     },
     {
       "path": "data/world/Farm_snowyfields_8/Farm_snowyfields_8.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "269ef68f96a34833ee92b89f28c4e8c2a3472f2c3cc2a7b27a72566bf9ad3353",
-      "size": 1325,
-      "sha256": "ceb8128bb1c409670a713cd4ee4d3cec8b4e5103e925f6aaf2398fdb490cbef7",
-      "matchesPersonalPayload": true
+      "bytes": 1325,
+      "sha256": "ceb8128bb1c409670a713cd4ee4d3cec8b4e5103e925f6aaf2398fdb490cbef7"
     },
     {
       "path": "data/world/Farm_snowyfields_82/Farm_snowyfields_82.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "2760c6989b2836e7eb5601efe21f9bd33f7e486d187903ab02e042403411af7a",
-      "size": 1465,
-      "sha256": "04cee13316b9608c7cce1750aebb42e529b88168559caf90048d6aeeeb264327",
-      "matchesPersonalPayload": true
+      "bytes": 1465,
+      "sha256": "04cee13316b9608c7cce1750aebb42e529b88168559caf90048d6aeeeb264327"
     },
     {
       "path": "data/world/Farm_snowyfields_90/Farm_snowyfields_90.rgn",
-      "sourceArchive": "data_00898.it",
-      "sourceSha256": "8167c0f4f476dc3cbc9166448a4a3aae96ca5d79ade85110a04911cb48ac3516",
-      "size": 1465,
-      "sha256": "42366086d7967c56737b56b66b0f6ee1a828bd3dcc1cdec94c5b13bb00e0541f",
-      "matchesPersonalPayload": true
+      "bytes": 1465,
+      "sha256": "42366086d7967c56737b56b66b0f6ee1a828bd3dcc1cdec94c5b13bb00e0541f"
     },
     {
       "path": "data/world/Farm_TestA/Farm_TestA.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "7f3ea9e009ae8edd058ea1f47b1f9f8ccc515d8ea2cb7c1ade2d7d398b331819",
-      "size": 921,
-      "sha256": "a6949813461595bae243f56995222f6265cff4cf43421ba70a4f6f10b5a30450",
-      "matchesPersonalPayload": true
+      "bytes": 921,
+      "sha256": "a6949813461595bae243f56995222f6265cff4cf43421ba70a4f6f10b5a30450"
     },
     {
       "path": "data/world/Farm_TestB/Farm_TestB.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "d65fe68c6eb9addd98e6332cfa2622940d6268c75a008f537dc90a22385b6af8",
-      "size": 921,
-      "sha256": "9a22c9d453ad491d9fe3909fc94f91ee08bb311158a918e7e777357ce984e2c3",
-      "matchesPersonalPayload": true
+      "bytes": 921,
+      "sha256": "9a22c9d453ad491d9fe3909fc94f91ee08bb311158a918e7e777357ce984e2c3"
     },
     {
       "path": "data/world/Farm_TestC/Farm_TestC.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "75be45edac9d26fac351a3ab54ae4922a35d2404dc395ca59214ce56e1e5e3e0",
-      "size": 919,
-      "sha256": "a469d967eee8eff29fd35e3654a26a34039beedf6f475fd30abf88c11b202f4f",
-      "matchesPersonalPayload": true
+      "bytes": 919,
+      "sha256": "a469d967eee8eff29fd35e3654a26a34039beedf6f475fd30abf88c11b202f4f"
     },
     {
       "path": "data/world/Farm_TestD/Farm_TestD.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "2fef882d001ea6eaba508cd9772cee853f8fad0d66af92865774ee3a30d65efa",
-      "size": 921,
-      "sha256": "31a0029d8baca112452b9cbb2da8569ebf3f459ac3f5383738091394a3225643",
-      "matchesPersonalPayload": true
+      "bytes": 921,
+      "sha256": "31a0029d8baca112452b9cbb2da8569ebf3f459ac3f5383738091394a3225643"
     },
     {
       "path": "data/world/Farm_TestE/Farm_TestE.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "3d593eb37dd6baddcedf7fb45213548c67db0acf3134f435f9ebba3b47d0310a",
-      "size": 921,
-      "sha256": "7798bcdd2b128ffc8c5ff57495fa21ccf62ff24389dcb74f75c5bd553036f5e6",
-      "matchesPersonalPayload": true
+      "bytes": 921,
+      "sha256": "7798bcdd2b128ffc8c5ff57495fa21ccf62ff24389dcb74f75c5bd553036f5e6"
     },
     {
       "path": "data/world/fta_boardgame01/fta_boardgame01.rgn",
-      "sourceArchive": "data_00606.it",
-      "sourceSha256": "4f3537362784ef9ef799d6662a77e89d9ecd19055c7ddff21dc7df9db0276b07",
-      "size": 1159,
-      "sha256": "c2fd03349e21df88a550c3ce077f7dddfe874154a2a9584da3c8b7ac8b957cae",
-      "matchesPersonalPayload": true
+      "bytes": 1159,
+      "sha256": "c2fd03349e21df88a550c3ce077f7dddfe874154a2a9584da3c8b7ac8b957cae"
+    },
+    {
+      "path": "data/world/G1_GoddessStage/G1_GoddessStage.rgn",
+      "bytes": 991,
+      "sha256": "d43a9c6d330f7ae0ca28273dfaa2b17b61db6459c5a2461ce7c96cc17f716a6b"
     },
     {
       "path": "data/world/GD1_senmag01/GD1_senmag01.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "3e63341b35ac00ec363d8ddd9007da9b05ada79f64bb933b476c153d0ad28439",
-      "size": 1329,
-      "sha256": "e40ade1bd04414ae8f6e9c7ae8948772a46e3c89cdc44d5fad78c3aee9af01f0",
-      "matchesPersonalPayload": true
+      "bytes": 1329,
+      "sha256": "e40ade1bd04414ae8f6e9c7ae8948772a46e3c89cdc44d5fad78c3aee9af01f0"
     },
     {
       "path": "data/world/Glenn_Bearna_boss_dungeon01_day/Glenn_Bearna_boss_dungeon01_day.rgn",
-      "sourceArchive": "data_01143.it",
-      "sourceSha256": "0598588f1569442e028b42da38dc594ca48063bb519cc8ba367222576a51e26b",
-      "size": 1801,
-      "sha256": "036ae71601d0b942549c5b12613a80e1d72dabc5bd475d7375d9f1b0ffb50d05",
-      "matchesPersonalPayload": true
+      "bytes": 1801,
+      "sha256": "036ae71601d0b942549c5b12613a80e1d72dabc5bd475d7375d9f1b0ffb50d05"
     },
     {
       "path": "data/world/Glenn_Bearna_boss_dungeon01_night/Glenn_Bearna_boss_dungeon01_night.rgn",
-      "sourceArchive": "data_01143.it",
-      "sourceSha256": "6ecd5bdb875ee4bafd6ba8a99a5f4be20953612e444176fb07425532d97fe235",
-      "size": 1923,
-      "sha256": "1d1541e4235c6a29b0513bdee054a37846e1415a6f0f278183e5f3c518a0d290",
-      "matchesPersonalPayload": true
+      "bytes": 1923,
+      "sha256": "1d1541e4235c6a29b0513bdee054a37846e1415a6f0f278183e5f3c518a0d290"
     },
     {
       "path": "data/world/Glenn_Bearna_dungeon_day/Glenn_Bearna_dungeon_day.rgn",
-      "sourceArchive": "data_01144.it",
-      "sourceSha256": "4c38e8bc5ea258cc4d298149bebfa971b8c3f654fe4e007b1dd6de387e4b8134",
-      "size": 1939,
-      "sha256": "ee8d846a84287ef29082f34dbef8d08a66d4ebc2869b409ffdad2176de72be6c",
-      "matchesPersonalPayload": true
+      "bytes": 1939,
+      "sha256": "ee8d846a84287ef29082f34dbef8d08a66d4ebc2869b409ffdad2176de72be6c"
     },
     {
       "path": "data/world/Glenn_Bearna_dungeon01_night/Glenn_Bearna_dungeon01_night.rgn",
-      "sourceArchive": "data_01144.it",
-      "sourceSha256": "4399d1445c555c90db3c5267b42f39cb18e0e305b4089d10610f0f84f3630401",
-      "size": 2157,
-      "sha256": "48fdf9778e7f5f63664d6aed25db850ef43ebb21eeb097388241b89eb1d367dd",
-      "matchesPersonalPayload": true
+      "bytes": 2157,
+      "sha256": "48fdf9778e7f5f63664d6aed25db850ef43ebb21eeb097388241b89eb1d367dd"
     },
     {
       "path": "data/world/Glenn_Bearna_dungeon02/Glenn_Bearna_dungeon02.rgn",
-      "sourceArchive": "data_01144.it",
-      "sourceSha256": "bc80d690cf28b20d1becfc892d0c06ac65fb56f249890ff42ed126124b7eec22",
-      "size": 1545,
-      "sha256": "3c410db1265ebab35e71c4b806520288a53a5131d291ed833d37b2c102ccee7c",
-      "matchesPersonalPayload": true
+      "bytes": 1545,
+      "sha256": "3c410db1265ebab35e71c4b806520288a53a5131d291ed833d37b2c102ccee7c"
     },
     {
       "path": "data/world/GRD_LS/GRD_LS.rgn",
-      "sourceArchive": "data_01983.it",
-      "sourceSha256": "7685e8dfa6c1481beb471fa4789f1f46a485305922e4248db746dba284ae9855",
-      "size": 1247,
-      "sha256": "bf01833b04df4c400956805160de75206d95950084587423f509ca854c6eee7b",
-      "matchesPersonalPayload": true
+      "bytes": 1247,
+      "sha256": "bf01833b04df4c400956805160de75206d95950084587423f509ca854c6eee7b"
     },
     {
       "path": "data/world/GRD/GRD.rgn",
-      "sourceArchive": "data_01983.it",
-      "sourceSha256": "2710562179ee18f2dd1bb496124271683a85002fc6f563efa31595a4981eee5b",
-      "size": 1175,
-      "sha256": "05d5a4b7aa692cbc4e6df5f8a5e7c5b5890ac87ded9cc8980fb58191daf89234",
-      "matchesPersonalPayload": true
+      "bytes": 1175,
+      "sha256": "05d5a4b7aa692cbc4e6df5f8a5e7c5b5890ac87ded9cc8980fb58191daf89234"
     },
     {
       "path": "data/world/Guild_Mission_Life_1/Guild_Mission_Life_1.rgn",
-      "sourceArchive": "data_01458.it",
-      "sourceSha256": "4f23cfe47864fb7a249338a1c6e1589b3e4bbe56612016304d525affa7e3ac38",
-      "size": 1521,
-      "sha256": "9aff793d3a5a43948286f5d9de7add4410ce2e0cc8e07f6b2f64891041399966",
-      "matchesPersonalPayload": true
+      "bytes": 1521,
+      "sha256": "9aff793d3a5a43948286f5d9de7add4410ce2e0cc8e07f6b2f64891041399966"
     },
     {
       "path": "data/world/Iria_C_main_field/Iria_C_main_field.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "5b5e9a8d09b8835cc4417cfbba7639e5e6df2eed6eb130f2b40c9d687ebfb427",
-      "size": 8675,
-      "sha256": "b30e2fc7fe33f8e823a7fa8eeb86db63ea1fd776b987303a3d04c2915bf9fdf6",
-      "matchesPersonalPayload": true
+      "bytes": 8675,
+      "sha256": "b30e2fc7fe33f8e823a7fa8eeb86db63ea1fd776b987303a3d04c2915bf9fdf6"
     },
     {
       "path": "data/world/Iria_Connous_to_Ceann/Iria_Connous_to_Ceann.rgn",
-      "sourceArchive": "data_00937.it",
-      "sourceSha256": "13bc224cd1896d34ffbb171a3f34c8919bfe6b3b953c60faf8f469c61f424c3c",
-      "size": 2209,
-      "sha256": "0b7e378276d802e9fdb570e380b5eeb04d9f27def1b3f1cdccdf06c4e1c67a29",
-      "matchesPersonalPayload": true
+      "bytes": 2209,
+      "sha256": "0b7e378276d802e9fdb570e380b5eeb04d9f27def1b3f1cdccdf06c4e1c67a29"
     },
     {
       "path": "data/world/Iria_Harbor_01_onboard/Iria_Harbor_01_onboard.rgn",
-      "sourceArchive": "data_00610.it",
-      "sourceSha256": "6eb7c7992640ae0c6605865d907e4efa73463ef5b9d4e89ec86e88bb7394fe8d",
-      "size": 1597,
-      "sha256": "94fa8d28ec7744738b7c5ea65f0ed5f1e42656508e5a79a0fc9be7416242f026",
-      "matchesPersonalPayload": true
+      "bytes": 1597,
+      "sha256": "94fa8d28ec7744738b7c5ea65f0ed5f1e42656508e5a79a0fc9be7416242f026"
     },
     {
       "path": "data/world/Iria_Harbor_01/Iria_Harbor_01.rgn",
-      "sourceArchive": "data_00609.it",
-      "sourceSha256": "a0d88176971dccf895ea59dd5c30e11038d4f3643c35c16afb571fe727cdd430",
-      "size": 1421,
-      "sha256": "988aea9189cf9ef60531b9bbd947812829e2ba6e5fdff76ddf3edaf6c8e00d51",
-      "matchesPersonalPayload": true
+      "bytes": 1421,
+      "sha256": "988aea9189cf9ef60531b9bbd947812829e2ba6e5fdff76ddf3edaf6c8e00d51"
+    },
+    {
+      "path": "data/world/Iria_NN_dragoncave01/Iria_NN_dragoncave01.rgn",
+      "bytes": 1315,
+      "sha256": "3e2bf34195abc291ab21044f4b3c0d0e0e9d9706bd2c658e1e01b3bbf7e486e8"
     },
     {
       "path": "data/world/Iria_NN_main_field/Iria_NN_main_field.rgn",
-      "sourceArchive": "data_00610.it",
-      "sourceSha256": "1bbb090f5a98a43b00b488d27f3ed1a577ef506a004aec8333ae4098919a8a66",
-      "size": 5447,
-      "sha256": "d747c13c8a32c6ee34b926ab3ead622ab37fd06b11191bd154376c59c7095e75",
-      "matchesPersonalPayload": true
+      "bytes": 5447,
+      "sha256": "d747c13c8a32c6ee34b926ab3ead622ab37fd06b11191bd154376c59c7095e75"
+    },
+    {
+      "path": "data/world/Iria_NW_chiefhouse/Iria_NW_chiefhouse.rgn",
+      "bytes": 1171,
+      "sha256": "7d7696f461aedd79cce7b869a0022552801cd678d70ab1a998dc63008dfe3202"
+    },
+    {
+      "path": "data/world/Iria_NW_glacier01_DG_after/Iria_NW_glacier01_DG_after.rgn",
+      "bytes": 981,
+      "sha256": "b3c073ce62f03adac13cc241723b086faf47fbfa7fa9cc5ebd034fccc210d2ae"
+    },
+    {
+      "path": "data/world/Iria_NW_glacier01_DG_before/Iria_NW_glacier01_DG_before.rgn",
+      "bytes": 1237,
+      "sha256": "0a588f1a7d98a97aef19d439b7b1a59987b5c43c4472e66323d543e4125aa06a"
     },
     {
       "path": "data/world/Iria_NW_main_field/Iria_NW_main_field.rgn",
-      "sourceArchive": "data_00613.it",
-      "sourceSha256": "7c9a5d220ee600f86e86e40bb8790a19f5726675db4c3c2f4ac08283d59fb472",
-      "size": 5989,
-      "sha256": "4343b2e61b25595c329dd5eec797c702281c0b1c196f8a245b3896b4c4c043eb",
-      "matchesPersonalPayload": true
+      "bytes": 5989,
+      "sha256": "4343b2e61b25595c329dd5eec797c702281c0b1c196f8a245b3896b4c4c043eb"
+    },
+    {
+      "path": "data/world/Iria_NW_mine_hall/Iria_NW_mine_hall.rgn",
+      "bytes": 1079,
+      "sha256": "5d6eeec13b302cb6d4660baa2da83fcf5c2d1ae4018dd7215b5a09f1b8c6816b"
+    },
+    {
+      "path": "data/world/Iria_NW_mine/Iria_NW_mine.rgn",
+      "bytes": 1083,
+      "sha256": "ecd3470d5d9fb0df1db7f80322be5ef72a2b9b7cad37fc709bbb183d922c8d9a"
+    },
+    {
+      "path": "data/world/Iria_NW_mine/region_variation_730107.xml",
+      "bytes": 3134,
+      "sha256": "a669c7955a4e26dfb1537762d04c8e2d1f1100378d3296e4e98d7c4165561c4f"
+    },
+    {
+      "path": "data/world/Iria_NW_mineB2/Iria_NW_mineB2.rgn",
+      "bytes": 1115,
+      "sha256": "7bc7411e7fa39bcdcd3e49256fcb0dd34fbbe9c2eb2986b9eef2ef6b6afff635"
+    },
+    {
+      "path": "data/world/Iria_NW_mineB2/region_variation_empty.xml",
+      "bytes": 1006,
+      "sha256": "6d2eed6d3bb33156fd2200dc7c78d105994b763564da5bc1d18eca873a5b7c31"
+    },
+    {
+      "path": "data/world/Iria_NW_mineB3/Iria_NW_mineB3.rgn",
+      "bytes": 1115,
+      "sha256": "ddfc742c8fa24b1aec597f17fe74ab26d9f732f45182f7d0fa0ae218a3da7749"
+    },
+    {
+      "path": "data/world/Iria_NW_mineB3/region_variation_empty.xml",
+      "bytes": 1006,
+      "sha256": "6d2eed6d3bb33156fd2200dc7c78d105994b763564da5bc1d18eca873a5b7c31"
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_N/Iria_NW_tunnel_N.rgn",
+      "bytes": 1161,
+      "sha256": "493d34be46a5b9946d1d9c9e83ebbf4e0450bfcb37c67489d58b8e710be6d3bf"
     },
     {
       "path": "data/world/Iria_NW_tunnel_Outside/Iria_NW_tunnel_Outside.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "e554ccd0c447355feed153f3a1693c3cfc7667852e8f263ae97e0f611ddadc7e",
-      "size": 1387,
-      "sha256": "359e49bc9fdd9b8e626ad2b1c955861ea9d02e8b454566f48d6a32264b688550",
-      "matchesPersonalPayload": true
+      "bytes": 1387,
+      "sha256": "359e49bc9fdd9b8e626ad2b1c955861ea9d02e8b454566f48d6a32264b688550"
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_S/Iria_NW_tunnel_S.rgn",
+      "bytes": 1161,
+      "sha256": "51af5b701c341fcb19c74fe768fec0c23c05b6c841c74aee9df948d935d1c74e"
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_S/region_variation_731008.xml",
+      "bytes": 18850,
+      "sha256": "1b94e7c3b19c4b95d1609d20ff92fcbd7d48052c8a5bbe6328f51e5407f1432a"
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_S/region_variation_731013.xml",
+      "bytes": 3268,
+      "sha256": "9f9c006f076c436b736c0589c0809ab5daad315d3337a4da761392c76357a368"
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_S/region_variation_empty.xml",
+      "bytes": 1234,
+      "sha256": "970ce261e1e2e1c4a18a733eb3d458dd0eed68ce813cead27ea962d49dca8ea7"
+    },
+    {
+      "path": "data/world/Iria_NW_tunnel_S/region_variation_ucd712000.xml",
+      "bytes": 1072,
+      "sha256": "5590ca4471274b7ad5fd6912847db1b979842793fe56cc3a543e82b8a7638965"
+    },
+    {
+      "path": "data/world/Iria_Ocean_drifting/Iria_Ocean_drifting.rgn",
+      "bytes": 901,
+      "sha256": "233b24ef675a814658b8758847f32d669c1a07c0b5d9172628ab5a6d7d52df99"
+    },
+    {
+      "path": "data/world/Iria_SE_chiefhouse/Iria_SE_chiefhouse.rgn",
+      "bytes": 1151,
+      "sha256": "88134dc49e3d4f5edb7083525b507810ad854e2337c0a646092d9ce2f4962912"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_01_DG_after/Iria_SE_Desert_01_DG_after.rgn",
+      "bytes": 981,
+      "sha256": "7d2e570f97d8ec445e1b08c796e0f345cb1d1240e909db697a7d6896c039864d"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_01_DG_before/Iria_SE_Desert_01_DG_before.rgn",
+      "bytes": 987,
+      "sha256": "44db2f7cc094f7178d8b287f585dc99b4f1c6eab24c19a732706696113a1cf0e"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_Treasure_01/Iria_SE_Desert_Treasure_01.rgn",
+      "bytes": 1173,
+      "sha256": "e07e0bc248edcfb6b38cdc8914a4e9f7854a09e844a9c04679caa62583c02611"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_Treasure_01/region_variation_empty.xml",
+      "bytes": 634,
+      "sha256": "9f3c105b47f5c7b4351688e4243a32307a4ea2a062f3c43dddd4febf591778af"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_Treasure_01/region_variation_UCD.xml",
+      "bytes": 636,
+      "sha256": "0bfded48b0160c4f909fec177a61721e930ae898f2a4da8d3d820253ab7b14b4"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_Treasure_01/region_variation_ucd712000.xml",
+      "bytes": 764,
+      "sha256": "c931e5e92c4a593e76a74c042217160b3751c55e3acff0d3547841419caed30a"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_underground/Iria_SE_Desert_underground.rgn",
+      "bytes": 1985,
+      "sha256": "fdfc0a2013f34dfb6f34c653d403868c07e8a6aab1d175eab4e1ff20d0e72ffa"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_underground/region_variation_empty_780530.xml",
+      "bytes": 2226,
+      "sha256": "f6c974768b92858ffb20d3156bf625cdf5d9c452311b0f4787a992ee0e0ecd30"
+    },
+    {
+      "path": "data/world/Iria_SE_Desert_underground/region_variation_empty.xml",
+      "bytes": 1758,
+      "sha256": "31107340f94976111a704e595dd07bfc5a7810637e4f0b4a42352d67826f8354"
+    },
+    {
+      "path": "data/world/Iria_SE_ElfArena_Arena/Iria_SE_ElfArena_Arena.rgn",
+      "bytes": 961,
+      "sha256": "6a99f89a2eac04e87bb5a90b31fe5325e5a5490da7a3d0f8e2ef5e7cd115afe8"
+    },
+    {
+      "path": "data/world/Iria_SE_ElfArena_Arena/region_variation_empty.xml",
+      "bytes": 1234,
+      "sha256": "970ce261e1e2e1c4a18a733eb3d458dd0eed68ce813cead27ea962d49dca8ea7"
+    },
+    {
+      "path": "data/world/Iria_SE_ElfArena_Arena/region_variation_ucd712000.xml",
+      "bytes": 1290,
+      "sha256": "fd8a1351c7b011f4b9c86fc6d10b7e0f99c4c05764d424d9264319334a494cc0"
+    },
+    {
+      "path": "data/world/Iria_SE_ElfArena_Lobby/Iria_SE_ElfArena_Lobby.rgn",
+      "bytes": 1009,
+      "sha256": "1a11572d9db236c60289bb0dd8668bdb3f5686bdcfc09572e8688ed0511ee761"
     },
     {
       "path": "data/world/Iria_SE_main_field/Iria_SE_main_field.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "bb70c8d9e4bb4f11bf6cc327f125ea91cb59ed0964ecd16da39e30b136feb01e",
-      "size": 7797,
-      "sha256": "8b7f90c0e1499b10bcf0fcc69d424ee7e474b9661832ef3b66a46176f9bad503",
-      "matchesPersonalPayload": true
+      "bytes": 7797,
+      "sha256": "8b7f90c0e1499b10bcf0fcc69d424ee7e474b9661832ef3b66a46176f9bad503"
     },
     {
       "path": "data/world/Iria_SE_MineField/Iria_SE_MineField.rgn",
-      "sourceArchive": "data_00617.it",
-      "sourceSha256": "25e60cb10f492aadf367acc9b24236bee744abbe9cba05a54de5e5c17ac7792d",
-      "size": 1271,
-      "sha256": "90f22f36b319a9efaadea76f1ecd21f8d4c77e6067491c87db3cc67e42533293",
-      "matchesPersonalPayload": true
+      "bytes": 1271,
+      "sha256": "90f22f36b319a9efaadea76f1ecd21f8d4c77e6067491c87db3cc67e42533293"
     },
     {
       "path": "data/world/Iria_SE_MineField01/Iria_SE_MineField01.rgn",
-      "sourceArchive": "data_00617.it",
-      "sourceSha256": "a78c2ad6382db7e5fc5cb8e7f8107eeb9aa88eaf7fe991136c8333d4d407606a",
-      "size": 1293,
-      "sha256": "d917f5779216f2ca1c9c041db8a7a1505128df4a51fbf4851d1215746b69fa6f",
-      "matchesPersonalPayload": true
+      "bytes": 1293,
+      "sha256": "d917f5779216f2ca1c9c041db8a7a1505128df4a51fbf4851d1215746b69fa6f"
     },
     {
       "path": "data/world/Iria_SE_MineField02/Iria_SE_MineField02.rgn",
-      "sourceArchive": "data_00617.it",
-      "sourceSha256": "caf78e661fb16ca790016f8553f808f135ff67eb52bd4468fa5af8cfee85d6a7",
-      "size": 1293,
-      "sha256": "4e735864c13082f07aeaf0ae3fa4bcdff7892958a1a27c7fb0c07e845c051a30",
-      "matchesPersonalPayload": true
+      "bytes": 1293,
+      "sha256": "4e735864c13082f07aeaf0ae3fa4bcdff7892958a1a27c7fb0c07e845c051a30"
+    },
+    {
+      "path": "data/world/Iria_SE_Portia_room/Iria_SE_Portia_room.rgn",
+      "bytes": 1143,
+      "sha256": "9dd32bf9f90970fd4478bd61bc3e372b610bfc0acea6ae8244cce5afa2ebdba1"
     },
     {
       "path": "data/world/Iria_Sella_to_Ceann/Iria_Sella_to_Ceann.rgn",
-      "sourceArchive": "data_00938.it",
-      "sourceSha256": "46b0d325ab404388fd494f7c3fd6e2ad021cabfe3cc282a5ee301901c6e26ff7",
-      "size": 1847,
-      "sha256": "17227f938292d150bc20c755518f0fbad50e60f3bd7364a5ec46d2a94ee3fe54",
-      "matchesPersonalPayload": true
+      "bytes": 1847,
+      "sha256": "17227f938292d150bc20c755518f0fbad50e60f3bd7364a5ec46d2a94ee3fe54"
+    },
+    {
+      "path": "data/world/Iria_SW_beginner_DG_before/Iria_SW_beginner_DG_before.rgn",
+      "bytes": 981,
+      "sha256": "6ede2ef717332cb6c475ebef6788ff01f0df5f53602f5f0ffe16eca3a6029be1"
     },
     {
       "path": "data/world/Iria_SW_main_field/Iria_SW_main_field.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "c151a6658ed74fc3551ec41cb077e4469a40950d88f7976f5cdebdad0a9b84c6",
-      "size": 8527,
-      "sha256": "e377046f966e76488f132e4001f5867d19e61b8d92b58536d45be48b00d57781",
-      "matchesPersonalPayload": true
+      "bytes": 8527,
+      "sha256": "e377046f966e76488f132e4001f5867d19e61b8d92b58536d45be48b00d57781"
+    },
+    {
+      "path": "data/world/Iria_SW_ruins_DG_after_02/Iria_SW_ruins_DG_after_02.rgn",
+      "bytes": 1163,
+      "sha256": "ef4dcc358d923525d36ac4a4e9f51ba520c8fb7c42477531cc923d41cde0b1a2"
+    },
+    {
+      "path": "data/world/Iria_SW_ruins_DG_after/Iria_SW_ruins_DG_after.rgn",
+      "bytes": 1149,
+      "sha256": "75c4ab34a9522bb7866fc5859bac32f6f90446ff502d7cd077f8ea507ca7c9be"
+    },
+    {
+      "path": "data/world/Iria_SW_ruins_DG_before/Iria_SW_ruins_DG_before.rgn",
+      "bytes": 1155,
+      "sha256": "0f98abad6aa609473ca4ef7f9d4c678edbf82fe561631b5feefff20fb7c0342c"
+    },
+    {
+      "path": "data/world/Iria_SW_woodruins_DG_alley/Iria_SW_woodruins_DG_alley.rgn",
+      "bytes": 1169,
+      "sha256": "98b7468e95a65df6073d1ea71c1c951b73aa43181e338ff22c42e02c3d14a824"
     },
     {
       "path": "data/world/Iria_to_Uladh_Ocean/Iria_to_Uladh_Ocean.rgn",
-      "sourceArchive": "data_00620.it",
-      "sourceSha256": "0bebacddcceab2abb20e28c73d9046c72c7a14331398a1c09c2baa771037e1f6",
-      "size": 1129,
-      "sha256": "bcf3ccb03c71274ff10b1204babe7c90b55d142deba17ca014d018b9af5cb5af",
-      "matchesPersonalPayload": true
+      "bytes": 1129,
+      "sha256": "bcf3ccb03c71274ff10b1204babe7c90b55d142deba17ca014d018b9af5cb5af"
+    },
+    {
+      "path": "data/world/JP_Nekojima_dungeon_hall_after/JP_Nekojima_dungeon_hall_after.rgn",
+      "bytes": 997,
+      "sha256": "39846050526e16a40c1bda78b5de602c0b755dac30a7445445f25b0add168055"
+    },
+    {
+      "path": "data/world/Loginstage_007/Loginstage_007.rgn",
+      "bytes": 909,
+      "sha256": "ff477745e96fffedbd2fd1d504b3fa301bd7e28cd80426767854baf0931b0b44"
+    },
+    {
+      "path": "data/world/Loginstage_011/Loginstage_011.rgn",
+      "bytes": 1121,
+      "sha256": "b1a2f91bc9eccbb407559833bb01611a62312aae31ccfad17f36c5b048388384"
+    },
+    {
+      "path": "data/world/Loginstage_014/Loginstage_014.rgn",
+      "bytes": 987,
+      "sha256": "0b1e9917d0c0c0d43d56d9a1e9bc7360857bff8b3d3349a4a9dac173dfe907af"
+    },
+    {
+      "path": "data/world/Loginstage_016/Loginstage_016.rgn",
+      "bytes": 1059,
+      "sha256": "2d5e6b83555bad14c39dbe32ac8a03ca379c1896795205c76a9023ddfedf1af1"
+    },
+    {
+      "path": "data/world/Loginstage_018/Loginstage_018.rgn",
+      "bytes": 1097,
+      "sha256": "ea03483e9076a5f87a3332d48e6e37e82182e8add53eac4e0d97c28c28d055b5"
+    },
+    {
+      "path": "data/world/Mafia_room/Mafia_room.rgn",
+      "bytes": 1043,
+      "sha256": "7305837b67aa348e4a3b9d96883719ed8a33fdb89e5bc83a748f01615a4c44f9"
+    },
+    {
+      "path": "data/world/Math_fuath_boss/Math_fuath_boss.rgn",
+      "bytes": 1179,
+      "sha256": "e8e423e95e2db089424379512f0be34ea4a8b6ff44f1d20610d15cb6639b82ab"
     },
     {
       "path": "data/world/MNN_main_field/MNN_main_field.rgn",
-      "sourceArchive": "data_00621.it",
-      "sourceSha256": "53e1f31a70d420afe2793886ee65f14b0acffdc4689de3a45fd805c8c815b75f",
-      "size": 1155,
-      "sha256": "f4836e5fba8aec49a7f12cdd0123cd66dd740cb5d4ae8483b96ef9aa1ab027f6",
-      "matchesPersonalPayload": true
+      "bytes": 1155,
+      "sha256": "f4836e5fba8aec49a7f12cdd0123cd66dd740cb5d4ae8483b96ef9aa1ab027f6"
     },
     {
       "path": "data/world/MNN_temple/MNN_temple.rgn",
-      "sourceArchive": "data_00621.it",
-      "sourceSha256": "5ef94961f370c8e2db859caf8f5fd51c4394dbddc6e30b636f916a37294cdf19",
-      "size": 1103,
-      "sha256": "c1f351b7e5b397cb8ead4739344e77177467588bf04f7fa69e26c1b195c1a99f",
-      "matchesPersonalPayload": true
+      "bytes": 1103,
+      "sha256": "c1f351b7e5b397cb8ead4739344e77177467588bf04f7fa69e26c1b195c1a99f"
     },
     {
       "path": "data/world/MRD_1S/MRD_1S.rgn",
-      "sourceArchive": "data_01700.it",
-      "sourceSha256": "c1acbf615101371dfe0d6104403920d4172feb433c691a6f824a2dcbdf7b73d8",
-      "size": 1011,
-      "sha256": "51efd931aa58cfedc25a7c3c7be74494c7ac662fedc7ff988432be918de57f1a",
-      "matchesPersonalPayload": true
+      "bytes": 1011,
+      "sha256": "51efd931aa58cfedc25a7c3c7be74494c7ac662fedc7ff988432be918de57f1a"
     },
     {
       "path": "data/world/MRD_2S/MRD_2S.rgn",
-      "sourceArchive": "data_01700.it",
-      "sourceSha256": "81e0de2c0574f9a75ef586f440fc392436fe66fe4e46b195a5e1881a10d1272e",
-      "size": 1011,
-      "sha256": "ad60e0ee75d869f3a17566f8ce7d41d7c6195a4b36f2f911039c291537be3e83",
-      "matchesPersonalPayload": true
+      "bytes": 1011,
+      "sha256": "ad60e0ee75d869f3a17566f8ce7d41d7c6195a4b36f2f911039c291537be3e83"
     },
     {
       "path": "data/world/MRD_3S/MRD_3S.rgn",
-      "sourceArchive": "data_01700.it",
-      "sourceSha256": "1e9b788ea513a988d7735c5440426e62e951cd34463c350d98b7c788acaf9222",
-      "size": 1065,
-      "sha256": "7c841a5194d6239ecd0331788c9acba47a8c019b7ebeb0d2c75ffc0cce6e9bb5",
-      "matchesPersonalPayload": true
+      "bytes": 1065,
+      "sha256": "7c841a5194d6239ecd0331788c9acba47a8c019b7ebeb0d2c75ffc0cce6e9bb5"
+    },
+    {
+      "path": "data/world/MRD_ln_room/MRD_ln_room.rgn",
+      "bytes": 1103,
+      "sha256": "6fda5a8e8ba57e17cc99417149a87984b2e46ae934ff7f961bf92893011fdcba"
     },
     {
       "path": "data/world/MRD/MRD.rgn",
-      "sourceArchive": "data_01700.it",
-      "sourceSha256": "c61b60d9fc31e5340328559bdb2c318f257c5eb61cbf716f0d835c6fe258688a",
-      "size": 999,
-      "sha256": "f82f99dd5c75faeb26938bb7336f69f6c749a55c14f70ad135bb36782decb905",
-      "matchesPersonalPayload": true
+      "bytes": 999,
+      "sha256": "f82f99dd5c75faeb26938bb7336f69f6c749a55c14f70ad135bb36782decb905"
     },
     {
       "path": "data/world/Mysterious_Cat_Town/Mysterious_Cat_Town.rgn",
-      "sourceArchive": "data_01379.it",
-      "sourceSha256": "fbcd3e179ac3385db0488d5039aaa7fede4999761b8e10b834bff5a3ea2dd17e",
-      "size": 1171,
-      "sha256": "18f09e2ac8b5fb19ebe025c32243aad582ede37c345230a70323f2cdcdc787ea",
-      "matchesPersonalPayload": true
+      "bytes": 1171,
+      "sha256": "18f09e2ac8b5fb19ebe025c32243aad582ede37c345230a70323f2cdcdc787ea"
+    },
+    {
+      "path": "data/world/Mysterious_Library/Mysterious_Library.rgn",
+      "bytes": 1089,
+      "sha256": "82c2c851efc378e7fdc2240f699231d5bcc2af232cdedeab33e4931969f70697"
     },
     {
       "path": "data/world/NDW_entrance/NDW_entrance.rgn",
-      "sourceArchive": "data_00621.it",
-      "sourceSha256": "0aa87f4261838835d45af46398a1feff1769f6d381b55800519fe6cf2164e12f",
-      "size": 1377,
-      "sha256": "c906c05cfb6517002057053f0f22331f6d402da0028c947efffbee7b0a989dff",
-      "matchesPersonalPayload": true
+      "bytes": 1377,
+      "sha256": "c906c05cfb6517002057053f0f22331f6d402da0028c947efffbee7b0a989dff"
     },
     {
       "path": "data/world/NDW_main_field/NDW_main_field.rgn",
-      "sourceArchive": "data_00622.it",
-      "sourceSha256": "02c4eeb969311ad87cfa3ba4b0e868e7880364471cd7192e5fd18a94053d5bee",
-      "size": 1659,
-      "sha256": "7f16c2d341a94c9592574ff4421994ac58f5c443472740addfdb974fa3aa9bae",
-      "matchesPersonalPayload": true
+      "bytes": 1659,
+      "sha256": "7f16c2d341a94c9592574ff4421994ac58f5c443472740addfdb974fa3aa9bae"
     },
     {
       "path": "data/world/NDW_sky_island/NDW_sky_island.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "40f9d14afaf2e36b304604b1411c5d821d88da57b95c09b8f325145d1e3151e9",
-      "size": 1131,
-      "sha256": "8ec0df97ec661b45230e8377714efd43fe1fdb1456cdbc9b2ab123896eeeef51",
-      "matchesPersonalPayload": true
+      "bytes": 1131,
+      "sha256": "8ec0df97ec661b45230e8377714efd43fe1fdb1456cdbc9b2ab123896eeeef51"
+    },
+    {
+      "path": "data/world/New_Rabbie01_boss/New_Rabbie01_boss.rgn",
+      "bytes": 1081,
+      "sha256": "6e9b8180b3b4e878fb94daa76e5dac62ea7e735cf8666b4d432e2872cf4ba076"
+    },
+    {
+      "path": "data/world/New_Rabbie01/New_Rabbie01.rgn",
+      "bytes": 1051,
+      "sha256": "257c60b8f3fc9f70ab3edb5eadbe2d3738d72d96d0adfcc3a7f8612f7ddb7983"
+    },
+    {
+      "path": "data/world/NTD_dungeon/NTD_dungeon.rgn",
+      "bytes": 1269,
+      "sha256": "17962834755cdc5d64ca1f1a89d5b7675221bd4e64104f8a7e7e4d40bd6fd15d"
     },
     {
       "path": "data/world/Orient_main_field/Orient_main_field.rgn",
-      "sourceArchive": "data_00622.it",
-      "sourceSha256": "1e7aac170948dda6b87ae9b1d2354d4e5cc9ab883119afe1956016ffba79f62a",
-      "size": 1003,
-      "sha256": "4db4632aa19c7ed3ebaae5fb84fb73002c950fba21da04cc3b3ef19fcd51e39f",
-      "matchesPersonalPayload": true
+      "bytes": 1003,
+      "sha256": "4db4632aa19c7ed3ebaae5fb84fb73002c950fba21da04cc3b3ef19fcd51e39f"
     },
     {
       "path": "data/world/PDG_dungeon_A/PDG_dungeon_A.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "fc48ed6570aaf9cd497133633aae4473357d5c18043b870a61d07180940c3d76",
-      "size": 1255,
-      "sha256": "f20a233fb40f2ed9995cbba8739db38521b982cbcbdf85613699e8092ce0d6f0",
-      "matchesPersonalPayload": true
+      "bytes": 1255,
+      "sha256": "f20a233fb40f2ed9995cbba8739db38521b982cbcbdf85613699e8092ce0d6f0"
     },
     {
       "path": "data/world/PDG_dungeon_B/PDG_dungeon_B.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "364c17bcef5dff1126a9db8808b22a727075141ebca607d050d643b8cdb09ba9",
-      "size": 1275,
-      "sha256": "8a16ffecc9473e1f885ecf2175907860a90a1a56fabf45ffd372ea094e322f7b",
-      "matchesPersonalPayload": true
+      "bytes": 1275,
+      "sha256": "8a16ffecc9473e1f885ecf2175907860a90a1a56fabf45ffd372ea094e322f7b"
     },
     {
       "path": "data/world/PDG_lobby01/PDG_lobby01.rgn",
-      "sourceArchive": "data_00899.it",
-      "sourceSha256": "45d06ddbdedea2d7198a249b225dd8cafa5eda0f0bb1d6b1400ef5448df1ca0e",
-      "size": 1345,
-      "sha256": "583a4256014849320750f57b1298e3690c7193930f3194aed908c1b35a062ba2",
-      "matchesPersonalPayload": true
+      "bytes": 1345,
+      "sha256": "583a4256014849320750f57b1298e3690c7193930f3194aed908c1b35a062ba2"
     },
     {
       "path": "data/world/Pitapat_Island/Pitapat_Island.rgn",
-      "sourceArchive": "data_01233.it",
-      "sourceSha256": "d10ef019ea128b5473cd596868ffa3a5794364af6d703842f0b883a627c0259e",
-      "size": 1277,
-      "sha256": "bc0c64ada78a99435bdf536bba929ef392712444b06e94f55b05c96462206ade",
-      "matchesPersonalPayload": true
+      "bytes": 1277,
+      "sha256": "bc0c64ada78a99435bdf536bba929ef392712444b06e94f55b05c96462206ade"
+    },
+    {
+      "path": "data/world/Private_Elf_Wedding_waitingroom/Private_Elf_Wedding_waitingroom.rgn",
+      "bytes": 1071,
+      "sha256": "bace95ace3ceb783faf8fe5af730811b02b5824ad0ef1124327df88f203cef20"
+    },
+    {
+      "path": "data/world/Private_giant_Wedding_ceremonialhall/Private_giant_Wedding_ceremonialhall.rgn",
+      "bytes": 1195,
+      "sha256": "a1466c1ee077f7f491cf3b4e7639428a13717f7936082a652bcc253624fabf21"
+    },
+    {
+      "path": "data/world/Private_giant_Wedding_waitingroom/Private_giant_Wedding_waitingroom.rgn",
+      "bytes": 1285,
+      "sha256": "3dadef7099a81c57e13c97ea16dedc76c84a1cb16c75df9b2640c17579b5698a"
+    },
+    {
+      "path": "data/world/Private_igloo_01/Private_igloo_01.rgn",
+      "bytes": 955,
+      "sha256": "8bb37faf12c1b70745b5288f5dc7e55ca2f3f9effd0d2a5c689738f6cf51d117"
     },
     {
       "path": "data/world/Private_Island_152/Private_Island_152.rgn",
-      "sourceArchive": "data_01350.it",
-      "sourceSha256": "7b69c6850901fb67ece5bbac355794c6cf24e1f1d8d9863ff58619c551f0ceca",
-      "size": 2399,
-      "sha256": "a45a63a0c8adf467b2256998631eb130de82436013c18f1f9745d397403b08f8",
-      "matchesPersonalPayload": true
+      "bytes": 2399,
+      "sha256": "a45a63a0c8adf467b2256998631eb130de82436013c18f1f9745d397403b08f8"
+    },
+    {
+      "path": "data/world/Private_Wedding_ceremonialhall/Private_Wedding_ceremonialhall.rgn",
+      "bytes": 963,
+      "sha256": "77b057a9d1198491dce326dc9d50880ec1c5b3730f195ed2cbb2ddd306df5bcf"
+    },
+    {
+      "path": "data/world/Private_Wedding_waitingroom/Private_Wedding_waitingroom.rgn",
+      "bytes": 1013,
+      "sha256": "04843d7e762c4f154ae876bde6513cc80c781cafe24fe459c69b2e902063bed0"
+    },
+    {
+      "path": "data/world/pvp_event_arena/pvp_event_arena.rgn",
+      "bytes": 915,
+      "sha256": "cc807620029d7a5e3eca9b2543eb5d00d0c26fe3a1592f7f0474d334a6665f73"
+    },
+    {
+      "path": "data/world/pvp_event_Lobby1/pvp_event_Lobby1.rgn",
+      "bytes": 921,
+      "sha256": "8b37782951e6c97fa3a768f4bf4e567906e4779d2300d025380e79969e10b584"
+    },
+    {
+      "path": "data/world/pvp_event_Lobby2/pvp_event_Lobby2.rgn",
+      "bytes": 921,
+      "sha256": "8de5e290da059e1a0e04fb6a05a27818443bf8788fdd94da930c122950b5ca89"
     },
     {
       "path": "data/world/RE_Nekojima_islet/RE_Nekojima_islet.rgn",
-      "sourceArchive": "data_00622.it",
-      "sourceSha256": "f2a4008ad2cff552f2a266dd9913d39dc21db06b99a592c78212163b7c451d12",
-      "size": 1319,
-      "sha256": "157553c288acfdc8933ca9a406d16602f944f9f6f228386d6b5651b0794ddc15",
-      "matchesPersonalPayload": true
+      "bytes": 1319,
+      "sha256": "157553c288acfdc8933ca9a406d16602f944f9f6f228386d6b5651b0794ddc15"
     },
     {
       "path": "data/world/Region_test02/Region_test02.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "0ef3c1129155d1fed91d621979f463a2e52b87df8625d74a010036e66265865d",
-      "size": 1099,
-      "sha256": "8fc5ab11b03a4e2025f333c85ce9d261743c23c920191c09a45ffdb406b9d5eb",
-      "matchesPersonalPayload": true
+      "bytes": 1099,
+      "sha256": "8fc5ab11b03a4e2025f333c85ce9d261743c23c920191c09a45ffdb406b9d5eb"
+    },
+    {
+      "path": "data/world/Samhain_alley01/Samhain_alley01.rgn",
+      "bytes": 1069,
+      "sha256": "6338110999136ef51debc5a8a6927d031a61a2f94dffa513c3cf132d50a5b9e4"
+    },
+    {
+      "path": "data/world/Samhain_banquethall01/Samhain_banquethall01.rgn",
+      "bytes": 1195,
+      "sha256": "795e63d5441a544ae120f83fe59884c4e9c31d104480d45a5e6b6489a4774722"
     },
     {
       "path": "data/world/Samhain_Ceann_Hobor01/Samhain_Ceann_Hobor01.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "738d78f63b0bbdfe02720ae3fd2dee9dcb4b2cc2d6d676572acb52305dcad1f4",
-      "size": 1505,
-      "sha256": "9d40c436bc033e8106dd18bf4ed482b2ebe7c8716bbfd8999a14cfd4b62188a9",
-      "matchesPersonalPayload": true
+      "bytes": 1505,
+      "sha256": "9d40c436bc033e8106dd18bf4ed482b2ebe7c8716bbfd8999a14cfd4b62188a9"
     },
     {
       "path": "data/world/Samhain_onboard01/Samhain_onboard01.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "e444a8c265108b881367e5468927cabae02f48b97aaf2239489fa3e924ce41b1",
-      "size": 1153,
-      "sha256": "518bd37fe850060b7f110dbe4d26a509d1fc6d5bcc47d01e7562dc82f47cca70",
-      "matchesPersonalPayload": true
+      "bytes": 1153,
+      "sha256": "518bd37fe850060b7f110dbe4d26a509d1fc6d5bcc47d01e7562dc82f47cca70"
+    },
+    {
+      "path": "data/world/Samhain_room01/Samhain_room01.rgn",
+      "bytes": 1101,
+      "sha256": "55011624d20f6e19b4878fd21da8e1d04e58233ef0625237caf34c292726015b"
     },
     {
       "path": "data/world/ScenarioDG_Orgel/ScenarioDG_Orgel.rgn",
-      "sourceArchive": "data_01763.it",
-      "sourceSha256": "b016b39e37a471b8eac159458cb319b762977710b4b55e3e41d0c366ead0e988",
-      "size": 1471,
-      "sha256": "e6566b3feea30128e967506c3b4cfd076328d2aba098fce6f40ac7c482929102",
-      "matchesPersonalPayload": true
+      "bytes": 1471,
+      "sha256": "e6566b3feea30128e967506c3b4cfd076328d2aba098fce6f40ac7c482929102"
     },
     {
       "path": "data/world/ScenarioDG01/ScenarioDG01.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "f9a4220831a9102b7a9698f38a7d97d123e85def1ecdccf8842121e04c12946a",
-      "size": 1411,
-      "sha256": "2e4b67ea7b96a938aa4483f90eb29170362f3c14fda606773b818c97242e6343",
-      "matchesPersonalPayload": true
+      "bytes": 1411,
+      "sha256": "2e4b67ea7b96a938aa4483f90eb29170362f3c14fda606773b818c97242e6343"
     },
     {
       "path": "data/world/ScenarioDG02/ScenarioDG02.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "66941bf99960e48e15398724404d2f3b61cd3b953b83e742ca467bc324d9b309",
-      "size": 1399,
-      "sha256": "e3ed4ff8e87a95d5d38174096f225ee97fddcb31eb4e9dac96ccda0f9e38905f",
-      "matchesPersonalPayload": true
+      "bytes": 1399,
+      "sha256": "e3ed4ff8e87a95d5d38174096f225ee97fddcb31eb4e9dac96ccda0f9e38905f"
     },
     {
       "path": "data/world/ScenarioDG03/ScenarioDG03.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "6539d7314eb940c7d237ec6b92cade7bcd45213fb442b209a723c40fb486bc15",
-      "size": 1399,
-      "sha256": "fb6f8207fb0053106c71c6cf525b720f42cb557a03c9f270e9f15a68214b9a4a",
-      "matchesPersonalPayload": true
+      "bytes": 1399,
+      "sha256": "fb6f8207fb0053106c71c6cf525b720f42cb557a03c9f270e9f15a68214b9a4a"
+    },
+    {
+      "path": "data/world/scene_building_emain_stage_Night/scene_building_emain_stage_Night.rgn",
+      "bytes": 1281,
+      "sha256": "bb02fec7f3c5db3bd8f92bb543cb0f8475b20b48475d998bf13141c48f0c3253"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_alley01/scene_DramaIriaS2_Nemeton_alley01.rgn",
+      "bytes": 1177,
+      "sha256": "a990a7ad14377e0646a84676496cad7e7871a67c0f0c287067b5f6c8fda6936e"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_altar01/scene_DramaIriaS2_Nemeton_altar01.rgn",
+      "bytes": 1255,
+      "sha256": "c8918980223a552297da5345fc912ba5bb236aa31da07f38846f42fc7cd50cd3"
     },
     {
       "path": "data/world/scene_DramaIriaS2_Nemeton_altar02/scene_DramaIriaS2_Nemeton_altar02.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "a12fc193c6913d9776d1fafb36f268642f343f2e215d3aa570b49f5a7660978b",
-      "size": 1175,
-      "sha256": "aafb568f6ceeb7a20f019e6d283a3c2a87299746444b094b0f4ea5141b4125bd",
-      "matchesPersonalPayload": true
+      "bytes": 1175,
+      "sha256": "aafb568f6ceeb7a20f019e6d283a3c2a87299746444b094b0f4ea5141b4125bd"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_dc_room/scene_DramaIriaS2_Nemeton_dc_room.rgn",
+      "bytes": 1215,
+      "sha256": "4f6510c4bc4dff5f0883aa8bf0831909f1ad5e47356ebe1dbab70e0ead57d137"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_field/scene_DramaIriaS2_Nemeton_field.rgn",
+      "bytes": 1165,
+      "sha256": "3433b463ca013c7bb7459c4f89c000e459b0d9686a1522308bf62ac0b17d90ea"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_library01/scene_DramaIriaS2_Nemeton_library01.rgn",
+      "bytes": 1189,
+      "sha256": "c577e2aef216b09a132aa93e919fa3e6625c63687aeace6023c1fb05669ffecd"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_Nemeton_lobby/scene_DramaIriaS2_Nemeton_lobby.rgn",
+      "bytes": 1301,
+      "sha256": "afe1b3ca146eb5c9c78aff25950a30ae56c93e01d313768d89f59f0b73e964b6"
+    },
+    {
+      "path": "data/world/scene_DramaIriaS2_stair_01/scene_DramaIriaS2_stair_01.rgn",
+      "bytes": 1187,
+      "sha256": "54521f74cb7a5ef8d8c51e5cac3415e6d7ac8998aecba6f7aef0a72e3baf983c"
     },
     {
       "path": "data/world/Sella_to_Ceann/Sella_to_Ceann.rgn",
-      "sourceArchive": "data_00938.it",
-      "sourceSha256": "661a536d5f7ea4600f742151de26df32b13f66fb096757b19d0b06c289871a2e",
-      "size": 1069,
-      "sha256": "bf43997993174cc1c00adce0c445bdc351f62bedb292347c5ab57c95578cd002",
-      "matchesPersonalPayload": true
+      "bytes": 1069,
+      "sha256": "bf43997993174cc1c00adce0c445bdc351f62bedb292347c5ab57c95578cd002"
     },
     {
       "path": "data/world/Sen_Mag_GuildWar_npc_stage/Sen_Mag_GuildWar_npc_stage.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "3c3b16f9b55856197742be50486ce0d6a80c786540218ab32a460b0de449db18",
-      "size": 1177,
-      "sha256": "4fe3e85df8d30b2927451929ff62a8dbf44453efa2edd01e11ab1b64c541e449",
-      "matchesPersonalPayload": true
+      "bytes": 1177,
+      "sha256": "4fe3e85df8d30b2927451929ff62a8dbf44453efa2edd01e11ab1b64c541e449"
     },
     {
       "path": "data/world/Sen_Mag_GuildWar/Sen_Mag_GuildWar.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "830aeee084ea2f2fe22222f9694c25517f074c147652377227ca42a329e2fa74",
-      "size": 1397,
-      "sha256": "5b2cbda260f19bf89e36cb7aa6f9fc0a6773c7b55c513c685e22257cb5828c86",
-      "matchesPersonalPayload": true
+      "bytes": 1397,
+      "sha256": "5b2cbda260f19bf89e36cb7aa6f9fc0a6773c7b55c513c685e22257cb5828c86"
+    },
+    {
+      "path": "data/world/Sen_Mag_keep_DgnHall_after/Sen_Mag_keep_DgnHall_after.rgn",
+      "bytes": 981,
+      "sha256": "6ded48dac0ea9d9fe8f8f4837931e79306353f5e6292a5487b4a3e6911b816a4"
+    },
+    {
+      "path": "data/world/Sen_Mag_keep_DgnHall_before/Sen_Mag_keep_DgnHall_before.rgn",
+      "bytes": 987,
+      "sha256": "f75a95c417447b3c2559684c43da7ef9d006db439d530ab7a51be5eb53b275ab"
+    },
+    {
+      "path": "data/world/Shakespere_room/Shakespere_room.rgn",
+      "bytes": 1069,
+      "sha256": "88a08f67e22516cd7aaf7ed8b052d3d66af3caff849d50cb3d3e69bd9a12bf2d"
     },
     {
       "path": "data/world/Sliab_Mish_field/Sliab_Mish_field.rgn",
-      "sourceArchive": "data_01144.it",
-      "sourceSha256": "91d41cf820de24fc75a200a554ec22c13dfa513387dc9a6c664918722f284cdf",
-      "size": 1413,
-      "sha256": "c4ff955f05147630ba6f10edc50c9003dcd1cbb6db6b3f91a66331a9d95581f5",
-      "matchesPersonalPayload": true
+      "bytes": 1413,
+      "sha256": "c4ff955f05147630ba6f10edc50c9003dcd1cbb6db6b3f91a66331a9d95581f5"
     },
     {
       "path": "data/world/Soulstream_future_region/Soulstream_future_region.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "81c6bb207591b2788d04e1c576c91b1814d1167466b81c3db5d760f891d71010",
-      "size": 1249,
-      "sha256": "3dd552d690fddfc42060a018822904fde509857b164cb9a0b55beb776dc677e5",
-      "matchesPersonalPayload": true
+      "bytes": 1249,
+      "sha256": "3dd552d690fddfc42060a018822904fde509857b164cb9a0b55beb776dc677e5"
     },
     {
       "path": "data/world/Soulstream_past_region/Soulstream_past_region.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "612e2b84975a6b31723de6ca2387ead092b1b0c4b43ef4f496b869585c79fa5b",
-      "size": 1237,
-      "sha256": "df5f1948655c882450c20583f074016eb2f77bf2f1fee7ab8cb18ca8c546409e",
-      "matchesPersonalPayload": true
+      "bytes": 1237,
+      "sha256": "df5f1948655c882450c20583f074016eb2f77bf2f1fee7ab8cb18ca8c546409e"
+    },
+    {
+      "path": "data/world/Studio_Alby_exitroom/Studio_Alby_exitroom.rgn",
+      "bytes": 945,
+      "sha256": "200e046333b0068b0c13a9574a1ff220df1452ccd385aa955cfaaa14076d96af"
+    },
+    {
+      "path": "data/world/Studio_Alby_higher/Studio_Alby_higher.rgn",
+      "bytes": 895,
+      "sha256": "ca4248076ba17785d8e6827a687a3f4a26b5f4d6689ab96ac3b522351106915c"
+    },
+    {
+      "path": "data/world/Studio_Alby_Lobby_After/Studio_Alby_Lobby_After.rgn",
+      "bytes": 1023,
+      "sha256": "37b465f003d232018a9d2afa1a33a1974d7d39e72c6f3b609f3d9737bd75e3ba"
+    },
+    {
+      "path": "data/world/Studio_Alby/Studio_Alby.rgn",
+      "bytes": 1139,
+      "sha256": "ed105c9d2246e3cfc57d18338a1d9a79b03cc944c2759f4d37148582ae9f71e2"
+    },
+    {
+      "path": "data/world/Studio_Barri_Lobby_after/Studio_Barri_Lobby_after.rgn",
+      "bytes": 1133,
+      "sha256": "50c6119751acd336fe7c1477aaefe24e18a1a105c52722dd56e3c4aab7ce26b8"
+    },
+    {
+      "path": "data/world/Studio_Barri/Studio_Barri.rgn",
+      "bytes": 1241,
+      "sha256": "fc88aac30a18e3c39e4281044417bb41aef3ce9da11d6a034882c444b46296ae"
+    },
+    {
+      "path": "data/world/Studio_Ciar/Studio_Ciar.rgn",
+      "bytes": 1139,
+      "sha256": "41dad1d86463577808f1116a30e236a1d678a8406a8a5c185f3838c6153a5f53"
     },
     {
       "path": "data/world/Studio_Coil_RE_01/Studio_Coil_RE_01.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "2cd55fcbee5c158d933593acb779631f23489c35847c4d5723539a1d8632698b",
-      "size": 1141,
-      "sha256": "03e725fcd725702e62a4943cfcad4e8dada506ac6c0fdc96a5293508ef148752",
-      "matchesPersonalPayload": true
+      "bytes": 1141,
+      "sha256": "03e725fcd725702e62a4943cfcad4e8dada506ac6c0fdc96a5293508ef148752"
+    },
+    {
+      "path": "data/world/Studio_Coill_blackregion/Studio_Coill_blackregion.rgn",
+      "bytes": 1051,
+      "sha256": "79c81be7315f5f901e78767093e2a420ab9ec3ef5d2748f12d15f6cdc52b0ba9"
     },
     {
       "path": "data/world/Studio_Coill_RE/Studio_Coill_RE.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "31efde3b47972e880e6dbf9ad06555289ff03fc0483496ce333c3465e6b50bba",
-      "size": 1127,
-      "sha256": "27330285c88a6c335becca2bc17305f14c43bbb31b862cf99aeefbd5927ab925",
-      "matchesPersonalPayload": true
+      "bytes": 1127,
+      "sha256": "27330285c88a6c335becca2bc17305f14c43bbb31b862cf99aeefbd5927ab925"
+    },
+    {
+      "path": "data/world/Studio_Dunbarton_LectureRoom_Buchanan/Studio_Dunbarton_LectureRoom_Buchanan.rgn",
+      "bytes": 1003,
+      "sha256": "66b92527e74787a9f56a3170745a590d6a3873c58b0e9913fdfe2e1f985f26fc"
+    },
+    {
+      "path": "data/world/Studio_Dunbarton_School_LectureRoom/Studio_Dunbarton_School_LectureRoom.rgn",
+      "bytes": 1123,
+      "sha256": "a455d218223ae633bd6a1ee017e20e84f5902385903fd00ec6dab8620c529e68"
     },
     {
       "path": "data/world/Studio_Farm_Desert_16/Studio_Farm_Desert_16.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "8802fba9bda5b768bc1baa19ee5d2946670920cac21a04bccc1320f54708ad14",
-      "size": 1391,
-      "sha256": "1648876ebe7a568d597b7080dc3740e5dee9cff1f59954cbf53de22495d0a364",
-      "matchesPersonalPayload": true
+      "bytes": 1391,
+      "sha256": "1648876ebe7a568d597b7080dc3740e5dee9cff1f59954cbf53de22495d0a364"
     },
     {
       "path": "data/world/Studio_Farm_Desert_8/Studio_Farm_Desert_8.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "1844682837762ebdebc2556dbdb462282cd8128db18ff0511ba2168f90b41587",
-      "size": 1369,
-      "sha256": "e04b080bc66cd1cfdf38c1d21457e2a21d2785ba150568ef0bb90b92e92f00f0",
-      "matchesPersonalPayload": true
+      "bytes": 1369,
+      "sha256": "e04b080bc66cd1cfdf38c1d21457e2a21d2785ba150568ef0bb90b92e92f00f0"
     },
     {
       "path": "data/world/Studio_Farm_Grassland_16/Studio_Farm_Grassland_16.rgn",
-      "sourceArchive": "data_00623.it",
-      "sourceSha256": "c2ef2765d9f737577d5109d2a45a7b89420028f93d7284002e81d21861bff2bb",
-      "size": 1457,
-      "sha256": "9d2d3ad43370b103b379d4ef134ac356a7d25bfc96904f627f17eac7c88cc9c6",
-      "matchesPersonalPayload": true
+      "bytes": 1457,
+      "sha256": "9d2d3ad43370b103b379d4ef134ac356a7d25bfc96904f627f17eac7c88cc9c6"
     },
     {
       "path": "data/world/Studio_Farm_Grassland_8/Studio_Farm_Grassland_8.rgn",
-      "sourceArchive": "data_00624.it",
-      "sourceSha256": "049946986979b5fbba29733f197c209fec22337fc8303c903dcd1766181e9a4d",
-      "size": 1435,
-      "sha256": "df27db7d08f9ef2342f9a2e83439bf6581cb5697c575f3caa4e5cf6ebd24a22e",
-      "matchesPersonalPayload": true
+      "bytes": 1435,
+      "sha256": "df27db7d08f9ef2342f9a2e83439bf6581cb5697c575f3caa4e5cf6ebd24a22e"
     },
     {
       "path": "data/world/Studio_Farm_snowfield_16/Studio_Farm_snowfield_16.rgn",
-      "sourceArchive": "data_00624.it",
-      "sourceSha256": "e69dde63ff42c8ae354d0117129a957df9af7a380aff36c1b5a81a857d16e9f9",
-      "size": 1457,
-      "sha256": "d72278c2ac07b066e44a2a15902ffeb9ca0532bfcf619e1e391020129aa4a214",
-      "matchesPersonalPayload": true
+      "bytes": 1457,
+      "sha256": "d72278c2ac07b066e44a2a15902ffeb9ca0532bfcf619e1e391020129aa4a214"
     },
     {
       "path": "data/world/Studio_Farm_snowfield_8/Studio_Farm_snowfield_8.rgn",
-      "sourceArchive": "data_00624.it",
-      "sourceSha256": "c61c042955d246344917fb3f38fbdee51a21a2087cef3f94e9f1204c519651fc",
-      "size": 1435,
-      "sha256": "4ed3cb5ca15890a832e755831116560c8bb164fc683282e1db3755dbbaa0a8c6",
-      "matchesPersonalPayload": true
+      "bytes": 1435,
+      "sha256": "4ed3cb5ca15890a832e755831116560c8bb164fc683282e1db3755dbbaa0a8c6"
+    },
+    {
+      "path": "data/world/Studio_hardmode_Alby_arachne/Studio_hardmode_Alby_arachne.rgn",
+      "bytes": 993,
+      "sha256": "7b2f7b291e03d4fc6dfcb22486484de0f365d581442d4b868b8bb1ef764b4e1e"
+    },
+    {
+      "path": "data/world/Studio_hardmode_Alby/Studio_hardmode_Alby.rgn",
+      "bytes": 963,
+      "sha256": "2c4ed2b0d5524827be5c9e9ed4576520de245b0f582e6dee176deb94475977ca"
+    },
+    {
+      "path": "data/world/Studio_hardmode_Ciar/Studio_hardmode_Ciar.rgn",
+      "bytes": 963,
+      "sha256": "872d095d48c8d20258026f4e72093301cebddc4bcfa5491300657d56d13ac82a"
+    },
+    {
+      "path": "data/world/Studio_hardmode_Runda/Studio_hardmode_Runda.rgn",
+      "bytes": 931,
+      "sha256": "1ad0ce9547619f3a8840af686d6f2ad2f157715a2380b5a460d880be8cd8611e"
+    },
+    {
+      "path": "data/world/Studio_Iria_NW_glacier01_DG_bossroom_Nomirror/Studio_Iria_NW_glacier01_DG_bossroom_Nomirror.rgn",
+      "bytes": 1057,
+      "sha256": "5f5ac78d1ac2da525d8800cccfb045e81b3e9c4f810af9a83c6ddaab425444bc"
+    },
+    {
+      "path": "data/world/Studio_Iria_NW_glacier01_DG_bossroom/Studio_Iria_NW_glacier01_DG_bossroom.rgn",
+      "bytes": 1003,
+      "sha256": "9b5e9bbe036a3fa949587318fba4603a56e829c500fda5f1888190681ba13273"
+    },
+    {
+      "path": "data/world/Studio_Iria_SE_Desert_01_DG_after/Studio_Iria_SE_Desert_01_DG_after.rgn",
+      "bytes": 985,
+      "sha256": "e6c740e62231ecbcb26b6f26f42ae5d1c1f382698d8c3b7036f80d326c033f4d"
+    },
+    {
+      "path": "data/world/Studio_Iria_SE_Desert_01_DG_bossroom_01/Studio_Iria_SE_Desert_01_DG_bossroom_01.rgn",
+      "bytes": 1045,
+      "sha256": "9dedfc4a9a68c0473a6ba3ec42530aac0e7029c1e2e5e3d80f3434e6d03a6cdd"
+    },
+    {
+      "path": "data/world/Studio_Iria_SE_Desert_01_DG_stair_down_02/Studio_Iria_SE_Desert_01_DG_stair_down_02.rgn",
+      "bytes": 1067,
+      "sha256": "f8829845b7d43ec3c455dbd560b76e91b08b77f54870f6ca13745a6cfc71ef7c"
+    },
+    {
+      "path": "data/world/Studio_Iria_SE_Desert_01_DG_stair_down/Studio_Iria_SE_Desert_01_DG_stair_down.rgn",
+      "bytes": 1053,
+      "sha256": "a9e3438ece81923b78ac913efff2111159a74533fe4297e62c0884c0355523ea"
+    },
+    {
+      "path": "data/world/Studio_Iria_SE_Desert_01_DG/Studio_Iria_SE_Desert_01_DG.rgn",
+      "bytes": 1005,
+      "sha256": "c706744aedb9485448b807985fadc7b3dbc4da07dd6c94a3009ca0b12e851987"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_02/Studio_Iria_SW_ruins_DG_02.rgn",
+      "bytes": 1185,
+      "sha256": "8beb313083c74c54375d12a722a2b5829a33d1b3cb61d91c3b416bc39ca1134f"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_03/region_variation_empty.xml",
+      "bytes": 1234,
+      "sha256": "970ce261e1e2e1c4a18a733eb3d458dd0eed68ce813cead27ea962d49dca8ea7"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_03/region_variation_ucd712000.xml",
+      "bytes": 1074,
+      "sha256": "ce426a0f9cf435bcaf23d671ab05d854a0998a37f040bc94bdfb5a51d73e3e79"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_03/Studio_Iria_SW_ruins_DG_03.rgn",
+      "bytes": 1187,
+      "sha256": "c2d085b3efe32a0126e1c71e771977638b40c6b1cd6c15a1f403a6a617136b1b"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_after_00/Studio_Iria_SW_ruins_DG_after_00.rgn",
+      "bytes": 1017,
+      "sha256": "dd660340e9334186ee04f32898245ac822caa4c4bfcde806c2ab415935c4cf55"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_after_01/Studio_Iria_SW_ruins_DG_after_01.rgn",
+      "bytes": 1017,
+      "sha256": "8f9b906ea14565d721e9de0b9070ac735f34f90702fa28aa9cba9cdf497290f7"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG_after/Studio_Iria_SW_ruins_DG_after.rgn",
+      "bytes": 999,
+      "sha256": "f714f8ec39c48eca41766cecedb11926a801894efd9691790715593a03c11976"
+    },
+    {
+      "path": "data/world/Studio_Iria_SW_ruins_DG/Studio_Iria_SW_ruins_DG.rgn",
+      "bytes": 981,
+      "sha256": "442ae81b5c57607952915c7edf58b8fdc3a025111996ba00ab4867fe797fb81a"
+    },
+    {
+      "path": "data/world/Studio_JP_Nekojima_dungeon_bossroom/Studio_JP_Nekojima_dungeon_bossroom.rgn",
+      "bytes": 1027,
+      "sha256": "9ee76b84ca4986018dd6e5d14ab879e6a0867a13d610c988c5d432e80ccfb11e"
+    },
+    {
+      "path": "data/world/Studio_keep_DG/Studio_keep_DG.rgn",
+      "bytes": 927,
+      "sha256": "ab6005152916c3df1c6210a4421c0fb15aa71e7ea338a2118618a1385e6beb3a"
+    },
+    {
+      "path": "data/world/Studio_Math_Lobby_After/Studio_Math_Lobby_After.rgn",
+      "bytes": 1039,
+      "sha256": "24c21fcd26fdf2808a9062094373bfcbb80388641fd4094a9104425e797bb238"
+    },
+    {
+      "path": "data/world/Studio_Math/Studio_Math.rgn",
+      "bytes": 1413,
+      "sha256": "66c450397af33fc00a3800e55da9d932fc609defed72a842a1e59740aae41d9f"
+    },
+    {
+      "path": "data/world/Studio_OidTobar_Hall/Studio_OidTobar_Hall.rgn",
+      "bytes": 979,
+      "sha256": "8fbf5defb4b6449d518114649093084484c97e27efb4b2bef6087a9e58360aaf"
+    },
+    {
+      "path": "data/world/Studio_Peaca_G12/Studio_Peaca_G12.rgn",
+      "bytes": 1005,
+      "sha256": "2e26c9c277a402a3a4d6744bf9a5aaeff744c8a2aa1319acc722d89c8a05921c"
+    },
+    {
+      "path": "data/world/Studio_Peaca_RE/region_variation_empty.xml",
+      "bytes": 746,
+      "sha256": "efa5f267893fb819bd234e988ebca1f3c281cf7b44a0648af7d30c4e0e0e5ec6"
+    },
+    {
+      "path": "data/world/Studio_Peaca_RE/Studio_Peaca_RE.rgn",
+      "bytes": 1121,
+      "sha256": "a540870e5e8aad66d3caa3e62484a71fff1fdbe3f5924ac3b95bf2f1a8fe05aa"
+    },
+    {
+      "path": "data/world/Studio_Peaca_RE01/region_variation_730394.xml",
+      "bytes": 1262,
+      "sha256": "e698b3c8591e7f2529165fab0ed8065b6163f28f2e473b55070b0be709a61981"
+    },
+    {
+      "path": "data/world/Studio_Peaca_RE01/region_variation_empty.xml",
+      "bytes": 634,
+      "sha256": "9f3c105b47f5c7b4351688e4243a32307a4ea2a062f3c43dddd4febf591778af"
+    },
+    {
+      "path": "data/world/Studio_Peaca_RE01/Studio_Peaca_RE01.rgn",
+      "bytes": 1121,
+      "sha256": "0f8f40a72958c6b91411f3dd7620262fd21a43e6f79606333aa7023499f62d98"
+    },
+    {
+      "path": "data/world/Studio_Peaca/Studio_Peaca.rgn",
+      "bytes": 1117,
+      "sha256": "659174cb5066e9f00e9d344ab423c765b9a5de67b03e48f0f69b77431baec499"
+    },
+    {
+      "path": "data/world/Studio_Rabbie/Studio_Rabbie.rgn",
+      "bytes": 1263,
+      "sha256": "2c75bf85fe40e46d8ef90225423925dda3833e0b07afbcd8b94ee5e34a8af13d"
+    },
+    {
+      "path": "data/world/Studio_Runda/Studio_Runda.rgn",
+      "bytes": 1419,
+      "sha256": "5ea035133574f52c3347331f3096cad8589d0f398b7dcbd491c36649cd94e84a"
+    },
+    {
+      "path": "data/world/Studio_Tara_gatehall/region_variation_1.xml",
+      "bytes": 12460,
+      "sha256": "5d0d2a0d53e281229826cd698a7a36b47f0af936c51a5028f56a26a559caad57"
+    },
+    {
+      "path": "data/world/Studio_Tara_gatehall/Studio_Tara_gatehall.rgn",
+      "bytes": 947,
+      "sha256": "8f01f27b8eccac05ea053b61e1e5107e7477fd55b90b727a89b8b6da50eb7dce"
+    },
+    {
+      "path": "data/world/Studio_Tara_library/region_variation_1.xml",
+      "bytes": 11790,
+      "sha256": "1f6c9dd3d09059ca7c073a8dbaf5dc36196dfadaaf7bb14907a3088a565bc44f"
+    },
+    {
+      "path": "data/world/Studio_Tara_library/Studio_Tara_library.rgn",
+      "bytes": 1149,
+      "sha256": "5bd2681365245ccd3092699a44fe21cc03133b983608b2d483383848d9a18bd4"
+    },
+    {
+      "path": "data/world/Studio_Tirnanog_G3_DG/Studio_Tirnanog_G3_DG.rgn",
+      "bytes": 1101,
+      "sha256": "4a265fa5c2d97484d15f0afbeb9d28d33541f621d7a71accf67424b34186619c"
+    },
+    {
+      "path": "data/world/Studio_TirnanogDG_Lobby_After/Studio_TirnanogDG_Lobby_After.rgn",
+      "bytes": 1075,
+      "sha256": "0f53a1562f67946fa02c6ea81dda88b5c910a2822c62487ef05c7e5c969920af"
+    },
+    {
+      "path": "data/world/Studio_TirnanogDG/Studio_TirnanogDG.rgn",
+      "bytes": 1745,
+      "sha256": "02a2f2d4026bc4aa5795974c33970950e7d57639cfa377fd2b9b464294e76ec7"
     },
     {
       "path": "data/world/Taillteann_E_field/Taillteann_E_field.rgn",
-      "sourceArchive": "data_00625.it",
-      "sourceSha256": "d216f6974300e7cd2bee04431f7b96631feefb95236afd59b7fc91e2354f04d7",
-      "size": 1429,
-      "sha256": "67df2db1498bcff3d6161494dc2c68bc4374310a5b6166dbfe4725e8d3f043ee",
-      "matchesPersonalPayload": true
+      "bytes": 1429,
+      "sha256": "67df2db1498bcff3d6161494dc2c68bc4374310a5b6166dbfe4725e8d3f043ee"
     },
     {
       "path": "data/world/taillteann_main_field/taillteann_main_field.rgn",
-      "sourceArchive": "data_00626.it",
-      "sourceSha256": "46b738629688f2caed08b6b3d908c37049d9c9f8ba9bfb0fe858e21ab9b25317",
-      "size": 4195,
-      "sha256": "361507d8ff3c5b801e5cf0939fb976d7f4c047b8f2ebd8f0080accdfd6823f72",
-      "matchesPersonalPayload": true
+      "bytes": 4195,
+      "sha256": "361507d8ff3c5b801e5cf0939fb976d7f4c047b8f2ebd8f0080accdfd6823f72"
+    },
+    {
+      "path": "data/world/Taillteann_NewFarm/Taillteann_NewFarm.rgn",
+      "bytes": 1439,
+      "sha256": "f4ce94bc4b72deaa8a1c5ba8c282b3ea335569a989c9269c515c207482cd2a9e"
+    },
+    {
+      "path": "data/world/Tara_alchemist/Tara_alchemist.rgn",
+      "bytes": 935,
+      "sha256": "2af89187e012f856228fd21a63773d3e9233c9341e5e6195d212d5d708594807"
+    },
+    {
+      "path": "data/world/Tara_bank/Tara_bank.rgn",
+      "bytes": 877,
+      "sha256": "aa16b265265555c861304988678ddc5155f7e3fd7d338f40de69f2c82ce40819"
+    },
+    {
+      "path": "data/world/Tara_castle_1F/region_variation_1.xml",
+      "bytes": 19372,
+      "sha256": "68fd5f2431195fb688f8510d9a2e7d346d042d89a9d834692c84f8985dbbb170"
+    },
+    {
+      "path": "data/world/Tara_castle_1F/region_variation_2.xml",
+      "bytes": 4146,
+      "sha256": "be5e5a69836671c3e9d17dca307082d22c18735d41cf6edda345ab1958aec737"
+    },
+    {
+      "path": "data/world/Tara_castle_1F/region_variation_g25_780609.xml",
+      "bytes": 4272,
+      "sha256": "801d124f8c45c8a77ba6b9be3a1e3051ffa27d0c8ac87a4e8a25cb286ee6e123"
+    },
+    {
+      "path": "data/world/Tara_castle_1F/region_variation_g25_780627.xml",
+      "bytes": 17952,
+      "sha256": "28570eba8ecb78be1364f6655c603193b784ada618bc0b7845205dada979caa5"
+    },
+    {
+      "path": "data/world/Tara_castle_1F/Tara_castle_1F.rgn",
+      "bytes": 869,
+      "sha256": "1b231f0eab1af1953822423f08d8c7ed60971915c2601d58fc9eea2b53142fd0"
+    },
+    {
+      "path": "data/world/Tara_castle_arcana/Tara_castle_arcana.rgn",
+      "bytes": 1127,
+      "sha256": "cd40281b73ab74ca2a08e037c51dee876615ac8e8cf2f31e96a9517e8fe7184e"
+    },
+    {
+      "path": "data/world/Tara_castle_B1_entrance/region_variation_1.xml",
+      "bytes": 4120,
+      "sha256": "71a67396f37c3bce7f1962efd619fc788c53f35b7864fd006a079458c9b022ff"
+    },
+    {
+      "path": "data/world/Tara_castle_B1_entrance/Tara_castle_B1_entrance.rgn",
+      "bytes": 971,
+      "sha256": "f7c8a0d704148e90b4ede7b8988eba189e799c506abf36b6107dd2f6d6b1cf2d"
+    },
+    {
+      "path": "data/world/Tara_castle_B1/region_variation_1.xml",
+      "bytes": 1446,
+      "sha256": "16dc72da95b8ba55ae4303f0e05062987cdaa579196a01703bf271e23fffa39f"
+    },
+    {
+      "path": "data/world/Tara_castle_B1/region_variation_701022.xml",
+      "bytes": 988,
+      "sha256": "3e70351c6cb2123f4724d6e543f2cd1bed9025472a450ef5a8d7cc2f42591ae1"
+    },
+    {
+      "path": "data/world/Tara_castle_B1/region_variation_g25_780610.xml",
+      "bytes": 918,
+      "sha256": "33c7326f61c641a727a5d591a610d1a9be11ac8dcd32f1cf846be187c791b05e"
+    },
+    {
+      "path": "data/world/Tara_castle_B1/Tara_castle_B1.rgn",
+      "bytes": 899,
+      "sha256": "aaf0d5f3f361528271dcd1bc934463800a33fe1cf785f31e03f78361def789b4"
+    },
+    {
+      "path": "data/world/Tara_castle_gatehall/region_variation_1.xml",
+      "bytes": 12460,
+      "sha256": "5d0d2a0d53e281229826cd698a7a36b47f0af936c51a5028f56a26a559caad57"
+    },
+    {
+      "path": "data/world/Tara_castle_gatehall/region_variation_797006.xml",
+      "bytes": 10550,
+      "sha256": "9e69a2a01c9e9a8e0f99a7ce393c8bb27b0fa445b765a1842428953c0f0a1762"
+    },
+    {
+      "path": "data/world/Tara_castle_gatehall/region_variation_797101.xml",
+      "bytes": 10314,
+      "sha256": "0906b757984bc54e5d09d93109caf9b34fe9cfc33bf35071fe67939fcbcef4ce"
+    },
+    {
+      "path": "data/world/Tara_castle_gatehall/region_variation_ucd712000.xml",
+      "bytes": 3938,
+      "sha256": "3e9aaefa75149a8d806422dd0f35fe065ab78147380c40b430458ba92162c6af"
+    },
+    {
+      "path": "data/world/Tara_castle_gatehall/Tara_castle_gatehall.rgn",
+      "bytes": 947,
+      "sha256": "e4da28e00595fe40ea5431dc6c7003a9fcc5262f4a83c060fdec8d50a525cb18"
+    },
+    {
+      "path": "data/world/Tara_castle_greathall/region_variation_1.xml",
+      "bytes": 9348,
+      "sha256": "bc47df1bfbb4276a845c861222ed0ca45fd86e1c0be0f1a8f5b0cf6fba81a4a4"
+    },
+    {
+      "path": "data/world/Tara_castle_greathall/region_variation_797006.xml",
+      "bytes": 9338,
+      "sha256": "646c620a370eb859b967ace0e56ba4f115f6f338518920a9f96ae51e908a0f57"
+    },
+    {
+      "path": "data/world/Tara_castle_greathall/region_variation_empty.xml",
+      "bytes": 9348,
+      "sha256": "bc47df1bfbb4276a845c861222ed0ca45fd86e1c0be0f1a8f5b0cf6fba81a4a4"
+    },
+    {
+      "path": "data/world/Tara_castle_greathall/region_variation_g26_780705.xml",
+      "bytes": 8242,
+      "sha256": "ac9495d37ac2c1325ba3317924d352494914049ae2eddba25cb680dc715dbab0"
+    },
+    {
+      "path": "data/world/Tara_castle_greathall/Tara_castle_greathall.rgn",
+      "bytes": 1163,
+      "sha256": "57ae0c599fb880c16349bc921c1593dce598c783418211f77f4d9f0943c3bb36"
+    },
+    {
+      "path": "data/world/Tara_castle_guildhall/Tara_castle_guildhall.rgn",
+      "bytes": 1161,
+      "sha256": "083a179292ff86795271b96db26ea9ab5918412e139b9bb0c3175837259edf73"
+    },
+    {
+      "path": "data/world/Tara_castle_kingroom/region_variation_797002.xml",
+      "bytes": 1194,
+      "sha256": "5703b72d0f8082cab3a79fde0ac6036175aa8adda1f683edeb63ac5c1e516c0c"
+    },
+    {
+      "path": "data/world/Tara_castle_kingroom/region_variation_797006.xml",
+      "bytes": 1158,
+      "sha256": "8eff7ffed89aa6c20b95f2b07d98badbe6b001f3b7db683e89d7a77ba0e62c62"
+    },
+    {
+      "path": "data/world/Tara_castle_kingroom/region_variation_g25_780620.xml",
+      "bytes": 1036,
+      "sha256": "580b414342dff1a8d51efefe96de89d0afbd38713cac1ad03b3939e861b7f6d0"
+    },
+    {
+      "path": "data/world/Tara_castle_kingroom/region_variation_g28_780902.xml",
+      "bytes": 1036,
+      "sha256": "580b414342dff1a8d51efefe96de89d0afbd38713cac1ad03b3939e861b7f6d0"
+    },
+    {
+      "path": "data/world/Tara_castle_kingroom/Tara_castle_kingroom.rgn",
+      "bytes": 1095,
+      "sha256": "c1779027404b2df8c0bd5e25f6a426c2c25ce596d9515ff06ca42f7dbf8a496e"
+    },
+    {
+      "path": "data/world/Tara_castle_library/region_variation_1.xml",
+      "bytes": 11982,
+      "sha256": "4aa4db1a1a37bafa5088bae1ce2dc77dd5a77f698cbddaa19b9d6ffad31353e0"
+    },
+    {
+      "path": "data/world/Tara_castle_library/region_variation_g26_780705.xml",
+      "bytes": 4960,
+      "sha256": "5d5d825e15a4ff466297559ffd687c9868d95361de21315b3a52c8aa7272da2b"
+    },
+    {
+      "path": "data/world/Tara_castle_library/region_variation_g28_780901.xml",
+      "bytes": 4960,
+      "sha256": "5d5d825e15a4ff466297559ffd687c9868d95361de21315b3a52c8aa7272da2b"
+    },
+    {
+      "path": "data/world/Tara_castle_library/Tara_castle_library.rgn",
+      "bytes": 1189,
+      "sha256": "4698106e7ef9a21c3d4a760e3627483afe65688a8c2e2a0ed79fec0d31b05be6"
+    },
+    {
+      "path": "data/world/Tara_castle_nobleroom_01/region_variation_1.xml",
+      "bytes": 9988,
+      "sha256": "7ce0dc29f011a7b33902b9d852fb8d5de87ca1ff42eb9731df5d4d1b98b88cad"
+    },
+    {
+      "path": "data/world/Tara_castle_nobleroom_01/Tara_castle_nobleroom_01.rgn",
+      "bytes": 1229,
+      "sha256": "8077315aa8b2388984b16723ccb714550e72c5c7a7c8094226cf5ad8bd5a92d4"
+    },
+    {
+      "path": "data/world/Tara_castle_nobleroom_02/region_variation_1.xml",
+      "bytes": 9986,
+      "sha256": "1c9771d32f488b10894b5d461eb93ab7779234f127c562e801a2f459cb55ba12"
+    },
+    {
+      "path": "data/world/Tara_castle_nobleroom_02/Tara_castle_nobleroom_02.rgn",
+      "bytes": 1267,
+      "sha256": "1a694e502e75b6e27f7df0f4a59271b739df64a8267d7476b99634d476fc76ad"
+    },
+    {
+      "path": "data/world/Tara_castle_pot/region_variation_1.xml",
+      "bytes": 5828,
+      "sha256": "08635134eed4f6043439689cab2f1e53d9faca6ed21049546cfdc1400c5d09e7"
+    },
+    {
+      "path": "data/world/Tara_castle_pot/Tara_castle_pot.rgn",
+      "bytes": 1153,
+      "sha256": "cf4b29a0719424c9ac16213794614e9d738a81807ccb3e88a78d440ae7773773"
+    },
+    {
+      "path": "data/world/Tara_church_confessional/Tara_church_confessional.rgn",
+      "bytes": 1003,
+      "sha256": "7544751be668d6a40f95144763d02db23db75f033b163821263d7b21cdfe28da"
+    },
+    {
+      "path": "data/world/Tara_church/Tara_church.rgn",
+      "bytes": 853,
+      "sha256": "7c31060e46cf7494b72c6d0da09811c1d718a74a695e77355017deee5a9150ec"
+    },
+    {
+      "path": "data/world/Tara_cloth/Tara_cloth.rgn",
+      "bytes": 893,
+      "sha256": "6be60ba91bee4b4680b8d1a0ebc952b17b153c1eaa086c3a1768ebe795ad8bb3"
+    },
+    {
+      "path": "data/world/Tara_healer/Tara_healer.rgn",
+      "bytes": 911,
+      "sha256": "40e1122c6a42d1ef86aaf68f067c75c1a81fe7719802d741c1d7f4a85d7ee9e7"
+    },
+    {
+      "path": "data/world/Tara_keep_DgnHall_after/Tara_keep_DgnHall_after.rgn",
+      "bytes": 965,
+      "sha256": "92f9f7fc02bbc881dc6a30a588d48a58648a235e6010e8e0604128eb73aa879f"
+    },
+    {
+      "path": "data/world/Tara_keep_DgnHall_before/Tara_keep_DgnHall_before.rgn",
+      "bytes": 1047,
+      "sha256": "7eb1ad2703d40347c047a26d2bebee59b87094c67b039afe5135e2e7431df6cc"
     },
     {
       "path": "data/world/Tara_keep_RG/Tara_keep_RG.rgn",
-      "sourceArchive": "data_00626.it",
-      "sourceSha256": "0e52f60c7cdad44a7bdd2234d92ce125cc935157ad98f71c2fe5c310792eb4d7",
-      "size": 963,
-      "sha256": "642821c9ea49d4b95e8ce0afc8308b4a45eb1f30e23b7b45e9593090de061172",
-      "matchesPersonalPayload": true
+      "bytes": 963,
+      "sha256": "642821c9ea49d4b95e8ce0afc8308b4a45eb1f30e23b7b45e9593090de061172"
+    },
+    {
+      "path": "data/world/Tara_magic/Tara_magic.rgn",
+      "bytes": 905,
+      "sha256": "ba47d0cdf812bd4ed8ecaf31df800a1a991bb212bd890b95b149c146e7e5068f"
     },
     {
       "path": "data/world/Tara_main_field_shadowversion/Tara_main_field_shadowversion.rgn",
-      "sourceArchive": "data_00627.it",
-      "sourceSha256": "700761c45e8465107a577609c3420d69debf1c69c58d4065954ecbc7bd354b15",
-      "size": 2771,
-      "sha256": "ca334d11a550e6d3c1e7075d668383175b7c6f6864c092c2443a889d05c6fbdc",
-      "matchesPersonalPayload": true
+      "bytes": 2771,
+      "sha256": "ca334d11a550e6d3c1e7075d668383175b7c6f6864c092c2443a889d05c6fbdc"
     },
     {
       "path": "data/world/Tara_main_field/Tara_main_field.rgn",
-      "sourceArchive": "data_00627.it",
-      "sourceSha256": "8653d1093ba28bf5745368cf172be34f36ab0cdf9f25b33c0a19a5acad870761",
-      "size": 2135,
-      "sha256": "b2b10f62a87c2519d0be7ca42827fdf138902a81ae9d526412023716524a00b6",
-      "matchesPersonalPayload": true
+      "bytes": 2135,
+      "sha256": "b2b10f62a87c2519d0be7ca42827fdf138902a81ae9d526412023716524a00b6"
     },
     {
       "path": "data/world/Tara_main_kingdom_field/Tara_main_kingdom_field.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "30eff9db58be1440d2a7ffb675581fb7d221162dac01eadbc153c9921b8ee013",
-      "size": 2447,
-      "sha256": "5f8017c5a12e5da66e1c41938905eb1308afb94f06c67a283904ed967d2e58fc",
-      "matchesPersonalPayload": true
+      "bytes": 2447,
+      "sha256": "5f8017c5a12e5da66e1c41938905eb1308afb94f06c67a283904ed967d2e58fc"
+    },
+    {
+      "path": "data/world/Tara_misc/Tara_misc.rgn",
+      "bytes": 885,
+      "sha256": "dd7bcc4937eb3f5579fe7ec8b641a651075c320e92b324bc615b40172f4b9e76"
     },
     {
       "path": "data/world/Tara_tournament_field/Tara_tournament_field.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "bbfd0e814b0c1f3869207d55aa19947be5f99bd30e79c62c090ddd843f6d0154",
-      "size": 1263,
-      "sha256": "7bfb383ef6ff282df3728cb75ac0b0fee88e62a7bd320ff328ff2e1a5737a640",
-      "matchesPersonalPayload": true
+      "bytes": 1263,
+      "sha256": "7bfb383ef6ff282df3728cb75ac0b0fee88e62a7bd320ff328ff2e1a5737a640"
     },
     {
       "path": "data/world/Tara_town_RG/Tara_town_RG.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "55f66fc87e016511977166da2ca9470644b73d5b9f523caa734a26b938827afc",
-      "size": 1201,
-      "sha256": "94f9544b58862ecf451173bfd1b5d50a0d5186f5310d4c6046efa551b2bfc9bd",
-      "matchesPersonalPayload": true
+      "bytes": 1201,
+      "sha256": "94f9544b58862ecf451173bfd1b5d50a0d5186f5310d4c6046efa551b2bfc9bd"
+    },
+    {
+      "path": "data/world/Tara_weapon/Tara_weapon.rgn",
+      "bytes": 895,
+      "sha256": "e9eb0911cb29b97eba3aad33e50a57b9a571af33d4077a748001cecb22bf50ea"
     },
     {
       "path": "data/world/Test01/Test01.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "dd6e7b08f4b0130e1ce4ddec7dfa0ffbc8a008414f37155e5427149498872e5a",
-      "size": 1091,
-      "sha256": "451a5751abe28f70b9936ea32a7eaf69f62a9657fe0cb3c639b00b5e98c8c9f8",
-      "matchesPersonalPayload": true
+      "bytes": 1091,
+      "sha256": "451a5751abe28f70b9936ea32a7eaf69f62a9657fe0cb3c639b00b5e98c8c9f8"
     },
     {
       "path": "data/world/Test02/Test02.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "c0bc04320a6a8ac395076cb9d12ad1396de4b626f5dd19ae4819773da396332d",
-      "size": 1063,
-      "sha256": "a584ed432a4b4687b64779a40859cdf0c33f672f171f6a65ea8662b8395d779d",
-      "matchesPersonalPayload": true
+      "bytes": 1063,
+      "sha256": "a584ed432a4b4687b64779a40859cdf0c33f672f171f6a65ea8662b8395d779d"
     },
     {
       "path": "data/world/The first Battle of Moytura/The first Battle of Moytura.rgn",
-      "sourceArchive": "data_01220.it",
-      "sourceSha256": "d9ee2fa9d4c4dd5ce79bc944e29b74e175e1baa6c853ca6eed262f46f6414823",
-      "size": 1489,
-      "sha256": "26a26cfd93f7f2bdbf3cf9105fa35c2e11fe9a90c051ec7d71c6ec189c6c2c73",
-      "matchesPersonalPayload": true
+      "bytes": 1489,
+      "sha256": "26a26cfd93f7f2bdbf3cf9105fa35c2e11fe9a90c051ec7d71c6ec189c6c2c73"
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lobby/Tower_Of_Challenges_Lobby.rgn",
+      "bytes": 1135,
+      "sha256": "4dc75015dc092afd0d4dcafecf0cff84c9ce6fcf78a39392a6ac6f90a1bb1b9f"
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lv1/Tower_Of_Challenges_Lv1.rgn",
+      "bytes": 1239,
+      "sha256": "d67d0d616de022a94e662073f3d4196e7e1cec94047f6990dbbea176d067a347"
     },
     {
       "path": "data/world/Tower_Of_Challenges_Lv2/Tower_Of_Challenges_Lv2.rgn",
-      "sourceArchive": "data_00921.it",
-      "sourceSha256": "6fffb32882565e3998ba8fd63b5892020e5ffea5d455c5897d24a8e8aaa495dc",
-      "size": 1739,
-      "sha256": "eabb0352e59cb6b493b80746f4273ade7a4be21ecb6acb0206c1a5024991bd95",
-      "matchesPersonalPayload": true
+      "bytes": 1739,
+      "sha256": "eabb0352e59cb6b493b80746f4273ade7a4be21ecb6acb0206c1a5024991bd95"
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lv3/Tower_Of_Challenges_Lv3.rgn",
+      "bytes": 1555,
+      "sha256": "60f2096c69840bbba9c117a0d848491f2043c368efeb85991651c85b627b5d94"
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lv4/Tower_Of_Challenges_Lv4.rgn",
+      "bytes": 1269,
+      "sha256": "5f7bd9be8f83cdd7174ac905551519adf98e74ba7574580b619ee3c3e4ef9074"
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lv5/Tower_Of_Challenges_Lv5.rgn",
+      "bytes": 1119,
+      "sha256": "0aea3e347cce042b0819d4a44e8c3585865124335461a7655518ad6f1b40482c"
+    },
+    {
+      "path": "data/world/Tower_Of_Challenges_Lv6/Tower_Of_Challenges_Lv6.rgn",
+      "bytes": 1239,
+      "sha256": "429f6b2073f2a66455dcbc9945cf2f9244ff3c748b85220ddeb8256c3de4db3c"
+    },
+    {
+      "path": "data/world/TR_ICK_dungeon_01/TR_ICK_dungeon_01.rgn",
+      "bytes": 1123,
+      "sha256": "7217efab434fc466c030a3291f045c577f13dcdfd8f1b086b64831665c6b9d57"
     },
     {
       "path": "data/world/TR_main_field_01/TR_main_field_01.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "b4a9e1ab668397d712a17fd6e3f1404082bc4d48f1fac9de6961da7a45fe8d7c",
-      "size": 1447,
-      "sha256": "69d834d7f604bb046513e225f6a6036657c77bfddc545ebb10229a12d9e44ff9",
-      "matchesPersonalPayload": true
+      "bytes": 1447,
+      "sha256": "69d834d7f604bb046513e225f6a6036657c77bfddc545ebb10229a12d9e44ff9"
     },
     {
       "path": "data/world/TRMR_main_field/TRMR_main_field.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "afdc06fc748731d9e0b6964a2f9518302606751bcfea502da283a5430e7fc31e",
-      "size": 1195,
-      "sha256": "896207108c9c3bb821bc478bbb6841060c836166fbf4397960f1ac592225b477",
-      "matchesPersonalPayload": true
+      "bytes": 1195,
+      "sha256": "896207108c9c3bb821bc478bbb6841060c836166fbf4397960f1ac592225b477"
     },
     {
       "path": "data/world/Tutorial_Zone/Tutorial_Zone.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "3446ae6c0a5689b36b4ec1b05b8fb78084957aae24ad731065f4554048b4d729",
-      "size": 1097,
-      "sha256": "234fcfc0f94d7852e75597a5e34a8953a9091636b74eb32edeb0e03b63555cf7",
-      "matchesPersonalPayload": true
+      "bytes": 1097,
+      "sha256": "234fcfc0f94d7852e75597a5e34a8953a9091636b74eb32edeb0e03b63555cf7"
     },
     {
       "path": "data/world/Ula_Bangor/Ula_Bangor.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "c7183977a07fdcd2cfb45cf588073adc7b1ebaa3abceb1eb97885ec5539f5344",
-      "size": 1147,
-      "sha256": "d12b3bae51d198408c5740300a3fcfd018fc6a59a595b5cb047f0af2b06f6e7a",
-      "matchesPersonalPayload": true
+      "bytes": 1147,
+      "sha256": "d12b3bae51d198408c5740300a3fcfd018fc6a59a595b5cb047f0af2b06f6e7a"
     },
     {
       "path": "data/world/Ula_Ceann_Harbor/Ula_Ceann_Harbor.rgn",
-      "sourceArchive": "data_00628.it",
-      "sourceSha256": "52404230874d0b69230cacf1d869368bd5be849313e65cc7d35ef50e86cc1d7a",
-      "size": 1417,
-      "sha256": "3eef792ec5ac1bde10658411476c354fb71b079891a7af14d3ee7982ef63721c",
-      "matchesPersonalPayload": true
+      "bytes": 1417,
+      "sha256": "3eef792ec5ac1bde10658411476c354fb71b079891a7af14d3ee7982ef63721c"
+    },
+    {
+      "path": "data/world/Ula_Ceann_Tent/Ula_Ceann_Tent.rgn",
+      "bytes": 1163,
+      "sha256": "7a23268a64927a088316bab93f6abcfbcc628a34caa365b3c3dfabd42a0d3ab0"
     },
     {
       "path": "data/world/Ula_Ceann_to_Connous/Ula_Ceann_to_Connous.rgn",
-      "sourceArchive": "data_00938.it",
-      "sourceSha256": "1b97d54e9e9987145fcab0e6a58b30d15122c1afd0ce74444511a67ba93d14bb",
-      "size": 1489,
-      "sha256": "9ec2ab1d720351777b38192ca39115d562a74fbb7b50ca00534f219f10ed8e5b",
-      "matchesPersonalPayload": true
+      "bytes": 1489,
+      "sha256": "9ec2ab1d720351777b38192ca39115d562a74fbb7b50ca00534f219f10ed8e5b"
     },
     {
       "path": "data/world/Ula_Ceann_to_Sella/Ula_Ceann_to_Sella.rgn",
-      "sourceArchive": "data_00938.it",
-      "sourceSha256": "c5b76dcde4012faee91daa18a5dc024f9f1ba64446a3209921138c44a33e8f4d",
-      "size": 1453,
-      "sha256": "f190e93fc13e6f9f2f6a76ccfe899a4cb8d941800fc54ce0e47169132120f890",
-      "matchesPersonalPayload": true
+      "bytes": 1453,
+      "sha256": "f190e93fc13e6f9f2f6a76ccfe899a4cb8d941800fc54ce0e47169132120f890"
+    },
+    {
+      "path": "data/world/Ula_Crossroad/region_variation_797102.xml",
+      "bytes": 1268,
+      "sha256": "e9575ea333c3c4f51d4ac967c685d14bdacfdae3afaf8c68c26cca5333a1be75"
+    },
+    {
+      "path": "data/world/Ula_Crossroad/Ula_Crossroad.rgn",
+      "bytes": 1175,
+      "sha256": "27aa734c6780529debe941c04f0075dd675c37112a9285042c8817aef0dadc03"
+    },
+    {
+      "path": "data/world/Ula_DgnArena_Dunbarton_Arena/Ula_DgnArena_Dunbarton_Arena.rgn",
+      "bytes": 993,
+      "sha256": "47baaad9668c5a4823ef38de257caf962b92577c59dbbd8e6942caff4df62c5b"
+    },
+    {
+      "path": "data/world/Ula_DgnArena_Dunbarton_Lobby/Ula_DgnArena_Dunbarton_Lobby.rgn",
+      "bytes": 1057,
+      "sha256": "0a3a1e92371d4c5ba56703d60fdc05a1f33e2e34ad36874b92e09359f99a1e8c"
+    },
+    {
+      "path": "data/world/Ula_DgnArena_Dunbarton_waitingroom/Ula_DgnArena_Dunbarton_waitingroom.rgn",
+      "bytes": 1029,
+      "sha256": "86f16dcb8fc74f18123eb29491086d1fba0b0d660e7a82aabc676be04db63ef9"
+    },
+    {
+      "path": "data/world/Ula_DgnArena_Tircho_Arena/region_variation_ucd712000.xml",
+      "bytes": 1184,
+      "sha256": "a901d4eba11af9bae367d766e03518fb12c9067336e36722f66b46e7ab01f735"
+    },
+    {
+      "path": "data/world/Ula_DgnArena_Tircho_Arena/Ula_DgnArena_Tircho_Arena.rgn",
+      "bytes": 975,
+      "sha256": "808b791f4dbc4ecd571fddddf9bef82138e149c5f3abf5ad4966a7957f4f8bc1"
+    },
+    {
+      "path": "data/world/Ula_DgnArena_Tircho_Lobby/Ula_DgnArena_Tircho_Lobby.rgn",
+      "bytes": 1029,
+      "sha256": "054a882a508372cca645e122fec678e2cb03868ce379beeb342a7d9e7bc1d7f2"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Bangor_after/Ula_DgnHall_Bangor_after.rgn",
+      "bytes": 1241,
+      "sha256": "81aeea9d4de0572f514cc2959bec0e60e1d4c36f10b58b1bf6a6253aa01a62d2"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Bangor_before1/Ula_DgnHall_Bangor_before1.rgn",
+      "bytes": 1253,
+      "sha256": "11c37c1a891c13c79a93872ff24ab3952ebafdb24f71b5e6c89c09bd429e62dd"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Bangor_before2/Ula_DgnHall_Bangor_before2.rgn",
+      "bytes": 1057,
+      "sha256": "23145747c93f7e78846b66bd7135691ccea438b3708ab2f6d62c43333a56602c"
     },
     {
       "path": "data/world/Ula_DgnHall_Coill_after/Ula_DgnHall_Coill_after.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "ed0530778ccf92ae79f42da734e6c5176baa31672f85b4f1390773d7e3c2e5ce",
-      "size": 1155,
-      "sha256": "6462f5be0055e956d142017779517e46ed95bef67f78ccaeb1f62775dd47d248",
-      "matchesPersonalPayload": true
+      "bytes": 1155,
+      "sha256": "6462f5be0055e956d142017779517e46ed95bef67f78ccaeb1f62775dd47d248"
     },
     {
       "path": "data/world/Ula_DgnHall_Coill_before/Ula_DgnHall_Coill_before.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "e54f62ed382e78343d29250a31004bb2169c06fc170070c20a6b3f9934be9834",
-      "size": 1161,
-      "sha256": "2e3b1c5d42bb530184475f89cd9e775e57c4ccc6246241881fe184552640e3ab",
-      "matchesPersonalPayload": true
+      "bytes": 1161,
+      "sha256": "2e3b1c5d42bb530184475f89cd9e775e57c4ccc6246241881fe184552640e3ab"
     },
     {
       "path": "data/world/Ula_DgnHall_Danu_after/Ula_DgnHall_Danu_after.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "d02fa5e73bd49180b795910ce30925883f16f12865469df59362dd7ce113f42a",
-      "size": 1229,
-      "sha256": "b018b30a83f2828f91acbcfeae957d8b86f74c4a53fc69e089147d3d510a101c",
-      "matchesPersonalPayload": true
+      "bytes": 1229,
+      "sha256": "b018b30a83f2828f91acbcfeae957d8b86f74c4a53fc69e089147d3d510a101c"
     },
     {
       "path": "data/world/Ula_DgnHall_Danu_before/Ula_DgnHall_Danu_before.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "f9ac057468d1da857ad9d3482ff80f0412d17175a008b7ae8e7314b1d6ce0550",
-      "size": 1235,
-      "sha256": "8a77ed17787f535934d9e3af9d3fc162f38dda60429b56e82f3b5e7390f9ede0",
-      "matchesPersonalPayload": true
+      "bytes": 1235,
+      "sha256": "8a77ed17787f535934d9e3af9d3fc162f38dda60429b56e82f3b5e7390f9ede0"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Dunbarton_after/Ula_DgnHall_Dunbarton_after.rgn",
+      "bytes": 1259,
+      "sha256": "de8da3d74a153776dec7d3b630fbbcc4b9b907097a16b6be724561dbf0db9b6a"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Dunbarton_before1/Ula_DgnHall_Dunbarton_before1.rgn",
+      "bytes": 1191,
+      "sha256": "981c80dce22408e8a1749a35e2de2e018782af0d96a81dccdfc70168bc283831"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Dunbarton_before2/Ula_DgnHall_Dunbarton_before2.rgn",
+      "bytes": 1191,
+      "sha256": "735706bb48528a6c45c4813f1db0ec75d6ae18ce1205485591d2ff0abab39b89"
+    },
+    {
+      "path": "data/world/Ula_Dgnhall_Peaca_after/Ula_Dgnhall_Peaca_after.rgn",
+      "bytes": 1155,
+      "sha256": "6447ffdbe7ff13a3f2e1c0eb50f1a1bcdfe5e1c0f3eabd6c216480b26ef6a8c5"
+    },
+    {
+      "path": "data/world/Ula_Dgnhall_Peaca_before/Ula_Dgnhall_Peaca_before.rgn",
+      "bytes": 1145,
+      "sha256": "8cbb1c90f06a634eca739f7f0a3decab942892d80e58658a18aead1573c897c9"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Runda_after/Ula_DgnHall_Runda_after.rgn",
+      "bytes": 1235,
+      "sha256": "563a7e027173a3a003efb7b3869e72c3a02eaa4ea3bcfcfaceb187a1fa382509"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Runda_before/Ula_DgnHall_Runda_before.rgn",
+      "bytes": 1241,
+      "sha256": "215aaa359544b057eb01a9904857abba152e3e7d18c9eac9dd674417d02cb97f"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Tirnanog_after/Ula_DgnHall_Tirnanog_after.rgn",
+      "bytes": 1253,
+      "sha256": "fd550a4a7885c22eba8c3fdbaa5d8b14ffce5717eac3f0b3cd45d72f565d06e5"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Tirnanog_before1/Ula_DgnHall_Tirnanog_before1.rgn",
+      "bytes": 1265,
+      "sha256": "b9cfe160abccc38eabb74468b7d5b7c3a3927feb1190e433a1f018731e0daaae"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Tirnanog_before2/Ula_DgnHall_Tirnanog_before2.rgn",
+      "bytes": 1265,
+      "sha256": "76506e9756583ccec5449984769ba7af05a886f897b80bf2eb03f72c9e60b5bc"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Tirnanog_G3_after/Ula_DgnHall_Tirnanog_G3_after.rgn",
+      "bytes": 1271,
+      "sha256": "b85987f4abadde086e65ae102a5ee02f0436ce4eabf2a95604ead25cada80071"
+    },
+    {
+      "path": "data/world/Ula_DgnHall_Tirnanog_G3_before/Ula_DgnHall_Tirnanog_G3_before.rgn",
+      "bytes": 1277,
+      "sha256": "0857236491a45a2311254f9014c321df5687942114f9f7aded136a00d17f08a1"
     },
     {
       "path": "data/world/Ula_Dun_to_Bangor/Ula_Dun_to_Bangor.rgn",
-      "sourceArchive": "data_00629.it",
-      "sourceSha256": "ec06b69be72d6fc818598bbfe2db11fe4f61e281135d360acb9fcedb6cea0245",
-      "size": 2383,
-      "sha256": "878e98563f26a4c95908f5ba882832f02569b8eff7a513a18e70676669e038b1",
-      "matchesPersonalPayload": true
+      "bytes": 2383,
+      "sha256": "878e98563f26a4c95908f5ba882832f02569b8eff7a513a18e70676669e038b1"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_bank/Ula_Emainmacha_bank.rgn",
+      "bytes": 1015,
+      "sha256": "ebef0ca3e56f7fed9d3d71899399bef9c4432169f8bb0d6282895a7d713c652a"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_castle_chamber_A/Ula_Emainmacha_castle_chamber_A.rgn",
+      "bytes": 1087,
+      "sha256": "3e55094e6c77ad29ca98fdcffbed8454325815f51fd3dba2a42688e8849a4596"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_castle_chamber_B/Ula_Emainmacha_castle_chamber_B.rgn",
+      "bytes": 1087,
+      "sha256": "bf53f7dc531b0c51f38f70b3bea956ed306b7c7e170b572da46cfe890e3ad98b"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_castle/Ula_Emainmacha_castle.rgn",
+      "bytes": 1025,
+      "sha256": "be71db95f3e211854b7c41c4a5fbdc736d92464741014ddf170ea3b0a9f8cf3c"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_cathedral/Ula_Emainmacha_cathedral.rgn",
+      "bytes": 1031,
+      "sha256": "cc5af04b3e21f069f919aa634ba52af2827d79daaf61768d61631b4bd7055c6f"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_club/Ula_Emainmacha_club.rgn",
+      "bytes": 995,
+      "sha256": "abdb42ec74cf5debca79bcc887dbf1c9802bf585752e5d845373046e7ff9c077"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_dollwalker/Ula_Emainmacha_dollwalker.rgn",
+      "bytes": 1225,
+      "sha256": "2f99ba0546106d5203e90971bd8f46717b30b921f107005852874d9582741cb5"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_lookout_1st/Ula_Emainmacha_lookout_1st.rgn",
+      "bytes": 1055,
+      "sha256": "15ba6bd2a8d124e9ecc677fde1c33955bc94a6e74fdc5679f503724d02d173d8"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_lookout_2nd/Ula_Emainmacha_lookout_2nd.rgn",
+      "bytes": 1055,
+      "sha256": "2844852d93c1918c7067783c18522eb658236bc94df9c373ab265851fc3530e1"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_OidTobar_Hall/Ula_Emainmacha_OidTobar_Hall.rgn",
+      "bytes": 1367,
+      "sha256": "1fb5edcfbef083cbfdd5798bf1c641231bb67e394df3e076cbd1303369add5d2"
+    },
+    {
+      "path": "data/world/Ula_Emainmacha_Rua/Ula_Emainmacha_Rua.rgn",
+      "bytes": 983,
+      "sha256": "fadd96b5d148dd728b9e3ad4d519936870ac144364e9a777d5cbb3f4ff85f975"
     },
     {
       "path": "data/world/Ula_Emainmacha/Ula_Emainmacha.rgn",
-      "sourceArchive": "data_00650.it",
-      "sourceSha256": "a897956ebfab2605358789b70bbc20f5a0e586655a9bd56567a38299b1792368",
-      "size": 2195,
-      "sha256": "898f6b96e34319cd1f8fee400300c57a8ff02f851f5062a43b4648398cece6e5",
-      "matchesPersonalPayload": true
+      "bytes": 2195,
+      "sha256": "898f6b96e34319cd1f8fee400300c57a8ff02f851f5062a43b4648398cece6e5"
+    },
+    {
+      "path": "data/world/Ula_hardmode_DgnHall_Ciar_after/Ula_hardmode_DgnHall_Ciar_after.rgn",
+      "bytes": 1165,
+      "sha256": "af7071547bcf2daf780611278ead3b5d8a955ee9821fb4546f817a0112a212f6"
+    },
+    {
+      "path": "data/world/Ula_hardmode_DgnHall_Ciar_before/Ula_hardmode_DgnHall_Ciar_before.rgn",
+      "bytes": 1171,
+      "sha256": "fa8c6c9526cd3747b56f2c6299cc6684600dd26abffeb45043b8a9ffd917891f"
+    },
+    {
+      "path": "data/world/Ula_hardmode_DgnHall_Runda_after/Ula_hardmode_DgnHall_Runda_after.rgn",
+      "bytes": 1289,
+      "sha256": "b11096870d49a1d66b02047d4ade762e61afc0444db32b9a4738492563c863bf"
+    },
+    {
+      "path": "data/world/Ula_hardmode_DgnHall_Runda_before/Ula_hardmode_DgnHall_Runda_before.rgn",
+      "bytes": 1295,
+      "sha256": "5d643492f7403d67ffd4236a2fcdcc933df10ed452d2b9fb2e71af4ebe2bfeeb"
+    },
+    {
+      "path": "data/world/Ula_hardmode_DgnHall_TirChonaill_after/Ula_hardmode_DgnHall_TirChonaill_after.rgn",
+      "bytes": 1207,
+      "sha256": "c6114f56fea37f76935b8f1a6cd8c9788a029421ca8464a30249f4b893fa7215"
+    },
+    {
+      "path": "data/world/Ula_hardmode_DgnHall_TirChonaill_before/Ula_hardmode_DgnHall_TirChonaill_before.rgn",
+      "bytes": 1213,
+      "sha256": "92d1651dc607a1a7a52fa6e073d15f16981320402b538c02af42dadf1b936984"
     },
     {
       "path": "data/world/Ula_Sen_Mag/Ula_Sen_Mag.rgn",
-      "sourceArchive": "data_00900.it",
-      "sourceSha256": "f0482831927c0ad53188f2afee647e440222648b515c75d924366547a914bcd6",
-      "size": 1327,
-      "sha256": "bf160e1788b5d990ef9aa4b0ea914b4471a10df1089ff31999a9b70abd9d2772",
-      "matchesPersonalPayload": true
+      "bytes": 1327,
+      "sha256": "bf160e1788b5d990ef9aa4b0ea914b4471a10df1089ff31999a9b70abd9d2772"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_Bank/Ula_Tirnanog_Bank.rgn",
+      "bytes": 1007,
+      "sha256": "08177056ef47652c4c78c959befe44c332dbcfb82f9cdbab6e796bd4aefb428c"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_ChiefHouse/Ula_Tirnanog_ChiefHouse.rgn",
+      "bytes": 1043,
+      "sha256": "f5a39b723e8f559d93983beafecc9e65ad462a3f8b72173c15833e241acebe28"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_Church/Ula_Tirnanog_Church.rgn",
+      "bytes": 1019,
+      "sha256": "f2165963d2fb176a76dfe975787cf0e26d15408f0121532d7394d6dc666c9687"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_Grocery/Ula_Tirnanog_Grocery.rgn",
+      "bytes": 1025,
+      "sha256": "6466fd687855e06ae5b7fcb8b1233d071876a7605a58e8969a56dd2c756f14df"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_Healer/Ula_Tirnanog_Healer.rgn",
+      "bytes": 1019,
+      "sha256": "da59650b1a9180b375f950ebabbf945cbce8db44c64ae172651b57f3c6429296"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_Inn/Ula_Tirnanog_Inn.rgn",
+      "bytes": 1001,
+      "sha256": "0b6c919437ee026e7b22206f57d20e4097377c300f278c5712cd79b3c0805379"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_MiscShop/Ula_Tirnanog_MiscShop.rgn",
+      "bytes": 1031,
+      "sha256": "8324545bd9e511849611f365423c9e0ba5548be014661c9876256ac989245c16"
+    },
+    {
+      "path": "data/world/Ula_Tirnanog_School/Ula_Tirnanog_School.rgn",
+      "bytes": 1029,
+      "sha256": "ae29247e19e05831814ef8c3f6a42e93fcb0ca5f9b46afedee2fb4ae59cfea2d"
     },
     {
       "path": "data/world/Uladh_Belfast_to_Cobh/Uladh_Belfast_to_Cobh.rgn",
-      "sourceArchive": "data_00630.it",
-      "sourceSha256": "bc86111882f352abd636148cd33dc0e2d4a0490f57bb3a2376a0ec17b63430da",
-      "size": 2077,
-      "sha256": "64eb8ed38b0e55970d90024a2514755fd05f838fdac4897c208c32504fa47eac",
-      "matchesPersonalPayload": true
+      "bytes": 2077,
+      "sha256": "64eb8ed38b0e55970d90024a2514755fd05f838fdac4897c208c32504fa47eac"
+    },
+    {
+      "path": "data/world/Uladh_Cobh_bar_C01/Uladh_Cobh_bar_C01.rgn",
+      "bytes": 1083,
+      "sha256": "a6af4d30a73db9f16007b6dca05a832e7a804c32c1dc4a6868f0b8b7ceffb45e"
+    },
+    {
+      "path": "data/world/Uladh_Cobh_bar_C02/Uladh_Cobh_bar_C02.rgn",
+      "bytes": 1083,
+      "sha256": "1dc3ea3027d4c1a36bdf584c1046d1de0b35cac6f0333a9c2da14b8a303e5f3e"
+    },
+    {
+      "path": "data/world/Uladh_Cobh_bar/Uladh_Cobh_bar.rgn",
+      "bytes": 1141,
+      "sha256": "e7ce6a21c5361b1bbae5baebf7b9052db8021b68825abb1ba8a32ae7e0986da6"
     },
     {
       "path": "data/world/Uladh_Cobh_harbor/Uladh_Cobh_harbor.rgn",
-      "sourceArchive": "data_00630.it",
-      "sourceSha256": "deb6d1d4e249106f9c800899dd05023c124bc28aa109c84b6a2e656d9f00cd79",
-      "size": 1335,
-      "sha256": "fd100b48f71532f523cd6c4420f21f1d735c379cd53fa6147cad6bc049f269cf",
-      "matchesPersonalPayload": true
+      "bytes": 1335,
+      "sha256": "fd100b48f71532f523cd6c4420f21f1d735c379cd53fa6147cad6bc049f269cf"
     },
     {
       "path": "data/world/Uladh_Cobh_to_Belfast/Uladh_Cobh_to_Belfast.rgn",
-      "sourceArchive": "data_00630.it",
-      "sourceSha256": "4bf8674e8d656a3376562818708fe590b3335881b5e37cf4f740c2fc62ed26aa",
-      "size": 1399,
-      "sha256": "0e5cd496b1aaad3270be409a935a64ceb267079a25b4a8742d4926671b2c15d4",
-      "matchesPersonalPayload": true
+      "bytes": 1399,
+      "sha256": "0e5cd496b1aaad3270be409a935a64ceb267079a25b4a8742d4926671b2c15d4"
     },
     {
       "path": "data/world/Uladh_Cobh_to_Kela/Uladh_Cobh_to_Kela.rgn",
-      "sourceArchive": "data_00630.it",
-      "sourceSha256": "eea36752485f35d68359919b4fa43547d751798a1eb4a4697b8e3f851784e12f",
-      "size": 1351,
-      "sha256": "41813a478c1b8e46de6190e075bf7ce385fd0c50ca03c9237d03fde1c0967a81",
-      "matchesPersonalPayload": true
+      "bytes": 1351,
+      "sha256": "41813a478c1b8e46de6190e075bf7ce385fd0c50ca03c9237d03fde1c0967a81"
     },
     {
       "path": "data/world/Uladh_Dun_to_Tircho/Uladh_Dun_to_Tircho.rgn",
-      "sourceArchive": "data_00630.it",
-      "sourceSha256": "8b10f59da0f0bb7c11fe3cc2b0ab6aa7bcfa162bbf8e468f13e87db8d40d2e5e",
-      "size": 2553,
-      "sha256": "b0a898a794fc28f16828e0a26359d1c4c59079e8ed27ddbf7500a0c1572bf119",
-      "matchesPersonalPayload": true
+      "bytes": 2553,
+      "sha256": "b0a898a794fc28f16828e0a26359d1c4c59079e8ed27ddbf7500a0c1572bf119"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_Bank/Uladh_Dunbarton_Bank.rgn",
+      "bytes": 1021,
+      "sha256": "cae6d343b2aaabf9aa7b433750db382ff3d5c5315ad6c752ae12aa54bebf468c"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_Church/Uladh_Dunbarton_Church.rgn",
+      "bytes": 1033,
+      "sha256": "9efd63bbcaa8f1f0155a6237ec629e4a2edf350c22659cb2236a2cd772a0bb5d"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_Cloth/Uladh_Dunbarton_Cloth.rgn",
+      "bytes": 1029,
+      "sha256": "ce2922c7cbbd96371cfe7ce59f8e25377f2905c9f2190ecbe735b3d56e9d4989"
     },
     {
       "path": "data/world/Uladh_Dunbarton_DT/Uladh_Dunbarton_DT.rgn",
-      "sourceArchive": "data_01984.it",
-      "sourceSha256": "199558d3c1874ed2ae83d0b26ba1da83ee4a13011b85cb3fecc3e2444ab4133d",
-      "size": 3257,
-      "sha256": "a1481aafe3448f3e3de1e307e3210164e32a188f8c059eb4d0d59878eae77ba6",
-      "matchesPersonalPayload": true
+      "bytes": 3257,
+      "sha256": "a1481aafe3448f3e3de1e307e3210164e32a188f8c059eb4d0d59878eae77ba6"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_Healer/Uladh_Dunbarton_Healer.rgn",
+      "bytes": 1029,
+      "sha256": "424135ad65d8c6d6b8f3638c12e42114034d869c6094871cf3b4a6c7ef0364ad"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_School_LectureRoom_night/Uladh_Dunbarton_School_LectureRoom_night.rgn",
+      "bytes": 1141,
+      "sha256": "d67f02506965880c78c00328ae4dda3f22d4ecfe4c1dfb138328267403835ae4"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_School_LectureRoom/Uladh_Dunbarton_School_LectureRoom.rgn",
+      "bytes": 1105,
+      "sha256": "cbed5840a87c895cca9b840cb082e7ea89af05ec388968ff485547f52e0c0e00"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_School/Uladh_Dunbarton_School.rgn",
+      "bytes": 1029,
+      "sha256": "d61467fd70bd3048999c220889e6e78427a3d0be58a67fa0da40e5a0a37d0761"
+    },
+    {
+      "path": "data/world/Uladh_Dunbarton_SchoolHall_before/Uladh_Dunbarton_SchoolHall_before.rgn",
+      "bytes": 1099,
+      "sha256": "009103bd82573771c29c6ee833c60b89c69b32079cbed17c401c69954b50bdc8"
     },
     {
       "path": "data/world/Uladh_Dunbarton/Uladh_Dunbarton.rgn",
-      "sourceArchive": "data_00631.it",
-      "sourceSha256": "4d7a1f37123f466147437208409595364cc78ce118d720ca3b331c46383a34e0",
-      "size": 2817,
-      "sha256": "218176287304f526e92d1ed1eed08f4d61e22824d4ed7a4ae817794fe2b99f9d",
-      "matchesPersonalPayload": true
+      "bytes": 2817,
+      "sha256": "218176287304f526e92d1ed1eed08f4d61e22824d4ed7a4ae817794fe2b99f9d"
+    },
+    {
+      "path": "data/world/Uladh_Dungeon_Alby_Lobby_15th_event/Uladh_Dungeon_Alby_Lobby_15th_event.rgn",
+      "bytes": 1295,
+      "sha256": "e8a7b41e47860f2e85361c678634837f96b1b613e772a639bb9cfc3d6610e5c6"
+    },
+    {
+      "path": "data/world/Uladh_Dungeon_Beginners_Hall1/Uladh_Dungeon_Beginners_Hall1.rgn",
+      "bytes": 1255,
+      "sha256": "5d3130d124d56330690f6f4dff626bc4f6e97abc7edcbe0d3443066e5cf34df3"
+    },
+    {
+      "path": "data/world/Uladh_Dungeon_Black_Wolfs_Hall1/Uladh_Dungeon_Black_Wolfs_Hall1.rgn",
+      "bytes": 1187,
+      "sha256": "b7511208877d6b698aa0c94212b32a7b3d76f1ac557501696cbc566966ff94b7"
+    },
+    {
+      "path": "data/world/Uladh_Dungeon_Black_Wolfs_Hall2/Uladh_Dungeon_Black_Wolfs_Hall2.rgn",
+      "bytes": 1187,
+      "sha256": "1ed44ce44959485a920d9be04a0dfda0b9b750bf123a333b883b5a084255e5d3"
+    },
+    {
+      "path": "data/world/Uladh_Dungeon_Ciar_Lobby_15th_event/Uladh_Dungeon_Ciar_Lobby_15th_event.rgn",
+      "bytes": 1215,
+      "sha256": "38ea236e55cb56f303efb2808efd55226fe4944ee157db96735ab9452ada966d"
     },
     {
       "path": "data/world/Uladh_main_15th_event/Uladh_main_15th_event.rgn",
-      "sourceArchive": "data_00901.it",
-      "sourceSha256": "509663e54881061eb908e4fdeeaf883fcfe56a1396c469272cd71bd9dfe4ac16",
-      "size": 2253,
-      "sha256": "e0b93821ce1b635be7c4afc0dc846796db1771033bd4bdcbc1b5d078f602c23d",
-      "matchesPersonalPayload": true
+      "bytes": 2253,
+      "sha256": "e0b93821ce1b635be7c4afc0dc846796db1771033bd4bdcbc1b5d078f602c23d"
     },
     {
       "path": "data/world/Uladh_main/Uladh_main.rgn",
-      "sourceArchive": "data_00901.it",
-      "sourceSha256": "d05e1b28ad635410a28d9e19344d4322f4bebc324d3aa282b107e3c3a05dd444",
-      "size": 1769,
-      "sha256": "71d810dff49f9703c51799a626d7cd9533a05ab852f7d747c6f8c23b0ee192f5",
-      "matchesPersonalPayload": true
+      "bytes": 1769,
+      "sha256": "71d810dff49f9703c51799a626d7cd9533a05ab852f7d747c6f8c23b0ee192f5"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Bank_15th_event/Uladh_TirCho_Bank_15th_event.rgn",
+      "bytes": 1269,
+      "sha256": "fe0dc11563d356ef3b63530a78ad8c505e45ab6fbe36ccc82b6766fb2952bb3e"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Bank/Uladh_TirCho_Bank.rgn",
+      "bytes": 1003,
+      "sha256": "b3b347b4cf97d6912b1117b7f294692fd0d23149083b155dea9ecf76e4d22213"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_ChiefHouse_15th_event/Uladh_TirCho_ChiefHouse_15th_event.rgn",
+      "bytes": 1307,
+      "sha256": "108df0c17d002f0446d2271a6c5b829e57ddf3ca434db3f710024af5c90fbc04"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_ChiefHouse/Uladh_TirCho_ChiefHouse.rgn",
+      "bytes": 1041,
+      "sha256": "0acb412dbe2b1979c1935026282a4a1ad92b6bac932fec08dd6f5a8276580f8b"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Church_15th_event/Uladh_TirCho_Church_15th_event.rgn",
+      "bytes": 1285,
+      "sha256": "1528b9751c96ddb8924c13025bc9ecbf20dfafb216ea0caaa7aa9848f2e1f444"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Church/Uladh_TirCho_Church.rgn",
+      "bytes": 1019,
+      "sha256": "2ea6d595d92de989116d99280e18c59ae86ff32b30e3611c2abdc7a76c99e052"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Grocery_15th_event/Uladh_TirCho_Grocery_15th_event.rgn",
+      "bytes": 1305,
+      "sha256": "5af6ce541d4cc3b0637b943b6772061d80238289ff03e9d6811bc174adfd945c"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Grocery/Uladh_TirCho_Grocery.rgn",
+      "bytes": 1039,
+      "sha256": "a3f5d1f6eb85d79f5807390d02025cd3b486ae8a6317ecd02e74d07b26e5ab8b"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Healer_15th_event/Uladh_TirCho_Healer_15th_event.rgn",
+      "bytes": 1285,
+      "sha256": "1a9e6cd4165b30a0c7881b27d683746fe3a84e965671bf33c26b5796e6860a49"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Healer/Uladh_TirCho_Healer.rgn",
+      "bytes": 1019,
+      "sha256": "890759fbcb711ec79aa73c35f37290c6b3d396bb5c37eb86b52f57050c749015"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Inn_15th_event/Uladh_TirCho_Inn_15th_event.rgn",
+      "bytes": 1261,
+      "sha256": "565dd8998188929223af51071e3433a87e8613ffad278c130bbeb679b7912669"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_Inn/Uladh_TirCho_Inn.rgn",
+      "bytes": 995,
+      "sha256": "97257c5f426ed2e4c2c590ab5a90bcb242f19647210264dc42c8fa259baef990"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_MiscShop_15th_event/Uladh_TirCho_MiscShop_15th_event.rgn",
+      "bytes": 1293,
+      "sha256": "6c4455e3fa4286fc73c880e93bf7b8d0de090f69ff5e4fa76478e46f208e4b50"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_MiscShop/Uladh_TirCho_MiscShop.rgn",
+      "bytes": 1031,
+      "sha256": "790cfe2319f93c9595955b17f09120265b9cb0df070e6160d0986464165779f5"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_School_15th_event/Uladh_TirCho_School_15th_event.rgn",
+      "bytes": 1285,
+      "sha256": "2b68e8c5b81e5afaae38a89753dc88f49dd2d964600db07e79a93b2603a9bc22"
+    },
+    {
+      "path": "data/world/Uladh_TirCho_School/Uladh_TirCho_School.rgn",
+      "bytes": 1029,
+      "sha256": "06ee9a4239e407af82544090bde45438781c93db32e8e9e066c4e557db353b86"
     },
     {
       "path": "data/world/Uladh_to_Iria_Ocean/Uladh_to_Iria_Ocean.rgn",
-      "sourceArchive": "data_00631.it",
-      "sourceSha256": "e455f6ce3d3321ef8c3a52a04853518dfb60e6a57e8f92db38cd0134d4faba32",
-      "size": 1129,
-      "sha256": "fd46c1e63a9fc5cfb6841043117c892850e0454d46688e9d270bdc5d319c7854",
-      "matchesPersonalPayload": true
+      "bytes": 1129,
+      "sha256": "fd46c1e63a9fc5cfb6841043117c892850e0454d46688e9d270bdc5d319c7854"
+    },
+    {
+      "path": "data/world/UserHouse_hallway01/UserHouse_hallway01.rgn",
+      "bytes": 1193,
+      "sha256": "2dc109dc47b5a98e3d8c23721d8f294485a7f80f01c5a5d65167676dcd1fc78b"
+    },
+    {
+      "path": "data/world/UserHouse_hallway02/UserHouse_hallway02.rgn",
+      "bytes": 1193,
+      "sha256": "c6c814e76c1faed29887455ce3638db38a47fcf49359e6e0c9fdc6caae14dde9"
+    },
+    {
+      "path": "data/world/UserHouse_RenewalRoom/UserHouse_RenewalRoom.rgn",
+      "bytes": 1231,
+      "sha256": "babec71ef1336e457c42d077735141b8d226a644c2ded66a2e396a6b778acd4b"
     },
     {
       "path": "data/world/village_a/village_a.rgn",
-      "sourceArchive": "data_00631.it",
-      "sourceSha256": "27ad8c0c1c1804a3ba8f5066c09dae350e0316a53aa8707f618ea441ea7fd6af",
-      "size": 953,
-      "sha256": "8e9c60bd04c0cf7b77a5de2a1e97b52e7034d53c78e44efab5981d423b919af6",
-      "matchesPersonalPayload": true
+      "bytes": 953,
+      "sha256": "8e9c60bd04c0cf7b77a5de2a1e97b52e7034d53c78e44efab5981d423b919af6"
+    },
+    {
+      "path": "data/world/VIP_Beautyshop/VIP_Beautyshop.rgn",
+      "bytes": 1129,
+      "sha256": "451a705dbbc5d85a9b8b097868afb60776a1958118203a5efacc10da32c02dee"
+    },
+    {
+      "path": "data/world/VIP_Beautyshop02/VIP_Beautyshop02.rgn",
+      "bytes": 1139,
+      "sha256": "c6de3fdacba6b8602d5d465ead6a23c50c7aa4b9e413966c98f9bdb87969f3a1"
     }
   ]
 }

@@ -1,86 +1,65 @@
-# m3yessir's Erinn Wide View â€” Mabinogi FOV Mod
+# m3yessir’s Erinn Wide View — Standalone 110 FOV
 
-**By m3yessir Â· v0.2.0-beta Â· Mabinogi North America**
+**v0.3.0-beta · Mabinogi North America · No Mooncrest installation required**
 
-A file-based mod that sets the camera FOV to **110 in supported towns, fields, and dungeon instances**. It widens the viewing angle while keeping the game's stock zoom limits. No DLL injection is used.
+A file-based `.it` mod that sets FOV to **110** in supported outdoor maps and fixed interiors. It uses no DLL injection and keeps stock zoom-limit fields. This is the fixed-110 standalone download; Mooncrest provides the optional adjustable slider.
 
-**[Download from Releases](https://github.com/m3yessir/erinn-wide-view/releases)** â€” choose the attached `m3yessir-Erinn-Wide-View-v0.2.0-beta.zip` under Assets.
+## Download
 
-## Where it works
+[Download v0.3.0-beta](https://github.com/m3yessir/erinn-wide-view/releases/tag/v0.3.0-beta) and choose **m3yessir-Erinn-Wide-View-v0.3.0-beta.zip** under Assets. GitHub’s Source code ZIP does not contain the installable mod.
 
-- **Towns and fields:** supported regions include Tir Chonaill, Dunbarton, Emain Macha, Tara, and the main Iria fields.
-- **Bri Leith:** included since v0.1.0.
-- **Glenn Bearna:** included since v0.1.0.
-- **Crom BÃ¡s:** added in v0.2.0.
-- **Homestead and Moonlight Island:** includes the region files listed in [modified-files.txt](modified-files.txt).
+## What’s new
 
-Coverage depends on the map, not simply whether it is indoors or outdoors. The package contains **176 region files**, but that does not mean every location, difficulty, or boss camera is supported.
+- Adds **254 more fixed indoor region files and 63 room-variation files** to the previous standalone release.
+- Includes Tara Castle’s Arcana Association, Great Hall and Guild Hall, supported shops, houses and dungeon lobbies.
+- Preserves all **176 existing region files byte-for-byte**, including Crom Bás, Bri Leith and Glenn Bearna.
+- Contains **493 entries: 430 region files and 63 room-variation XML files**. The indoor coverage totals 255 regions because Crom Bás was already included.
 
-## What's new in v0.2.0?
+The new indoor files exactly match the expanded FOV payload used in Mooncrest. Selected castle rooms, lobbies and other interiors were tested in game by the maintainer; not every included map has been individually tested.
 
-**Crom BÃ¡s now has 110 FOV in the same package.** All 175 previously included region files, including Bri Leith and Glenn Bearna, are unchanged. You no longer need the separate Crom BÃ¡s FOV add-on.
+## Install or update
+
+1. Close Mabinogi completely.
+2. Move your previous Wide View `.it` and any conflicting FOV test packages outside the game’s package folder. Keep only one version installed.
+3. Check the conflict list below.
+4. Extract the download and copy **m3yessirErinnWideView110_00003.it** into the active game `package` folder containing the official `data_*.it` archives.
+5. Restart Mabinogi.
+
+**Do not rename the `.it` file.** Its archive metadata depends on its filename. Do not delete or replace the official `data_*.it` archives. Install layouts vary; use the existing package folder for your active game installation.
+
+This standalone mod is updated manually through this repository. It is separate from Mooncrest and does not include Mooncrest or Rua. If you already use Mooncrest’s Global FOV Override, use its slider instead of adding this package.
+
+## Compatibility
+
+Disable overlapping Findias/Uiscias mods before installing this standalone package:
+
+- **Bri Leith Zoom And FoV** — all listed variants.
+- **Crom Bas Zoom And FoV And Declutter** — all listed variants.
+- **Dungeon Statue Fix** — all listed variants.
+- **Farm WASD Bug Fix** — all listed variants.
+- **Glenn Bearna Zoom And FoV** — all listed variants.
+- **Homestead Zoom And FoV** — all listed variants.
+- **Moonlight Island Zoom And FoV** — all listed variants.
+- **Phantasm Zoom And Delag** — all listed variants.
+
+Disabling these can remove their extra zoom, decluttering or bug fixes; this package does not include those features. See [CONFLICTS.md](CONFLICTS.md) for exact variants and shared paths, checked against Uiscias v1.65.0. Other mods replacing the same files can also conflict.
 
 ## Known limits
 
-- **Generated dungeon rooms**, such as the rooms beyond Ciar's lobby, are not covered.
-- **Shops and other building interiors** keep their original camera settings. Earlier experimental changes caused black rendering in Tir shops and were removed.
-- **Cutscenes and special cameras** may override the FOV.
-- Not every included map, difficulty, or boss room has been tested. This is a beta; report the exact location if something looks wrong.
-
-
-## Install
-
-1. Close Mabinogi completely.
-2. Check for conflicting mods listed below.
-3. Copy the latest**`m3yessirErinnWideView110_xxxxxx.it`** into the game's active package directory: the folder containing the official `data_00000.it`, `data_00001.it`, etc. archives.
-4. Restart the game.
-
-Install layouts vary. The active directory may be `Mabinogi\package` or `Mabinogi\appdata\package`. Use the existing directory containing the game's `.it` archives.
-
-**Do not rename the `.it` file.** Its archive metadata depends on its final filename. Keep only one version installed.
-
-Findias does not automatically install or update this standalone release from its normal Uiscias catalog.
-
-## Conflicts
-
-**If you use Findias, disable any of these mods before installing Erinn Wide View:**
-
-- **Bri Leith Zoom And FoV** â€” both 60 and 90 versions.
-- **Crom Bas Zoom And FoV And Declutter** â€” both 60 and 90 versions.
-- **Farm WASD Bug Fix** â€” both versions, including **No FoV**.
-- **Glenn Bearna Zoom** â€” all four versions, with or without Declutter.
-- **Homestead Zoom And FoV**.
-- **Moonlight Island Zoom And FoV**.
-
-They edit the same map files as Erinn Wide View, so one mod can override the changes made by another. Disabling them means losing their extra zoom, decluttering, or bug fixes; Erinn Wide View does not include those features.
-
-Erinn Wide View works on its own. You do not need to install any of the mods above.
-
-List checked against Uiscias v1.65.0 on September 26, 2026. For exact file matches and technical details, see [CONFLICTS.md](CONFLICTS.md).
+- **Generated dungeon combat rooms**, including Peaca’s generated floors, are not covered. A working lobby does not imply the whole dungeon works.
+- Cutscenes and special cameras may override FOV.
+- Older interiors without complete camera-distance settings use a 7000/7000 override, following the approach tested in the Great Hall and Guild Hall. Other interiors preserve available stock distances. Enabling these settings can change camera behavior.
+- Stock render-distance, lighting, geometry and zoom-limit fields are preserved by the indoor edits. Not every map, difficulty or special camera has been tested.
+- The source snapshot is the previously tested September 2026 NA game data. This is not a compatibility claim for later game patches.
 
 ## Remove
 
-Close the game, remove this `.it` from the active package directory, and restart. Re-enable any mods you disabled specifically for this installation. Original game archives are not overwritten.
+Close the game, remove `m3yessirErinnWideView110_00003.it` from the package folder, and restart. Re-enable mods you disabled for this installation. Original game archives are not overwritten.
 
-## Build and verification
+## Verification and credits
 
-Built from a North American Steam installation, build **25329795**, on **2026-09-26**. A later game update may change region data and require a new mod build.
+All 493 entries were packed and extracted again with matching SHA-256 hashes. All region structures parsed, all intended camera FOV values are 110, and the original 176 region payloads are unchanged. See [release-manifest.json](release-manifest.json), [modified-files.txt](modified-files.txt), [SHA256SUMS.txt](SHA256SUMS.txt), and [CREDITS.md](CREDITS.md).
 
-- 176 region entries; all entry paths and archive metadata validated.
-- Every extracted file matched the intended size and SHA-256 hash.
-- The 175 previously included region files and one Crom BÃ¡s file exactly match their previously verified packages. All 176 region structures parsed successfully; the underlying XML edits are limited to FOV and, where needed in the original build, the camera-override enable flag.
-- Stock zoom limits, existing near/far-distance numbers, lighting and other XML settings were preserved.
+Built with mabi-pack2. This unofficial fan mod is not affiliated with Nexon. No third-party executable, personal profile, credentials or saved user settings are included.
 
-Where the existing camera override was disabled, it is enabled to apply the FOV. That can also activate the region's stored distance settings, so rendering behavior still needs in-game testing.
-
-Package size: **422,841 bytes**.
-
-SHA-256:
-
-`64981428730894fb4b2ad367b4c4f6e608ca069aab33bcf1468dd4eb9043e7f8`
-
-See `release-manifest.json`, `SHA256SUMS.txt` and `CREDITS.md` for details.
-
-## Report a problem
-
-Include the location, whether it is outdoors/indoors/a generated dungeon, mod version, game version, and any other installed map or camera mods. A before/after comparison at the same resolution, position and zoom helps identify camera changes.
+For problems, report the exact location, game version, mod version and other installed camera/map mods.
